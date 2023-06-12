@@ -1,5 +1,5 @@
-pandas 
 streamlit
-plotly 
-random
-numpy 
+pandas
+numpy
+plotly
+altair
