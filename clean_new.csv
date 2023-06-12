@@ -1,0 +1,1197 @@
+,age,gender,city,position,experience,germany_experience,work_level,main_tech,other_tech,yearly_salary,vacation_days,emp_state,contract_duration,main_language,company_size,company_type,covid_lost,first_word
+0,26,Male,Munich,Software Engineer,5.0,3.0,Senior,TypeScript,"Kotlin, Javascript / Typescript",80000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,TypeScript
+1,29,Male,Berlin,Software Engineer,12.0,6.0,Lead,Javascript / Typescript,"Javascript / Typescript, Docker",120000.0,30.0,freelancer,Temporary contract,English,101-1000,Product,Yes,Javascript
+2,37,Male,Berlin,Backend Developer,17.0,6.0,Senior,C# .NET,".NET, SQL, AWS, Docker",62000.0,29.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+3,32,Male,Berlin,DevOps,5.0,1.0,Senior,"AWS, GCP, Python,K8s","Python, AWS, Google Cloud, Kubernetes, Docker",76000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,AWS
+4,24,Male,Berlin,Frontend Developer,5.0,1.0,Senior,Typescript,Javascript / Typescript,65000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Typescript
+5,29,Male,Berlin,Backend Developer,8.0,2.0,Senior,PHP,"SQL, AWS, Docker",56000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+6,32,Female,Hamburg,Data Engineer,2.0,2.0,Junior,Aws Hadoop Postgre Typescript,"Python, Kotlin, Javascript / Typescript, SQL, AWS",52500.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Aws
+7,49,Male,Berlin,Software Engineer,25.0,11.0,Senior,C++,"Python, C/C++, SQL",100000.0,24.0,freelancer,Temporary contract,English,11-50,Product,Yes,C
+8,34,Male,Berlin,Software Engineer,14.0,5.0,Senior,Typescript,"PHP, Javascript / Typescript, AWS",70000.0,28.0,full-time,Unlimited contract,English,11-50,Startup,No,Typescript
+9,29,Male,Hamburg,Backend Developer,7.0,3.0,Middle,Ruby,"Go, Kubernetes, Docker",60350.0,31.0,full-time,Unlimited contract,English,1000+,Product,No,Ruby
+10,34,Male,Berlin,Mobile Developer,11.0,5.0,Lead,kotlin,"Kotlin, Javascript / Typescript, AWS, Google Cloud, Kubernetes, Docker",80000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,kotlin
+11,34,Male,Berlin,Software Architect,15.0,9.0,Lead,NodeJS,"Javascript / Typescript, SQL, Go, AWS, Kubernetes, Docker, Terraform",100000.0,24.0,full-time,Unlimited contract,English,1000+,Product,No,NodeJS
+12,25,Male,Berlin,Software Engineer,5.0,2.0,Senior,Javascript,"Javascript / Typescript, AWS, Docker",65000.0,28.0,full-time,Unlimited contract,German,1000+,Product,No,Javascript
+13,59,Male,Berlin,Backend Developer,30.0,30.0,Senior,Java,"Kotlin, Java / Scala, SQL",69000.0,28.0,full-time,Unlimited contract,German,101-1000,Product,No,Java
+14,36,Male,Berlin,Software Engineer,17.0,2.0,Lead,PHP,"Python, C/C++, Javascript / Typescript, SQL, Go, AWS, Docker",70000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+15,38,Male,Berlin,Team Lead,18.0,4.0,Lead,iOS,"Swift, AWS",80000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,Yes,iOS
+16,24,Male,Berlin,DevOps,6.0,3.0,Senior,Kubernetes,"Python, AWS, Google Cloud, Kubernetes, Docker",75000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Kubernetes
+17,40,Male,Berlin,Product Manager,13.0,1.0,Senior,SQL,Python,70000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,SQL
+18,29,Male,Berlin,Software Engineer,6.0,4.0,Lead,Go,"Python, Go, AWS, Kubernetes, Docker",85000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+19,31,Male,Berlin,Backend Developer,5.0,1.0,Middle,java,Kotlin,65000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,java
+20,39,Male,Berlin,Software Engineer,8.0,5.0,Senior,Java,"Python, Java / Scala, SQL, AWS, Google Cloud, Kubernetes, Docker",80000.0,29.0,full-time,Unlimited contract,English,51-100,Startup,No,Java
+21,33,Male,Berlin,Data Scientist,5.0,4.0,Lead,Python,"Python, R, Google Cloud, Docker",150000.0,24.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+22,30,Male,Berlin,Software Engineer,8.0,3.0,Senior,JavaScript,"Python, Javascript / Typescript, Java / Scala, Go, Kubernetes, Docker",80000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+23,28,Male,Berlin,Backend Developer,5.0,1.0,Senior,Kotlin,"Python, Kotlin, Java / Scala, SQL, AWS, Kubernetes, Docker",75000.0,25.0,full-time,Unlimited contract,English,101-1000,Startup,No,Kotlin
+24,38,Male,Berlin,DevOps,10.0,5.0,Senior,Go/Python,"AWS, Kubernetes, Docker",70000.0,30.0,full-time,Unlimited contract,English,51-100,Startup,No,Go
+25,29,Male,Berlin,Frontend Developer,7.0,2.0,Senior,React,Javascript / Typescript,72000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,React
+26,49,Male,Berlin,Software Engineer,15.0,15.0,Senior,Java,SQL,67000.0,29.0,full-time,Unlimited contract,German,1000+,Product,No,Java
+27,32,Male,Berlin,Frontend Developer,10.0,5.0,Senior,TypeScript,"AWS, Kubernetes",105000.0,60.0,freelancer,Temporary contract,English,101-1000,Product,Yes,TypeScript
+28,30,Male,Berlin,Software Engineer,6.0,3.0,Senior,Java,"Kotlin, AWS, Kubernetes, Docker",74000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+29,48,Male,Berlin,Software Engineer,25.0,11.0,Senior,Java,"Kotlin, Java / Scala, SQL",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+30,32,Male,Berlin,Backend Developer,3.0,1.0,Middle,Java,"AWS, Kubernetes, Docker",77000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+31,31,Male,Berlin,Software Engineer,7.0,3.0,Lead,Python,"Python, SQL, Google Cloud, Kubernetes, Docker",76000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+32,35,Male,Berlin,Backend Developer,10.0,7.0,Senior,Ruby,"Go, AWS, Kubernetes, Docker, Elixir",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Ruby
+33,32,Male,Berlin,Backend Developer,8.0,5.0,Senior,PHP,"PHP, SQL, AWS, Kubernetes, Docker",65000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,PHP
+34,44,Male,Berlin,Backend Developer,12.0,3.0,Senior,Java,"SQL, Go, Kubernetes, Docker",68000.0,26.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+35,35,Male,Munich,Software Engineer,11.0,3.0,Senior,Php,"Javascript / Typescript, AWS, Kubernetes, Docker",65000.0,29.0,full-time,Unlimited contract,German,101-1000,Product,No,Php
+36,29,Male,Berlin,Software Engineer,5.0,3.0,Senior,Go,"Java / Scala, AWS, Docker",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+37,66,Male,Munich,Software Engineer,40.0,4.0,Lead,ruby on rails,"Javascript / Typescript, Ruby, SQL",70000.0,30.0,full-time,Unlimited contract,German,51-100,Product,No,ruby
+38,39,Female,Berlin,Software Engineer,10.0,10.0,Senior,Java,"Javascript / Typescript, SQL",70500.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Java
+39,28,Male,Munich,Backend Developer,5.0,4.0,Senior,Kotlin,"Kotlin, Javascript / Typescript, Java / Scala, SQL, AWS, Google Cloud, Kubernetes, Docker",72000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Kotlin
+40,34,Male,Munich,Software Engineer,13.0,3.0,Lead,.NET,".NET, SQL",72000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,nan
+41,32,Male,Munich,Frontend Developer,7.0,5.0,Senior,Javascript,"Javascript / Typescript, Java / Scala",62000.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Javascript
+42,45,Male,Schleswig-Holstein,Software Engineer,26.0,18.0,Senior,C#,"C/C++, .NET, SQL",93000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,C
+43,28,Male,Berlin,Software Engineer,3.0,2.0,Middle,Js,"Javascript / Typescript, SQL, AWS, Google Cloud, Kubernetes, Docker, Quorum",55000.0,22.0,full-time,Unlimited contract,English,11-50,Startup,No,Js
+44,29,Male,Konstanz area,Mobile Developer,6.0,3.0,Middle,android,Kotlin,53000.0,26.0,full-time,Unlimited contract,English,11-50,Startup,No,android
+45,36,Male,Munich,Backend Developer,15.0,3.0,Senior,java,PHP,55000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,java
+46,39,Male,Berlin,Software Engineer,10.0,2.0,Senior,C#,"Javascript / Typescript, .NET, SQL, Azure, Docker",75000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,C
+47,29,Male,Munich,Software Engineer,7.0,3.0,Senior,JavaScript ,"Kotlin, Javascript / Typescript, Java / Scala, Docker",80000.0,24.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+48,31,Male,Berlin,Engineering Manager,11.0,6.0,Lead,Java,"Python, Java / Scala, SQL, Go, AWS, Google Cloud, Kubernetes, Docker",80000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+49,27,Male,Berlin,Software Engineer,5.0,1.0,Senior,Scala,Java / Scala,78000.0,30.0,full-time,Unlimited contract,English,1000+,Startup,No,Scala
+50,26,Female,Munich,Data Scientist,6.0,2.0,Middle,python,"Python, C/C++, SQL, Docker",60000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,python
+51,26,Male,Berlin,Software Engineer,8.0,3.0,Lead,Go,"Python, PHP, Javascript / Typescript, Go, Google Cloud, Kubernetes, Docker",85000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Go
+52,31,Female,Berlin,Analytics engineer,6.0,2.0,Middle,SQL,Python,60000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,SQL
+53,30,Male,Berlin,Software Engineer,10.0,2.0,Senior,Scala,"Python, Java / Scala, AWS, Docker",72000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Scala
+54,43,Male,Berlin,Mobile Developer,5.0,3.0,Senior,Kotlin,"Kotlin, Java / Scala",72000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+55,33,Male,Berlin,Software Engineer,5.0,1.0,Middle,python,Kubernetes,65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,python
+56,31,Male,Berlin,Software Engineer,9.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,"C#, .net core","Python, .NET, AWS, Azure, Kubernetes, Docker",60000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,C
+57,32,Female,Berlin,QA Engineer,10.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,Java,"Kotlin, Javascript / Typescript, SQL, Docker",61000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+58,24,Male,Berlin,Data Scientist,4.0,2.0,Senior,Python,"Python, AWS, Docker",73000.0,24.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+59,29,Male,Berlin,DevOps,7.0,1.0,Lead,Kubernetes,"Python, Go, AWS, Kubernetes",78000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Kubernetes
+60,29,Male,Berlin,Data Scientist,4.0,4.0,Senior,Python,"SQL, AWS, Docker",81000.0,29.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+61,30,Male,Munich,Hardware Engineer,5.0,5.0,Senior,VHDL,Python,75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,VHDL
+62,35,Female,Berlin,Reporting Engineer,3.0,2.0,Middle,Power BI,"Python, Javascript / Typescript, SQL, SAP / ABAP, Google Cloud, Azure",55000.0,31.0,full-time,Unlimited contract,German,1000+,Product,No,Power
+63,33,Male,Munich,QA Engineer,5.0,1.0,Senior,Java,Docker,60000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+64,28,Male,Berlin,Software Engineer,8.0,3.0,Lead,PHP ,"Python, Javascript / Typescript, .NET, SQL, AWS, Azure, Kubernetes, Docker",80000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+65,32,Male,Munich,Software Engineer,7.0,3.0,Senior,Android,Kotlin,60000.0,38.0,full-time,Unlimited contract,English,51-100,Product,No,Android
+66,30,Male,Berlin,Backend Developer,8.0,2.5,Senior,Scala,"Python, Kotlin, Java / Scala, SQL, Kubernetes, Docker",80000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+67,31,Male,Munich,Software Engineer,10.0,2.0,Senior,Java,"Python, Javascript / Typescript, SQL, Kubernetes, Docker",68000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+68,37,Male,Berlin,Software Engineer,10.0,3.0,Senior,PHP,"PHP, Javascript / Typescript, SQL",55000.0,26.0,full-time,Unlimited contract,English,11-50,Startup,No,PHP
+69,25,Male,Munich,Software Engineer,3.0,1.0,Middle,Java,"Python, SQL, AWS, Azure, Kubernetes, Docker",62000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+70,36,Male,Berlin,Frontend Developer,12.0,4.0,Senior,JavaScript,"Javascript / Typescript, AWS, Docker",72000.0,26.0,full-time,Unlimited contract,English,up to 10,Startup,No,JavaScript
+71,27,Male,Munich,QA Engineer,5.0,1.0,Senior,Swift,"Kotlin, Ruby",58000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+72,35,Male,Frankfurt,ML Engineer,12.0,10.0,Senior,ML,"Python, Java / Scala, R, SQL, AWS, Azure",120000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,ML
+73,37,Male,Munich,Software Engineer,15.0,2.0,Senior,php,"PHP, Javascript / Typescript, SQL, Docker",75000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,php
+74,26,Male,Munich,Data Scientist,3.0,2.0,Middle,Python,"Python, SQL, AWS, Docker",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+75,33,Male,Frankfurt,Solution Architect,6.0,6.0,Middle,Python,"SQL, AWS, Google Cloud, Kubernetes, Docker",85000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+76,34,Male,Berlin,Frontend Developer,7.0,1.0,Senior,JavaScript,Docker,65000.0,25.0,full-time,Unlimited contract,English,up to 10,Startup,No,JavaScript
+77,33,Male,Berlin,Backend Developer,12.0,6.0,Lead,PHP,"Javascript / Typescript, SQL, AWS, Docker",65000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+78,30,Male,Berlin,QA Engineer,6.0,6.0,Middle,Javascript,"Javascript / Typescript, AWS",50000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Javascript
+79,29,Male,Berlin,Backend Developer,8.0,0.0,Senior,Scala,"Java / Scala, AWS, Kubernetes, Docker",72000.0,25.0,full-time,Unlimited contract,English,101-1000,Startup,No,Scala
+80,24,Male,Munich,Software Engineer,5.0,2.0,Middle,C++,"Javascript / Typescript, Go",79000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+81,30,Female,Berlin,Software Engineer,8.0,2.0,Senior,"Scala, React.js","Javascript / Typescript, SQL, AWS, Kubernetes, Docker",75000.0,35.0,full-time,Unlimited contract,English,101-1000,Product,No,Scala
+82,28,Male,Cologne,BI Consultant,8.0,1.0,Senior,SQL,"Python, Javascript / Typescript",60000.0,28.0,full-time,Unlimited contract,English,up to 10,Consulting / Agency,No,SQL
+83,31,Male,Munich,Backend Developer,11.0,1.0,Senior,PHP,"Javascript / Typescript, Java / Scala, AWS, Kubernetes, Docker",80000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,PHP
+84,28,Male,Munich,Mobile Developer,5.0,3.0,Senior,iOS,Swift,57000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,iOS
+85,32,Female,Kempten,Fullstack Developer,10.0,1.0,Middle,C#,"Javascript / Typescript, .NET, SQL",49000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,C
+86,28,Male,Berlin,Software Engineer,6.0,2.0,Senior,Java,"Kotlin, Java / Scala, SQL, AWS, Kubernetes, Docker",65000.0,28.0,full-time,Unlimited contract,English,11-50,Startup,No,Java
+87,26,Female,Munich,Data Scientist,3.0,1.0,Junior,Ml/Python,"Python, AWS, Docker",70000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Ml
+88,31,Male,Berlin,Software Engineer,9.0,1.0,Senior,"C#, .net core","Python, Javascript / Typescript, .NET, AWS, Azure, Kubernetes, Docker",60000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,C
+89,30,Male,Munich,Frontend Developer,6.0,1.0,Senior,Javascript,"Javascript / Typescript, AWS, Docker",75000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,Javascript
+90,31,Male,Berlin,Frontend Developer,8.0,1.0,Senior,JavaScript/TypeScript,"Javascript / Typescript, Google Cloud, Docker",70000.0,24.0,full-time,Unlimited contract,English,101-1000,Startup,No,JavaScript
+91,37,Male,Munich,Backend Developer,12.0,4.0,Senior,php,"Javascript / Typescript, Docker",62000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,php
+92,25,Male,Munich,Backend Developer,5.0,0.0,Senior,Java,"Kotlin, Java / Scala, SQL, SAP / ABAP, Kubernetes, Docker",75000.0,24.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+93,36,Male,Berlin,Backend Developer,19.0,5.0,Senior,PHP,"Javascript / Typescript, SQL, AWS, Docker",69000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+94,40,Male,Berlin,Frontend Developer,7.0,1.0,Middle,Javascript,"PHP, Javascript / Typescript, Dart",54000.0,24.0,full-time,Unlimited contract,English,11-50,Product,No,Javascript
+95,35,Male,Munich,Software Engineer,13.0,4.0,Senior,Java,"Kotlin, Java / Scala, AWS",80000.0,40.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+96,42,Male,Berlin,Software Engineer,20.0,5.0,Senior,Ruby on Rails,"Ruby, Kubernetes, Docker",80000.0,27.0,full-time,Unlimited contract,German,51-100,Product,No,Ruby
+97,34,Male,Berlin,QA Engineer,10.0,4.0,Senior,Java,"Python, Kotlin, Javascript / Typescript, Go, AWS, Kubernetes, Docker",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+98,30,Male,Berlin,Backend Developer,6.0,2.0,Senior,Ruby,"SQL, Elixir",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Ruby
+99,35,Male,Berlin,Software Engineer,12.0,1.0,Senior,C#,".NET, SQL, Google Cloud, Kubernetes, Docker",70000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,C
+100,34,Male,Munich,Cloud Architect,10.0,4.0,Senior,"Azure, SAP","SAP / ABAP, AWS, Google Cloud, Azure, Kubernetes, Docker",120000.0,30.0,full-time,Unlimited contract,English,1000+,Cloud,No,Azure
+101,28,Male,Hamburg,Software Engineer,7.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,Scala,"Python, Java / Scala, Perl",80000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Scala
+102,26,Male,Münster,Data Scientist,5.5,3.0,Junior,Python,"Python, C/C++, SQL, AWS",48000.0,26.0,full-time,Unlimited contract,German,1000+,Product,No,Python
+103,35,Male,Berlin,Frontend Developer,4.0,1.0,Middle,JavaScript,PHP,50000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+104,31,Female,Munich,QA Engineer,7.0,3.0,Senior,Java,"Python, Ruby",68000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+105,35,Male,Frankfurt,Software Engineer,12.0,3.0,Senior,java,"Python, Kotlin, Javascript / Typescript, Java / Scala, Docker",66000.0,25.0,full-time,Unlimited contract,German,51-100,Consulting / Agency,No,java
+106,25,Male,Berlin,Backend Developer,4.0,1.0,Middle,Python,"SQL, Go",60000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+107,42,Female,Berlin,QA Engineer,20.0,1.0,Middle,python,"Python, Javascript / Typescript",55000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,python
+108,40,Female,Munich,Software Engineer,20.0,7.0,Middle,Java,SQL,54000.0,30.0,full-time,Unlimited contract,German,101-1000,Behörde,No,Java
+109,37,Male,Berlin,Software Engineer,8.0,5.0,Junior,Java,"Java / Scala, AWS, Kubernetes, Docker",60000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,Java
+110,33,Male,Munich,Software Engineer,10.0,3.0,Senior,Java,"AWS, Docker",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+111,38,Male,Cologne,Software Engineer,11.0,5.0,Senior,PHP,"PHP, Javascript / Typescript, Go, AWS, Google Cloud, Kubernetes, Docker",55000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+112,27,Male,Munich,Frontend Developer,4.0,0.0,Senior,Frontend,Javascript / Typescript,60000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,Frontend
+113,33,Male,Berlin,Software Engineer,7.0,7.0,Senior,"Java, JavaScript","Javascript / Typescript, Java / Scala, SQL",62000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Java
+114,36,Female,Munich,Backend Developer,5.0,1.0,Middle,PHP,"Javascript / Typescript, Docker",60000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+115,42,Male,Berlin,DevOps,22.0,4.0,Lead,yaml,"Python, PHP, Javascript / Typescript, SQL, Go, Perl, AWS, Google Cloud, Azure, Kubernetes, Docker",70000.0,24.0,full-time,Unlimited contract,English,1000+,Startup,No,yaml
+116,32,Male,Frankfurt,Network Engineer ,10.0,2.0,Senior,Python ,"Python, Docker",68500.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+117,31,Male,Berlin,Frontend Developer,10.0,1.5,Senior,Javascript,"Javascript / Typescript, SQL, Google Cloud, Docker",71060.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,Javascript
+118,33,Female,Berlin,QA Engineer,6.0,0.5,Middle,Java,"Python, Kubernetes",60000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+119,40,Male,Berlin,VP Engineering,10.0,7.0,VP,JS,"Javascript / Typescript, AWS",100000.0,24.0,full-time,Unlimited contract,English,51-100,Product,No,JS
+120,28,Male,Munich,Backend Developer,6.0,5.0,Senior,Java,"Javascript / Typescript, Java / Scala, SQL",70000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Java
+121,31,Male,Berlin,Software Engineer,9.0,4.0,Senior,Python,"Python, SQL, AWS, Kubernetes, Docker",90000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+122,29,Male,Berlin,Software Engineer,8.0,3.0,Middle,PHP,"PHP, Javascript / Typescript, SQL, AWS, Docker",55000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,PHP
+123,40,Male,Munich,Mobile Developer,25.0,2.0,Lead,Swift,"Swift, Objective-C",85000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Swift
+124,46,Male,Munich,QA Engineer,13.0,13.0,Senior,Java,SQL,70000.0,28.0,full-time,Unlimited contract,German,101-1000,Product,No,Java
+125,33,Male,Berlin,ML Engineer,10.0,5.0,Middle,Python,"Python, C/C++, Pytorch",62000.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+126,34,Male,Berlin,Software Engineer,14.0,4.0,Lead,Java,"Kotlin, Javascript / Typescript, Java / Scala, AWS, Kubernetes, Docker",95000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+127,36,Male,Berlin,Backend Developer,18.0,1.0,Senior,PHP,"PHP, AWS, Google Cloud",65000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+128,33,Female,Berlin,QA Engineer,8.0,1.5,Senior,-,Python,50000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,Yes,nan
+129,32,Male,Berlin,Software Engineer,11.0,6.0,Lead,Android,"Python, Kotlin, Swift, Javascript / Typescript, Java / Scala, SQL, AWS, Google Cloud, Kubernetes, Docker",80000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Android
+130,46,Male,Berlin,Software Engineer,14.0,14.0,Senior,JavaScript,"PHP, Javascript / Typescript, SQL, Google Cloud, Docker",80000.0,30.0,full-time,Unlimited contract,English,51-100,Product,Yes,JavaScript
+131,30,Male,Munich,Mobile Developer,8.0,1.0,Senior,Kotlin,"Kotlin, Java / Scala",66000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+132,31,Male,Berlin,Data Scientist,10.0,5.0,Lead,Python ,"Kubernetes, Docker",115000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+133,46,Male,Munich,Scrum Master,12.0,8.0,Senior,Agile,"C/C++, PHP, .NET, SQL",85000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Agile
+134,26,Male,Berlin,Mobile Developer,6.0,2.0,Senior,Kotlin,"Kotlin, Java / Scala",70000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Kotlin
+135,31,Male,Mannheim ,Firmware Engineer,10.0,3.0,Senior,C,"Python, C/C++",45000.0,30.0,full-time,Temporary contract,English,11-50,Product,Yes,C
+136,31,Male,Munich,Frontend Developer,12.0,1.5,Lead,"TypeScript, JavaScript","Javascript / Typescript, Docker",85000.0,29.0,full-time,Unlimited contract,English,11-50,Startup,No,TypeScript
+137,30,Female,Berlin,QA Engineer,5.0,3.0,Middle,Python ,"Python, Kubernetes, Docker, Ansible",50000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,Python
+138,35,Male,Munich,Software Engineer,13.0,4.0,Lead,Pegasystems platform ,"C/C++, Javascript / Typescript, Java / Scala, SQL, Docker",140000.0,28.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,Pegasystems
+139,33,Male,Berlin,Software Engineer,12.0,5.0,Senior,Javascript,"PHP, Javascript / Typescript, SQL, Docker",120000.0,28.0,freelancer,Temporary contract,English,101-1000,Product,No,Javascript
+140,36,Male,Berlin,Software Engineer,7.0,5.0,Middle,"C++, Java, Embedded C","Python, C/C++, .NET, Java / Scala",42000.0,25.0,full-time,Unlimited contract,English,up to 10,Product,No,C
+141,36,Male,Munich,Solutions Architect,12.0,5.0,Lead,Cloud,"Kotlin, Java / Scala, AWS, Kubernetes, Docker",105000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Cloud
+142,35,Female,Berlin,Software Engineer,15.0,6.0,Senior,C#,.NET,76000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,C
+143,32,Male,Munich,Fullstack Developer,9.0,2.0,Senior,Java,"Javascript / Typescript, Kubernetes, Docker, Angular",70000.0,26.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+144,29,Male,Berlin,Software Engineer,8.0,2.0,Senior,Go,"Python, Javascript / Typescript, Go",70000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Go
+145,30,Male,Rosenheim,Software Engineer,9.0,5.0,Middle,Java,"Javascript / Typescript, SQL",63000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,Java
+146,35,Male,Berlin,ML Engineer,10.0,2.0,Lead,Scala,"Java / Scala, SQL, AWS, Kubernetes, Docker",96000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Scala
+147,29,Male,Berlin,Software Engineer,7.0,5.0,Senior,Python,Javascript / Typescript,64000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+148,30,Female,Munich,Mobile Developer,10.0,3.5,Senior,Swift,"Kotlin, Javascript / Typescript",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+149,43,Male,Berlin,Software Engineer,20.0,4.0,Senior,Python,"SQL, AWS, Docker",79000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+150,38,Male,Berlin,Software Engineer,16.0,1.0,Senior,Python,"Python, Javascript / Typescript, Java / Scala, SQL, AWS, Kubernetes, Docker",65000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+151,26,Male,Berlin,Software Engineer,5.0,2.0,Middle,Scala,"Java / Scala, SQL, Google Cloud, Docker",63000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Scala
+152,34,Male,Munich,Software Engineer,12.0,5.0,Lead,python,"Python, Javascript / Typescript, SQL, AWS, Docker",95000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,python
+153,27,Male,Berlin,Backend Developer,5.0,1.0,Middle,Java,"AWS, Docker",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+154,30,Male,Berlin,Mobile Developer,3.0,2.0,Senior,Swift,"Kotlin, .NET, Java / Scala, Dart",58000.0,28.0,full-time,Unlimited contract,English,11-50,Startup,No,Swift
+155,34,Male,Berlin,Data Scientist,5.0,5.0,Middle,Python,"C/C++, SQL, AWS, Docker",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+156,36,Female,Berlin,QA Engineer,14.0,7.0,Lead,Java,Kotlin,69000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+157,27,Male,Berlin,Backend Developer,5.0,1.0,Middle,Java,"AWS, Docker",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+158,45,Male,Berlin,Mobile Developer,10.0,4.0,Lead,SWIFT,"Swift, Javascript / Typescript, Java / Scala, Google Cloud",77000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,SWIFT
+159,35,Male,Berlin,Backend Developer,6.0,2.0,Senior,"Java, angular, Aws","Python, Javascript / Typescript, Java / Scala, SQL, AWS, Docker",74000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,Java
+160,36,Male,Berlin,Engineering Manager,7.0,1.0,Lead,"Swift, objective-c","Kotlin, Swift, Go, AWS, Kubernetes, Docker",80000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+161,32,Male,Stuttgart,QA Engineer,9.0,9.0,Senior,Java,"R, SQL, Perl, Docker",60000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,Java
+162,33,Male,Boeblingen,DevOps,14.0,4.0,Senior,Golang,"Python, Javascript / Typescript, SQL, Go, Perl, Google Cloud, Kubernetes, Docker",70000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Golang
+163,30,Male,Berlin,Backend Developer,10.0,2.0,Middle,PHP,"Kotlin, Java / Scala, SQL, AWS, Docker",56000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,PHP
+164,35,Male,Berlin,Software Engineer,15.0,4.0,Senior,go,"PHP, Javascript / Typescript, Perl, AWS, Kubernetes, Docker",70000.0,28.0,full-time,Unlimited contract,English,51-100,Startup,Yes,go
+165,24,Male,Boeblingen,C/C++/Java developer,0.8,0.8,Junior,Java,C/C++,48000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+166,25,Male,Stuttgart,Backend Developer,4.0,2.0,Middle,Java,"Javascript / Typescript, .NET",60000.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Java
+167,29,Male,Berlin,Mobile Developer,8.0,4.0,Senior,Kotlin,"Kotlin, Javascript / Typescript, Dart",65000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,Kotlin
+168,32,Male,Berlin,DevOps Manager,10.0,3.0,Lead,DevOps,"Python, AWS, Azure, Kubernetes, Docker",100000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,DevOps
+169,32,Male,Düsseldorf,Software Engineer,11.0,7.0,Senior,.net,"Javascript / Typescript, Java / Scala, Go",60000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,nan
+170,24,Male,Munich,Software Engineer,3.0,2.0,Middle,Node.js,"Swift, Javascript / Typescript, Go, AWS, Kubernetes, Docker",58000.0,28.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Node
+171,24,Female,Stuttgart,Software Engineer,2.0,1.0,Middle,iOS,"Swift, Flutter",55200.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,iOS
+172,56,Male,Ingolstadt,Software Engineer,9.0,9.0,Senior,R,"R, SQL",75000.0,30.0,full-time,Temporary contract,German,1000+,Product,No,R
+173,25,Male,Munich,ML Engineer,1.0,1.0,Middle,Python,"Python, C/C++, Swift, Matlab ",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+174,28,Male,Stuttgart,Software Engineer,8.0,1.0,Senior,C++,Python,67200.0,30.0,full-time,Unlimited contract,English,1000+,Outsorce,No,C
+175,32,Male,Berlin,Backend Developer,8.516129032258064,3.0,Senior,Ruby,"Javascript / Typescript, Go, AWS, Docker",72000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Ruby
+176,26,Female,Berlin,Software Engineer,6.0,4.0,Senior,.NET,".NET, SQL, Azure, Docker",65000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,nan
+177,31,Female,Stuttgart,Data Scientist,4.0,2.0,Middle,R,"Python, R, Azure",65000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,R
+178,31,Male,Munich,Software Engineer,9.0,1.0,Middle,C++,Java / Scala,92500.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+179,33,Male,Munich,Backend Developer,15.0,3.0,Lead,Scala,"Javascript / Typescript, Java / Scala, SQL, AWS, Docker",100000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Scala
+180,26,Male,Munich,ML Engineer,1.5,1.5,Junior,Python,"C/C++, PyTorch",58000.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Python
+181,30,Female,Frankfurt,QA Engineer,6.0,4.0,Senior,Bash,"Python, Java / Scala, SQL, AWS, Azure",70000.0,30.0,full-time,Unlimited contract,German,1000+,Bank ,No,Bash
+182,34,Male,Berlin,Software Engineer,14.0,5.0,Senior,C#,"Javascript / Typescript, .NET, SQL, AWS, Docker",72000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+183,37,Male,Berlin,Team Lead,12.0,10.0,Head,Python,"Python, PHP, Javascript / Typescript, SQL, Docker",90000.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Python
+184,31,Male,Berlin,QA Engineer,10.0,5.0,Senior,nothing,Python,60000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,nothing
+185,39,Male,Munich,BI IT Consultant,5.0,5.0,Middle,"Qlik BI Tool, SQL","Javascript / Typescript, SQL",56000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Qlik
+186,29,Male,Munich,Backend Developer,8.0,4.0,Senior,Java,SQL,95000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+187,36,Male,Nürnberg,Frontend Developer,1.0,0.5,Junior,Javascript,"PHP, SQL",37500.0,28.0,full-time,Temporary contract,German,up to 10,Startup,Yes,Javascript
+188,33,Male,Berlin,iOS Developer,10.0,2.0,Middle,Swift,"Ruby, Objective C",67000.0,29.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+189,37,Male,Berlin,Cloud Engineer,15.0,3.0,Senior,Cloud,"Python, .NET, Azure, Kubernetes, Docker",72000.0,36.0,full-time,Unlimited contract,English,1000+,Product,Yes,Cloud
+190,30,Male,Ansbach,Software Engineer,4.0,3.0,Junior,PHP,Javascript / Typescript,42000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+191,34,Male,Munich,Solutions architect,14.0,6.0,Head,Blockchain,"Python, Kotlin, Java / Scala, SQL, Go, AWS, Google Cloud, Kubernetes, Docker",95000.0,24.0,full-time,Unlimited contract,English,101-1000,Startup,No,Blockchain
+192,43,Male,Berlin,Backend Developer,5.0,1.5,Middle,Java,Kotlin,64000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+193,34,Male,Leipzig,Mobile Developer,14.0,2.0,Senior,Android,"Kotlin, Java / Scala, Azure",60000.0,23.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Android
+194,29,Male,Berlin,Backend Developer,9.0,5.0,Senior,Java,"Kotlin, SQL, Azure, Kubernetes, Docker, Mongo",85000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+195,37,Male,Berlin,Frontend Developer,14.0,5.0,Senior,Angular,"Javascript / Typescript, Azure, Kubernetes, GraphQL",84000.0,30.0,full-time,Unlimited contract,English,1000+,IT Department of established business,No,Angular
+196,41,Male,Munich,Senior Program Manager,19.0,5.0,Senior,Autonomous Driving,C/C++,123600.0,33.0,full-time,Unlimited contract,English,101-1000,Product,No,Autonomous
+197,33,Male,Mannheim,Software Engineer,6.0,2.0,Middle,c#,.NET,49000.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,c
+198,40,Male,Munich,QA Engineer,18.0,14.0,Lead,Java,"SQL, AWS, Kubernetes, Docker, Groovy",78000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Java
+199,38,Male,Munich,Backend Developer,12.0,12.0,Senior,Java,"PHP, Javascript / Typescript, SQL",70000.0,30.0,full-time,Unlimited contract,German,101-1000,Telecommunications,No,Java
+200,27,Male,Berlin,Backend Developer,7.0,0.0,Senior,go,"SQL, Go, AWS, Kubernetes, Docker",72000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,go
+201,38,Male,Munich,ML Engineer,10.0,3.0,Lead,Python,"SQL, AWS, Azure, Kubernetes, Docker",92000.0,30.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,Python
+202,42,Male,Berlin,ML Engineer,20.0,20.0,Senior,Python,"Java / Scala, SQL, AWS, Google Cloud, Azure, Docker",80000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Python
+203,38,Male,Hamburg,Software Engineer,12.0,6.0,Senior,Java,"Python, Java / Scala, AWS, Docker",73000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,Java
+204,30,Male,Berlin,Software Engineer,11.0,2.0,Senior,Kotlin,"Kotlin, .NET, SQL, AWS",55000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Kotlin
+205,32,Male,Berlin,Software Engineer,9.0,5.0,Lead,JavaScript,"Javascript / Typescript, Ruby, AWS, Kubernetes, Docker",90000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+206,41,Male,Munich,Backend Developer,21.0,3.0,Senior,Java,"Kubernetes, Docker",80000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+207,34,Male,Berlin,Security Engineer,10.0,4.0,Senior,python,"Javascript / Typescript, AWS, Kubernetes",85000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,python
+208,45,Male,Berlin,Software Engineer,25.0,20.0,Lead,c++,"Python, C/C++, Javascript / Typescript, Ruby, .NET, Java / Scala, SQL, Go, AWS, Kubernetes",75000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,c
+209,34,Male,Berlin,DevOps,6.0,6.0,Middle,"Java, terraform","Python, Kotlin, Javascript / Typescript, Java / Scala, AWS, Kubernetes, Docker",62000.0,28.0,full-time,Unlimited contract,German,1000+,Media,No,Java
+210,25,Male,Stuttgart,Backend Developer,7.0,1.0,Senior,PHP,"Python, PHP, Javascript / Typescript, SQL",60000.0,26.0,full-time,Unlimited contract,English,11-50,Startup,Yes,PHP
+211,32,Male,Berlin,Software Engineer,12.0,1.5,Senior,iOS,"Swift, objective-c",66800.0,25.0,full-time,Unlimited contract,English,51-100,Product,No,iOS
+212,65,Male,Berlin,Software Engineer,25.0,25.0,Senior,"Pascal, VB.NET, C#",".NET, SQL",55000.0,30.0,full-time,Unlimited contract,German,51-100,Product,No,Pascal
+213,33,Male,Munich,Business Analyst,10.0,4.0,Senior,Java,SQL,70000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+214,34,Male,Berlin,ML Engineer,12.0,3.0,Senior,Python,"Python, SQL, Google Cloud, Kubernetes, Docker",90000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+215,28,Male,Berlin,Backend Developer,7.0,1.0,Senior,PHP,"Javascript / Typescript, .NET, SQL, Azure, Kubernetes, Docker",70000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+216,39,Male,Munich,DBA,17.0,5.0,Senior,Oracle,SQL,64000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Oracle
+217,30,Male,Berlin,Backend Developer,7.0,2.0,Senior,Ruby,"Javascript / Typescript, SQL, Go, AWS, Docker",72000.0,25.0,full-time,Unlimited contract,English,11-50,Product,No,Ruby
+218,34,Male,Berlin,DevOps,12.0,2.0,Senior,Java,"Go, AWS, Kubernetes, Docker",70000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+219,35,Male,Berlin,Support Engineer,10.0,4.0,Senior,PHP,"SQL, AWS, Docker",63500.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+220,35,Female,Berlin,Frontend Developer,12.0,5.0,Middle,Javascript ,"AWS, Docker",70000.0,29.0,full-time,Unlimited contract,English,101-1000,E-commerce,No,Javascript
+221,34,Male,Berlin,Frontend Developer,10.0,3.0,Senior,"Angular, React","Python, Javascript / Typescript, Docker",68000.0,40.0,full-time,Unlimited contract,English,11-50,Startup,No,Angular
+222,34,Male,Berlin,Software Engineer,12.0,2.0,Lead,.net,"Javascript / Typescript, .NET, SQL, Azure",78000.0,36.0,full-time,Unlimited contract,German,1000+,Product,No,nan
+223,38,Male,Berlin,Software Engineer,13.0,6.0,Lead,Java,Kotlin,89570.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+224,34,Female,Berlin,Software Engineer,9.0,3.0,Senior,Kotlin,"Python, Kotlin, Java / Scala, Google Cloud, Kubernetes, Docker",78000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Kotlin
+225,31,Male,Berlin,Mobile Developer,7.0,3.5,Senior,iOS,Swift,80000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,iOS
+226,34,Male,Berlin,Backend Developer,15.0,5.0,Senior,Elixir,"Javascript / Typescript, Ruby, SQL, Google Cloud, Kubernetes, Docker",70000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,Elixir
+227,29,Female,Munich,Software Engineer,5.0,4.0,Middle,"NodeJS, Typescript, AWS","Javascript / Typescript, Java / Scala, AWS",67000.0,31.0,full-time,Unlimited contract,English,101-1000,Product,No,NodeJS
+228,37,Male,Berlin,Software Engineer,15.0,3.0,Senior,Scala,"Python, Java / Scala, Docker",85000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+229,44,Male,Stuttgart,Software Engineer,22.0,3.0,Senior,Erlang,"Python, SQL, Docker",76000.0,30.0,full-time,Unlimited contract,English,51-100,Startup,No,Erlang
+230,30,Male,Munich,Frontend Developer,9.0,3.0,Middle,TypeScript,"Javascript / Typescript, Kubernetes",66000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,TypeScript
+231,26,Male,Frankfurt,Consultant,4.0,4.0,Middle,JavaScript,"Python, Javascript / Typescript",65000.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,JavaScript
+232,46,Male,Berlin,Software Engineer,14.0,14.0,Senior,JavaScript,"PHP, Javascript / Typescript, SQL, Google Cloud, Docker",80000.0,30.0,full-time,Unlimited contract,English,51-100,Product,Yes,JavaScript
+233,27,Male,Tuttlingen,Software Engineer,4.0,4.0,Junior,C#,.NET,46000.0,30.0,full-time,Unlimited contract,German,up to 10,Product,No,C
+234,38,Male,Stuttgart,Software Engineer,15.0,8.0,Senior,C#,.NET,56400.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,C
+235,32,Male,Munich,Backend Developer,11.0,3.5,Senior,PHP,"PHP, Javascript / Typescript, Java / Scala, Docker",81200.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,PHP
+236,29,Male,Berlin,Software Engineer,12.0,3.0,Senior,Go,"PHP, Go",75000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+237,32,Male,Nürnberg,Testautomation,8.0,2.0,Senior,"Java, JS","Javascript / Typescript, Java / Scala",60000.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,Yes,Java
+238,29,Male,Bonn,Mobile Developer,5.0,2.0,Middle,Objective-C,Swift,55000.0,24.0,full-time,Unlimited contract,English,11-50,Product,No,Objective
+239,33,Male,Hamburg,Software Engineer,10.0,3.0,Senior,Ruby,Elixir,75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Ruby
+240,32,Male,Munich,QA Engineer,9.0,3.0,Senior,QA,Java / Scala,76000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,QA
+241,34,Male,Berlin,Software Engineer,10.0,10.0,Senior,C++,Python,76000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+242,31,Male,Moscow,Data Scientist,2.5,0.0,Lead,Python,Python,20000.0,30.0,full-time,Unlimited contract,Russian,1000+,Bank,No,Python
+243,33,Male,Munich,Software Engineer,10.0,4.0,Senior,C#,Javascript / Typescript,78000.0,30.0,full-time,Unlimited contract,German,51-100,Product,No,C
+244,32,Male,Berlin,Backend Developer,4.0,1.0,Senior,Ruby,"Python, SQL, Go, AWS, Kubernetes, Docker",65000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,Ruby
+245,47,Male,Hamburg,Software Engineer,22.0,10.0,Senior,C++/C#,"C/C++, .NET, SQL",46000.0,30.0,full-time,Unlimited contract,English,up to 10,Product,No,C
+246,29,Male,Berlin,Backend Developer,8.0,1.5,Middle,Go,Python,65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+247,28,Male,Munich,Software Engineer,5.0,6.0,Senior,C++,"Python, C/C++",67000.0,20.0,freelancer,Unlimited contract,English,up to 10,Startup,Yes,C
+248,25,Male,Hamburg,Data Scientist,2.0,2.0,Middle,Python,.NET,48000.0,28.0,full-time,Unlimited contract,German,11-50,Product,No,Python
+249,32,Male,Munich,SAP Developer,9.0,1.0,Senior,ABAP,SAP / ABAP,70800.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,ABAP
+250,26,Male,Frankfurt,Software Engineer,3.0,1.0,Middle,Python ,"Python, Java / Scala",48000.0,27.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,Python
+251,29,Male,Munich,Mobile Developer,8.0,0.25,Senior,Java/Kotlin,"Kotlin, C/C++, Java / Scala",65400.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Java
+252,40,Male,Berlin,Backend Developer,18.0,2.5,Senior,php,"PHP, SQL, Go, Docker, Postgres",60000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,php
+253,27,Male,Munich,Software Engineer,5.0,1.0,Senior,Javascript,"Javascript / Typescript, Go",65000.0,22.0,full-time,Unlimited contract,English,51-100,Product,No,Javascript
+254,30,Male,Berlin,DevOps,9.0,5.0,Lead,Kubernetes,"Python, Google Cloud, Kubernetes, Docker",90000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Kubernetes
+255,30,Male,Hamburg,Software Engineer,6.0,0.0,Middle,.NET,"Javascript / Typescript, .NET, SQL, Docker",60000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,nan
+256,29,Male,Munich,SW Architect,8.0,3.0,Senior,C++,"Python, C/C++, Docker",73000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+257,37,Male,Heidelberg,Software Engineer,15.0,7.0,Senior,ABAP,"Javascript / Typescript, SAP / ABAP",67500.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,ABAP
+258,28,Male,Berlin,SRE,6.0,1.5,Middle,Kubernetes,"Python, Go, AWS, Kubernetes, Docker",66000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Kubernetes
+259,28,Male,Stuttgart,Backend Developer,5.0,1.5,Middle,Java,Linux,55000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,Java
+260,33,Male,Berlin,Software Engineer,13.0,3.0,Senior,Ruby,"Ruby, Java / Scala, Go, AWS, Kubernetes, Docker",75000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Ruby
+261,40,Male,Frankfurt,Software Engineer,22.0,3.0,Senior,Java,"Kotlin, Javascript / Typescript, Java / Scala, Kubernetes, Docker",72000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Java
+262,28,Male,Munich,"Fullstack engineer, ну или Software engineer",9.0,1.0,Senior,React/Typescript,MongoDB,60000.0,28.0,full-time,Unlimited contract,English,up to 10,Startup,No,React
+263,29,Male,Berlin,Backend Developer,11.0,2.0,Senior,Python,"Python, Go, AWS, Kubernetes, Docker",85000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,Python
+264,31,Male,Berlin,Software Engineer,9.0,1.0,Lead,Java,"AWS, Docker",75000.0,24.0,full-time,Unlimited contract,English,1000+,Startup,No,Java
+265,24,Male,Aachen,HiWi,3.0,2.0,Junior,Python,"Python, C/C++",10164.0,14.0,part-time,Temporary contract,English,11-50,University,No,Python
+266,31,Male,Munich,Software Engineer,11.0,1.0,Middle,Python,Docker,75000.0,100.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+267,44,Male,Munich,Software Engineer,28.0,6.0,Senior,C#,"C/C++, .NET, SQL",78500.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,C
+268,32,Male,Berlin,Software Engineer,12.0,1.0,Senior,Java,"Python, SQL, AWS, Kubernetes, Docker",83000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+269,30,Male,Karlsruhe ,Backend Developer,8.0,8.0,Lead,Python,"Python, C/C++, Javascript / Typescript, Java / Scala",65000.0,29.0,part-time,Unlimited contract,English,up to 10,Product,No,Python
+270,33,Male,Berlin,Software Engineer,10.0,1.0,Middle,iOS,Swift,65000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,iOS
+271,46,Male,Munich,Software Engineer,10.0,2.0,Senior,Python ,"Javascript / Typescript, AWS",68500.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+272,27,Male,Berlin,Frontend Developer,8.0,1.0,Middle,Angular,Javascript / Typescript,45000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,Angular
+273,32,Male,Berlin,Backend Developer,5.0,3.0,Middle,Ruby,"Javascript / Typescript, AWS, Docker",72000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Ruby
+274,34,Male,Berlin,Software Engineer,15.0,2.0,Lead,Java,"Java / Scala, SQL",80000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+275,33,Male,Berlin,Software Engineer,10.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,Salesforce ,"Python, Javascript / Typescript, Apex",68000.0,25.0,full-time,Temporary contract,English,11-50,Startup,No,Salesforce
+276,26,Male,"Riga, Latvia",Software Engineer,4.0,0.0,Middle,javascript,"Javascript / Typescript, SAP / ABAP",24000.0,20.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,javascript
+277,41,Male,Berlin,Software Engineer,19.0,7.0,Lead,Python,"C/C++, SQL, AWS, Kubernetes, Docker",95500.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+278,35,Male,Cologne,Software Engineer,14.0,7.0,Senior,C++,"Python, C/C++, SQL",72000.0,35.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+279,26,Male,Hamburg,Software Engineer,7.0,3.5,Senior,TypeScript,"Python, Javascript / Typescript, AWS, Docker",72000.0,27.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,TypeScript
+280,24,Male,Munich,Software Engineer,3.0,2.0,Middle,Java/C++,"Python, C/C++, Javascript / Typescript, Java / Scala, SQL, Kubernetes",77600.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+281,35,Male,Hamburg,Software Engineer,13.0,3.0,Lead,Scala / Python,"Python, Ruby, Java / Scala, Google Cloud, Kubernetes, Docker",95000.0,25.0,full-time,Unlimited contract,English,51-100,Startup,No,Scala
+282,31,Male,Dusseldorf,Software Engineer,7.0,3.0,Senior,C++,"Python, C/C++, Javascript / Typescript, SQL",50400.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,C
+283,30,Male,Moscow,Backend Developer,2.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Middle,Python,"Python, SQL, Docker",13000.0,28.0,full-time,Unlimited contract,Russian,51-100,Startup,No,Python
+284,30,Male,Moscow,Software Engineer,5.0,0.0,Middle,C,C/C++,14712.0,30.0,full-time,Unlimited contract,Russian,101-1000,Product,No,C
+285,35,Male,Berlin,QA Engineer,11.0,10.0,Senior,Java,"Python, Javascript / Typescript, .NET, Java / Scala, Kubernetes, Docker",74400.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+286,37,Male,Hamburg,Software Engineer,15.0,5.0,Senior,Java,"Python, Javascript / Typescript, Java / Scala, Go, AWS, Kubernetes, Docker",70000.0,25.0,full-time,Temporary contract,English,11-50,Startup,No,Java
+287,36,Male,Hamburg,Backend Developer,10.0,5.0,Senior,Java/Scala,"Python, Go, AWS, Docker",82000.0,30.0,full-time,Unlimited contract,German,51-100,Product,No,Java
+288,23,Male,Berlin,Software Engineer,4.0,1.0,Middle,Javascript,"Javascript / Typescript, SQL, AWS, Docker",70500.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Javascript
+289,39,Male,Stuttgart,Software Engineer,11.0,3.0,Lead,PHP,"PHP, SQL, Kubernetes, Docker",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+290,27,Female,Berlin,Data Scientist,3.0,3.0,Middle,Python,"Python, SQL, Google Cloud, Kubernetes, Docker",58000.0,24.0,full-time,Unlimited contract,English,51-100,Product,No,Python
+291,50,Male,Berlin,Software Engineer,29.0,2.0,Lead,C++,"C/C++, PHP, SQL",28800.0,30.0,full-time,Unlimited contract,German,11-50,IT-Outsourcing,No,C
+292,35,Male,Helsinki,Backend Developer,11.0,2.5,Senior,python,"SQL, AWS, Docker",66000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,python
+293,29,Male,Berlin,Backend Developer,10.0,1.0,Senior,Ruby,Go,80000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Ruby
+294,30,Male,Munich,Mobile Developer,8.0,2.0,Lead,Swift,Swift,75000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,Swift
+295,24,Male,Frankfurt,Frontend Developer,3.0,0.0,Middle,JavaScript,"Javascript / Typescript, Docker",44000.0,26.0,full-time,Unlimited contract,English,51-100,Product,No,JavaScript
+296,28,Male,Würzburg,Software Engineer,8.0,0.0,Senior,Java,"Kotlin, Javascript / Typescript",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+297,28,Male,Berlin,Backend Developer,9.0,2.0,Senior,PHP,"SQL, AWS, Docker",60000.0,25.0,full-time,Unlimited contract,English,11-50,Product,No,PHP
+298,37,Male,Berlin,Software Engineer,8.0,5.0,Senior,Python ,"Python, Javascript / Typescript, SQL, Go, AWS, Google Cloud, Kubernetes, Docker",76900.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+299,30,Male,Kiev,Backend Developer,8.0,0.0,Middle,Web developer,"PHP, Javascript / Typescript, SQL, Docker",27000.0,21.0,full-time,Temporary contract,Russian,51-100,Product,No,Web
+300,30,Male,Munich,Frontend Developer,4.0,1.0,Middle,JavaScript/Typescript,"PHP, SQL",55000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+301,31,Male,Berlin,Software Engineer,4.0,2.0,Lead,Java,"Kotlin, SQL, AWS, Kubernetes, Docker",95000.0,28.0,full-time,Unlimited contract,English,1000+,Startup,No,Java
+302,28,Female,Berlin,Software Engineer,3.0,3.0,Middle,Javascript,"PHP, Javascript / Typescript",60000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Javascript
+303,31,Female,Munich,Software Engineer,2.0,2.0,Middle,Java,SQL,58000.0,28.0,full-time,Unlimited contract,German,1000+,Product,No,Java
+304,34,Male,Berlin,Mobile Developer,9.0,2.0,Senior,Android,"Kotlin, Java / Scala",72000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Android
+305,24,Male,Berlin,Backend Developer,4.0,3.0,Middle,PHP,"SQL, Kubernetes, Docker",46000.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,PHP
+306,39,Male,Berlin,DevOps,15.0,3.0,Senior,Python,"Python, Ruby, Java / Scala, Go, Rust, AWS, Kubernetes, Docker, Terraform, helm, packer",70000.0,21.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+307,42,Male,Den Haag,Backend Developer,20.0,6.0,Senior,.NET,"Python, Javascript / Typescript, SQL, AWS, Docker",75000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,nan
+308,26,Male,London,Frontend Developer,8.0,0.0,Senior,"TypeScript, React","Javascript / Typescript, Google Cloud, Kubernetes, Docker",105000.0,30.0,full-time,Unlimited contract,English,1000+,Startup,No,TypeScript
+309,32,Female,Berlin,Mobile Developer,7.0,3.0,Senior,Kotlin,"Python, Ruby",63000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+310,23,Male,Berlin,Mobile Developer,3.0,0.0,Lead,Swift,Swift,65000.0,25.0,full-time,Unlimited contract,English,51-100,Startup,No,Swift
+311,27,Male,Amsterdam,ML Engineer,4.0,1.0,Middle,python,"Python, R, SQL, SAP / ABAP, AWS, Kubernetes, Docker",62000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,python
+312,27,Male,Berlin,Tech Lead / Full-Stack,5.0,3.5,Lead,Python / JavaScript (React),"Python, Javascript / Typescript, SQL, AWS, Docker, React, Tailwindcss",90000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+313,32,Male,Munich,Software Engineer,10.0,6.0,Senior,Java,"Javascript / Typescript, Go",88000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+314,31,Male,Berlin,DevOps,11.0,4.0,Senior,Terraform,"PHP, SQL, AWS, Docker",81000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Terraform
+315,29,Male,Cracovia,Frontend Developer,2.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Middle,JavaScript,"Javascript / Typescript, Angular",18700.0,22.0,full-time,Unlimited contract,Polish,1000+,Product,No,JavaScript
+316,26,Male,Berlin,Marketing Analyst,7.0,2.0,Middle,SQL,"Python, Javascript / Typescript, Google Cloud",60000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,SQL
+317,29,Male,Berlin,Software Engineer,5.0,1.5,Middle,PHP,"Javascript / Typescript, SQL, Docker",56000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,PHP
+318,30,Male,Hamburg,Frontend Developer,7.0,1.0,Senior,JavaScript,Javascript / Typescript,55000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+319,38,Male,Berlin,Mobile Developer,10.0,4.0,Senior,Swift,"Swift, Objective-C",70000.0,24.0,full-time,Unlimited contract,English,1000+,Product,Yes,Swift
+320,32,Male,Berlin,CTO,10.0,4.0,CTO,JAVA,"Python, C/C++",200000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,Yes,JAVA
+321,25,Male,Berlin,Solutions Architect,6.0,2.0,Middle,Apache Spark,"Python, Java / Scala",100000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Apache
+322,24,Male,Berlin,Backend Developer,3.0,0.0,Junior,C#,"Javascript / Typescript, .NET, Kubernetes, Docker",48000.0,28.0,full-time,Temporary contract,English,1000+,Game Company,No,C
+323,24,Male,Tallinn,Software Engineer,3.0,0.0,Junior,Java,"Python, SQL",30000.0,28.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+324,27,Male,Prague,Software Engineer,3.0,0.0,Middle,.NET,"Javascript / Typescript, Java / Scala, SQL",21120.0,21.0,full-time,Temporary contract,Czech,11-50,Product,No,nan
+325,34,Female,Berlin,QA Engineer,6.0,2.0,Senior,Ruby,"Ruby, Java / Scala, AWS, Kubernetes, Docker",67500.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Ruby
+326,30,Male,Utrecht,Data Scientist,2.0,0.0,Middle,python,Google Cloud,48000.0,25.0,full-time,Temporary contract,English,1000+,Product,No,python
+327,27,Female,Munich,Frontend Developer,2.0,2.0,Middle,JavaScript,Javascript / Typescript,64000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,JavaScript
+328,46,Male,Frankfurt,Software Engineer,23.0,16.0,Senior,C#,"C/C++, Javascript / Typescript, .NET, SQL, Azure",90000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,C
+329,48,Male,Berlin,Senior Network&Security Eng.,21.0,17.0,Senior,"Computer Networking,  Network Security ",SQL,68500.0,26.0,full-time,Unlimited contract,English,1000+,Startup,No,Computer
+330,40,Female,Berlin,Fullstack Developer,8.0,8.0,Senior,C#,"PHP, Javascript / Typescript, .NET, SQL, Azure, Kubernetes, Docker, React, Angular2+",57000.0,26.0,full-time,Unlimited contract,German,51-100,Product,No,C
+331,23,Male,Stockholm,Frontend Developer,5.0,1.5,Senior,Javascript,Javascript / Typescript,45600.0,30.0,full-time,Unlimited contract,English,up to 10,Consulting / Agency,No,Javascript
+332,33,Male,Berlin,Software Engineer,9.223958333333334,10.0,Senior,Java,"Java / Scala, Google Cloud, Kubernetes, Docker",90000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+333,40,Male,Braunschweig ,SAP BW Senior Consultant ,11.0,11.0,Senior,SAP BW / ABAP,SAP / ABAP,75000.0,30.0,full-time,Unlimited contract,German,1000+,Financial ,No,SAP
+334,38,Male,Dresden,Software Engineer,10.0,10.0,Lead,"Go, PHP, SQL","PHP, SQL, Go, AWS, Docker",62000.0,30.0,full-time,Unlimited contract,German,51-100,Product,No,Go
+335,28,Male,Kyiv,Mobile Developer,5.0,0.0,Senior,Swift,"Swift, Google Cloud",45000.0,20.0,full-time,Unlimited contract,English,11-50,Product,No,Swift
+336,38,Male,Berlin,Software Engineer,16.0,2.0,Senior,ABAP,"PHP, SQL, SAP / ABAP, Delphi",83000.0,27.0,full-time,Unlimited contract,English,1000+,Startup,No,ABAP
+337,32,Male,Hamburg,Software Engineer,12.0,7.0,Senior,Java,"Kotlin, PHP, Javascript / Typescript, Java / Scala",66300.0,28.0,full-time,Unlimited contract,German,101-1000,Product,No,Java
+338,33,Female,Berlin,Software Engineer,6.0,3.0,Middle,java,"SQL, AWS, Kubernetes, Docker",65000.0,28.0,full-time,Unlimited contract,English,1000+,Startup,No,java
+339,34,Male,Berlin,Software Engineer,13.0,4.0,Lead,Kotlin ,"Python, Kotlin, C/C++, Java / Scala",85000.0,32.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+340,37,Male,Stuttgart ,Software Engineer,9.0,5.0,Senior,Qml,C/C++,60000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Qml
+341,33,Male,Berlin,Director of Engineering,10.0,5.0,Director,PHP,"PHP, Javascript / Typescript, Java / Scala, SQL, AWS, Docker",100000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,PHP
+342,36,Male,Munich,IT Spezialist,15.0,6.0,Senior,AWS,"Javascript / Typescript, Java / Scala, AWS, Docker",79300.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,AWS
+343,27,Male,Frankfurt,Software Engineer,5.0,3.0,Middle,C#/.NET,"C/C++, SQL, VBA",48000.0,28.0,full-time,Unlimited contract,English,up to 10,Consulting / Agency,No,C
+344,28,Male,Berlin,Software Engineer,6.0,2.0,Middle,PHP,"Javascript / Typescript, SQL, Go, Docker",60000.0,26.0,full-time,Unlimited contract,English,101-1000,E-commerce,No,PHP
+345,23,Male,Warsaw,Software Engineer,4.0,0.0,Middle,PHP,"Javascript / Typescript, SQL, Docker",34000.0,28.0,full-time,Temporary contract,English,up to 10,Product,No,PHP
+346,31,Female,Berlin,QA Engineer,11.0,1.5,Middle,JS,"Ruby, SQL",57000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,JS
+347,34,Male,Tallinn,Software Engineer,12.0,0.0,Middle,PHP,"Javascript / Typescript, SQL, Go, Docker",54000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+348,34,Male,Berlin,Software Engineer,10.0,2.0,Senior,.Net,Python,60000.0,28.0,full-time,Unlimited contract,English,11-50,Product,No,nan
+349,29,Male,Tallinn,Mobile Developer,7.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,Android,Kotlin,65000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Android
+350,38,Male,Munich,Software Engineer,15.0,5.0,Senior,Javascript,"Javascript / Typescript, .NET, SQL, AWS, Kubernetes, Docker",80000.0,30.0,full-time,Unlimited contract,English,51-100,Corporation,No,Javascript
+351,25,Female,Berlin,Frontend Developer,4.0,1.0,Middle,Javascript / Typescript,NodeJS,60000.0,23.0,full-time,Unlimited contract,English,11-50,Startup,Yes,Javascript
+352,23,Male,Berlin,Software Engineer,3.0,3.0,Middle,JavaScript,AWS,60000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+353,30,Male,Munich,Software Engineer,10.0,4.0,Senior,.NET,"Python, Javascript / Typescript, Azure",75000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,nan
+354,32,Male,Berlin,Engineering Manager,10.0,5.0,Middle,JavaScript,"Javascript / Typescript, Ruby, Kubernetes, Docker",85000.0,24.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+355,28,Male,Berlin,Frontend Developer,2.0,2.0,Junior,JavaScript,"Javascript / Typescript, Google Cloud",47000.0,26.0,full-time,Unlimited contract,German,1000+,Publishing and Technology,No,JavaScript
+356,31,Male,Berlin,ML Engineer,4.0,4.0,Junior,python,"Python, Java / Scala, AWS",62000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,python
+357,40,Female,Berlin,Software Engineer,1.5,1.5,Junior,JavaScript ,Ruby,50000.0,30.0,full-time,Unlimited contract,English,51-100,Startup,No,JavaScript
+358,42,Male,Berlin,Software Engineer,17.0,9.0,Senior,Go,"Ruby, AWS, Kubernetes, Docker",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Go
+359,27,Male,Berlin,Software Engineer,6.0,3.0,Middle,Java,"C/C++, Kubernetes, Docker",82000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+360,29,Male,Munich,Software Engineer,8.0,6.0,Middle,PHP,"Javascript / Typescript, SQL",75000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,PHP
+361,37,Male,Malta,Software Architect,18.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Head,Go,"Google Cloud, Kubernetes, Docker, Shell",156000.0,0.0,freelancer,Unlimited contract,English,11-50,Startup,No,Go
+362,23,Male,Berlin,Software Engineer,5.0,0.0,Middle,Python,"Python, C/C++, Javascript / Typescript, SQL, Docker",53000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+363,35,Male,Munich,Backend Developer,14.0,2.5,Senior,Java,"Kotlin, Java / Scala, SQL, Kubernetes, Docker",77000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+364,39,Male,Berlin,Manager,11.0,9.0,Head,Python ,"Python, Kotlin, Java / Scala, AWS",180000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+365,33,Male,Lübeck,Software Engineer,10.0,1.0,Middle,C#,"Javascript / Typescript, .NET",55000.0,27.0,full-time,Unlimited contract,German,101-1000,Product,No,C
+366,38,Male,Berlin,Data Scientist,15.0,2.0,Head,Python,"Python, SQL, SAP / ABAP, AWS",100000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+367,31,Male,Hamburg,ML Engineer,3.0,3.0,Lead,Python ,"Kubernetes, Docker",70000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+368,26,Female,Berlin,Data Scientist,2.0,1.0,Junior,Python,"R, SQL, AWS, Docker",47000.0,25.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Python
+369,30,Male,Berlin,Software Engineer,10.0,4.0,Senior,Java,"PHP, Java / Scala",70000.0,27.0,full-time,Unlimited contract,English,11-50,Startup,No,Java
+370,33,Male,Munich,Software Engineer,9.0,9.0,Lead,Java,"Python, Kotlin, Javascript / Typescript, SQL, AWS, Docker",100000.0,29.0,full-time,Unlimited contract,German,51-100,Product,No,Java
+371,33,Male,Munich,Software Engineer,11.0,1.0,Senior,Python,"Python, Javascript / Typescript, SQL, AWS",65000.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+372,31,Male,Berlin,Mobile Developer,10.0,3.0,Senior,Swift,Swift,80000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+373,33,Male,Nuremberg ,Data Scientist,2.0,2.0,Middle,Python,"R, SQL, AWS, Kubernetes, Docker",54000.0,30.0,full-time,Unlimited contract,English,1000+,Market Research ,No,Python
+374,43,Male,Munich,Consultant ,21.0,3.0,Senior,Java,"Javascript / Typescript, .NET, Java / Scala, Docker",72000.0,28.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Java
+375,36,Male,Berlin,Frontend Developer,14.0,5.0,Senior,Javascript,Javascript / Typescript,78000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,Javascript
+376,33,Male,Nürnberg,Software Engineer,9.0,9.0,Senior,Javascript / Typescript,"Python, Java / Scala, SQL, Azure, Docker",60000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,Javascript
+377,36,Female,Berlin,DevOps,1.0,3.0,Middle,java,"Kubernetes, Docker",60000.0,26.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,java
+378,27,Female,Munich,Mobile Developer,1.0,1.0,Junior,"Kotlin, Java","Kotlin, Java / Scala",50000.0,27.0,full-time,Unlimited contract,English,11-50,Startup,No,Kotlin
+379,33,Male,Berlin,Software Engineer,12.0,5.0,Lead,Go,"Go, AWS, Docker",120000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+380,33,Male,Berlin,Data Analyst,2.0,2.0,Middle,SQL,Python,62000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,SQL
+381,40,Male,Berlin,QA Engineer,11.0,11.0,Senior,Python,"Python, Java / Scala",60000.0,28.0,full-time,Unlimited contract,German,101-1000,Product,No,Python
+382,40,Male,Bodensee,Product Manager,17.0,9.0,Lead,Linux Kernel,C/C++,81000.0,30.0,full-time,Unlimited contract,German,11-50,Product,No,Linux
+383,39,Male,Berlin,Data Scientist,7.0,4.0,Senior,several,"Python, SQL, AWS, Docker, unix shell scripts",70000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,several
+384,25,Male,Berlin,Software Engineer,6.0,2.0,Middle,Java,"Python, Java / Scala, Go, AWS, Kubernetes, Docker",63700.0,29.0,full-time,Unlimited contract,English,1000+,e-commerce,No,Java
+385,27,Male,Berlin,Software Engineer,4.0,1.0,Middle,C#,"Javascript / Typescript, .NET, Azure, Docker",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+386,28,Male,Berlin,Data Scientist,4.0,4.0,Middle,Python ,"Java / Scala, R, SQL, Docker, Julia ",70000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+387,36,Female,Munich,Frontend Developer,10.0,3.0,Middle,javascript,Javascript / Typescript,48000.0,30.0,part-time,Unlimited contract,German,101-1000,Product,No,javascript
+388,29,Female,Berlin,Software Developer in Test,9.0,4.0,Lead,Java,"Javascript / Typescript, SQL, Docker",66000.0,25.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+389,34,Male,Berlin,Mobile Developer,10.0,0.5,Senior,Android/Kotlin,"Kotlin, Java / Scala",70000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,Android
+390,39,Male,Munich,Software Architect,20.0,12.0,Lead,embedded,"C/C++, Clojure, Assembly",122000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,embedded
+391,32,Male,Berlin,Software Engineer,6.0,0.0,Middle,PHP,"Python, PHP, Javascript / Typescript, SQL, AWS, Kubernetes, Docker",58000.0,30.0,full-time,Temporary contract,German,1000+,Product,Yes,PHP
+392,37,Male,Berlin,QA Engineer,6.0,6.0,Middle,Java/Groovy,"AWS, Docker",69200.0,28.0,full-time,Unlimited contract,English,101-1000,SaaS,No,Java
+393,32,Male,Munich,Software Engineer,7.0,1.0,Senior,Python ,"Python, Javascript / Typescript, SQL, Docker",72000.0,29.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+394,35,Male,Munich,Software Engineer,16.0,8.0,Lead,PHP,"Javascript / Typescript, SQL, AWS, Kubernetes, Docker",84000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+395,26,Male,Berlin,Data Scientist,5.0,3.0,Middle,Python ,"SQL, AWS, Kubernetes, Docker",59000.0,26.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+396,32,Male,Berlin,Frontend Developer,7.0,1.0,Middle,Typescript,"Java / Scala, Kubernetes, Docker",68000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Typescript
+397,36,Male,Berlin,Software Engineer,10.0,10.0,Senior,typescript,"Javascript / Typescript, .NET, Azure",88000.0,28.0,full-time,Unlimited contract,German,1000+,Product,No,typescript
+398,28,Male,Berlin,Data Engineer,5.0,1.0,Middle,Scala,Java / Scala,65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Scala
+399,36,Male,Berlin,Data Scientist,5.0,5.0,Middle,python,"Python, SQL, AWS, Google Cloud",50000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,python
+400,40,Male,Munich,Software Engineer,18.0,18.0,Senior,java,"AWS, Docker",160000.0,15.0,freelancer,Temporary contract,German,up to 10,Consulting / Agency,No,java
+401,29,Male,Milan,Data Scientist,4.0,0.0,Middle,Python + SQL,"Python, SQL, Spark",37500.0,16.0,full-time,Unlimited contract,Italian,101-1000,Consulting / Agency,No,Python
+402,32,Male,Berlin,Software Engineer,10.0,5.0,Middle,javascript,"Javascript / Typescript, SQL, AWS, Docker",65000.0,24.0,full-time,Unlimited contract,English,51-100,Startup,No,javascript
+403,28,Male,Munich,Software Engineer,5.0,4.0,Middle,Java,"Javascript / Typescript, Java / Scala, AWS, Docker",56000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,Java
+404,27,Male,Berlin,DevOps,7.0,3.5,Senior,Go,"Python, PHP, AWS, Google Cloud, Kubernetes, Docker",80000.0,26.0,full-time,Unlimited contract,English,101-1000,Startup,No,Go
+405,33,Male,Berlin,Software Engineer,16.0,5.0,Senior,Java,"Python, Kotlin, Java / Scala, Go, Rust, AWS, Kubernetes, Docker",83000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+406,34,Male,Munich,QA Engineer,5.0,2.0,Senior,Java,"Kotlin, Swift",76500.0,3.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+407,31,Male,Berlin,Frontend Developer,8.0,3.5,Senior,Typescript,"Javascript / Typescript, Google Cloud, Kubernetes, Docker",60000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Typescript
+408,31,Male,Munich,Frontend Developer,8.0,3.0,Senior,"Typescript, Web apps",Javascript / Typescript,79000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Typescript
+409,31,Male,Berlin,Data Scientist,5.0,3.0,Middle,Python,"Python, Java / Scala, SQL, AWS, Docker",90000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+410,27,Male,Berlin,ML Engineer,6.0,1.0,Middle,Python,AWS,82000.0,28.0,full-time,Unlimited contract,English,1000+,Product,Yes,Python
+411,29,Male,Berlin,Backend Developer,10.0,5.0,Senior,Scala,"Java / Scala, SQL, Go, Google Cloud, Kubernetes, Docker",78000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Scala
+412,39,Male,Berlin,Software Engineer,6.0,1.0,Senior,PHP,"Javascript / Typescript, SQL, AWS, Docker",60000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+413,35,Male,Berlin,Frontend Developer,10.0,3.0,Senior,JavaScript,Javascript / Typescript,75000.0,30.0,full-time,Unlimited contract,English,1000+,Startup,No,JavaScript
+414,38,Male,Berlin,Tech Leader,24.0,1.0,Head,Java,"Kotlin, PHP, Swift, Javascript / Typescript, Java / Scala, Clojure, R, Rust, AWS, Google Cloud, Azure, Kubernetes, Docker",130000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,Yes,Java
+415,31,Male,Salzburg,Chief Research Officer,10.0,2.0,C-level executive manager,Python,"Python, C/C++, AWS, Kubernetes, Docker",115000.0,25.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+416,32,Male,Berlin,QA Engineer,7.0,3.5,Senior,Swift,Javascript / Typescript,65000.0,24.0,full-time,Temporary contract,English,51-100,Startup,No,Swift
+417,35,Male,Berlin,SRE,10.0,3.0,Senior,Terraform ,"Python, AWS, Kubernetes",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Terraform
+418,28,Male,Rome,ML Engineer,2.0,0.0,Middle,Java,"Python, C/C++",36000.0,36.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+419,30,Female,Berlin,Data Scientist,6.0,5.0,Senior,python,"Python, SQL, Google Cloud, Kubernetes, Docker",76000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,python
+420,26,Male,Berlin,Data Engineer,2.0,2.0,Middle,Python,"Python, SQL, AWS, Google Cloud, Kubernetes, Docker",54000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+421,25,Male,Berlin,Data Engineer,3.0,3.0,Senior,Scala,"Python, Java / Scala, SQL, Go, AWS, Google Cloud, Kubernetes, Docker",65000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+422,27,Male,Berlin,DevOps,4.0,4.0,Middle,AWS,"Python, AWS, Docker",66000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,AWS
+423,22,Male,Berlin,Presales Engineer ,4.0,4.0,Middle,"Java, .Net",".NET, Java / Scala, SQL, Go, AWS, Docker",63000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+424,37,Female,Berlin,Data Scientist,2.0,2.0,Middle,Python,"R, SQL, AWS",62000.0,30.0,full-time,Unlimited contract,German,101-1000,Publisher,No,Python
+425,25,Male,Berlin,Data Scientist,1.0,0.5,Junior,"Python, statistics, SQL","Python, SQL, Google Cloud, Docker",51000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+426,33,Male,Berlin,Backend Developer,11.0,4.0,Senior,Scala,"Java / Scala, AWS, Kubernetes, Docker",154000.0,22.0,freelancer,Temporary contract,German,11-50,Startup,No,Scala
+427,38,Male,Berlin,Freelance AI lead / advisor,20.0,7.0,Head,C,"Python, C/C++, Docker",200000.0,0.0,freelancer,Temporary contract,English,up to 10,Consulting / Agency,Yes,C
+428,25,Male,Berlin,Software Engineer,5.0,1.0,Senior,Node.js,"Javascript / Typescript, Google Cloud, Kubernetes",57000.0,24.0,full-time,Temporary contract,English,up to 10,Consulting / Agency,No,Node
+429,26,Female,Berlin,Data Scientist,4.0,1.0,Middle,"Sql, BQ, tableau, gtm, ga","Python, Javascript / Typescript, SQL",45000.0,25.0,full-time,Temporary contract,English,101-1000,Startup,Yes,Sql
+430,29,Male,Berlin,Frontend Developer,3.0,3.0,Middle,React ,Javascript / Typescript,43000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,React
+431,30,Male,Berlin,Frontend Developer,4.0,2.0,Senior,TypeScript,Javascript / Typescript,73000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,TypeScript
+432,30,Male,Berlin,Frontend Developer,11.0,5.0,Senior,Typescript,Java / Scala,74000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Typescript
+433,29,Male,Berlin,Frontend Developer,9.0,1.0,Senior,Javascript / Typescript,"Python, Javascript / Typescript, SQL, Perl, Docker",74000.0,30.0,full-time,Unlimited contract,English,1000+,Startup,No,Javascript
+434,32,Male,Cologne,DevOps,10.0,1.0,Middle,Bash,"Python, Google Cloud",55000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Bash
+435,36,Male,Berlin,Researcher,4.0,4.0,Middle,C++,"Python, C/C++",40000.0,28.0,full-time,Temporary contract,English,up to 10,University,No,C
+436,30,Female,Berlin,Software Engineer,4.0,4.0,Middle,Python,"Python, Java / Scala, SQL, AWS, Kubernetes, Docker",56000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+437,32,Female,Berlin,QA Engineer,10.0,1.5,Middle,Java,Docker,68000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+438,34,Male,Berlin,QA Engineer,10.0,3.0,Senior,JS,"Python, Javascript / Typescript, AWS, Docker",70000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,JS
+439,40,Male,Berlin,Engineering manager,15.0,6.0,Head,Python,"Python, SQL, Perl, AWS, Google Cloud, Docker",80000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+440,35,Male,Berlin,Software Engineer,15.0,4.0,Principal,C++,"Python, Swift, Java / Scala",77000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+441,31,Male,Berlin,Software Engineer,8.0,1.0,Senior,"Java, Kotlin","Kotlin, Java / Scala, AWS",77000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+442,38,Male,Berlin,Data Scientist,15.0,3.0,Senior,Python,"Python, SQL, AWS",56000.0,21.0,full-time,Unlimited contract,English,11-50,Product,No,Python
+443,39,Male,Hamburg,Data Scientist,10.0,10.0,Senior,R,"Python, R, SQL",80000.0,30.0,full-time,Unlimited contract,English,1000+,Energy ,No,R
+444,35,Male,Berlin,Backend Developer,13.0,5.0,Senior,Nodejs,"PHP, Javascript / Typescript",90000.0,31.0,full-time,Unlimited contract,English,up to 10,Startup,No,Nodejs
+445,29,Female,Berlin,Data Scientist,0.0,0.0,intern,Python,"Python, SQL, AWS, Google Cloud, Docker",20000.0,25.0,full-time,Temporary contract,English,1000+,Product,No,Python
+446,36,Male,Berlin,Engineering Manager,18.0,10.0,Head,C++,"Python, Swift, Java / Scala",98000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+447,41,Male,Berlin,Backend Developer,20.0,5.0,Senior,Python,"Python, SQL, AWS, Kubernetes, Docker",93000.0,29.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+448,41,Male,Berlin,Software Engineer,18.0,7.0,Lead,PHP,"SQL, Google Cloud, Kubernetes, Docker",100000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,PHP
+449,28,Female,Berlin,Data Scientist,6.0,1.0,Senior,sql,"Python, R, SQL",70000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,sql
+450,33,Male,Berlin,Software Engineer,10.0,3.0,Lead,javascript,"Javascript / Typescript, AWS, Docker",75000.0,26.0,full-time,Unlimited contract,English,101-1000,Startup,No,javascript
+451,31,Male,Munich,Software Engineer,3.0,3.0,Middle,JavaScript ,"Javascript / Typescript, Java / Scala",63000.0,30.0,full-time,Unlimited contract,German,51-100,Product,No,JavaScript
+452,29,Male,Berlin,Backend Developer,5.0,1.0,Senior,Java,"Java / Scala, SQL, AWS, Kubernetes, Docker",70000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+453,25,Male,Berlin,ML Engineer,4.5,2.0,Middle,"Spark, Pytorch",Python,75000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Spark
+454,34,Male,Berlin,QA Engineer,10.0,5.0,Lead,Java,"Javascript / Typescript, SQL, AWS, Docker",85000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+455,45,Male,Berlin,Backend Developer,30.0,1.0,Senior,PHP,"Javascript / Typescript, Go, AWS, Google Cloud, Docker",55000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,PHP
+456,37,Male,Berlin,Embedded Software Engineer,15.0,1.0,Senior,C/C++,"Python, C/C++",78000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,C
+457,31,Male,Berlin,Software Engineer,9.0,5.0,Lead,javascript,"AWS, Docker",99000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,javascript
+458,32,Male,Amsterdam,Backend Developer,15.0,0.0,Senior,Golang,"Python, Javascript / Typescript, SQL, AWS, Kubernetes, Docker",90000.0,25.0,full-time,Unlimited contract,English,11-50,Product,No,Golang
+459,42,Male,Wroclaw,Software Engineer,16.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,java/scala/go/clouds/devops,"Java / Scala, Go, AWS, Google Cloud, Kubernetes, Docker",36000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,java
+460,36,Male,Berlin,Backend Developer,14.0,12.0,Middle,JS,Docker,75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,JS
+461,40,Male,Karlsruhe,Team Manager,20.0,6.0,Lead,C#,"Python, .NET, Azure, Kubernetes, Docker",85000.0,30.0,full-time,Unlimited contract,English,1000+,Enterprise,No,C
+462,28,Male,Berlin,Backend Developer,7.0,3.0,Senior,Java,"Ruby, Go, Perl",95000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+463,35,Male,Frankfurt,Backend Developer,15.0,15.0,Senior,C,"Python, Javascript / Typescript, SQL, Docker",63000.0,30.0,full-time,Unlimited contract,German,51-100,Product,No,C
+464,37,Male,Berlin,Backend Developer,12.0,3.0,Senior,Java,"Javascript / Typescript, Java / Scala, Google Cloud, Docker",102000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+465,33,Male,Berlin,Software Engineer,10.0,6.0,Lead,C/C++,C/C++,95000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+466,33,Male,Berlin,Backend Developer,13.0,5.0,Senior,Java,"Java / Scala, SQL, Kubernetes, Docker",78600.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+467,31,Male,Munich,Software Engineer,10.0,4.0,Lead,Java ,"Python, Javascript / Typescript, AWS, Docker",70000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+468,31,Male,Berlin,Software Engineer,4.0,2.0,Middle,Java,"Kotlin, Javascript / Typescript, Docker",67000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+469,28,Male,Wolfsburg,Software Engineer,3.0,1.0,Middle,Java,SQL,42000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Java
+470,31,Male,Boeblingen,QA Engineer,6.0,3.0,Senior,Python,"Python, Squish",53000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Python
+471,25,Female,Frankfurt,Software Engineer,3.0,2.0,Middle,Java,"Javascript / Typescript, SQL",53000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Java
+472,35,Male,Berlin,Data Analyst,9.0,9.0,Senior,Python,"Python, SQL, AWS, Kubernetes, Docker",77000.0,28.0,full-time,Unlimited contract,German,101-1000,Startup,No,Python
+473,35,Male,Berlin,Software Engineer,15.0,10.0,Senior,.net,"C/C++, .NET, Go, Docker",80000.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,nan
+474,41,Male,Berlin,DevOps,20.0,14.0,Senior,"Linux/UNIX, GIT, Virtualisation Platforms, *shell(s) scripts","Python, Javascript / Typescript, SQL, AWS, Google Cloud, Kubernetes, Docker",58800.0,35.0,full-time,Unlimited contract,German,1000+,Bloody enterprise,No,Linux
+475,33,Male,Berlin,DevOps,8.0,3.0,Senior,AWS,"Python, AWS, Kubernetes, Docker",75000.0,30.0,full-time,Unlimited contract,English,1000+,service,No,AWS
+476,33,Male,Berlin,Data Engineer,13.0,3.0,Senior,Python,"Python, Java / Scala, SQL, AWS, Kubernetes, Docker",85000.0,26.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+477,38,Male,Munich,Software Engineer,15.0,2.0,Senior,Java,"Java / Scala, Kubernetes, Docker",70000.0,26.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+478,35,Male,Berlin,Software Engineer,10.0,6.0,Senior,php,"Python, PHP, Javascript / Typescript, SQL",78000.0,27.0,full-time,Unlimited contract,German,up to 10,Product,No,php
+479,36,Female,Berlin,Data Scientist,5.0,5.0,Senior,Python,"Python, Java / Scala, SQL, AWS",75000.0,28.0,part-time,Unlimited contract,English,51-100,Startup,No,Python
+480,49,Male,Munich,Software Engineer,27.0,19.0,Senior,Java,"Javascript / Typescript, Java / Scala, SQL, Docker, Groovy",57000.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Java
+481,32,Male,Berlin,Software Engineer,10.0,7.0,Lead,TypeScript,Javascript / Typescript,120000.0,0.0,freelancer,Temporary contract,Deuglisch,1000+,Concern,Yes,TypeScript
+482,32,Female,Berlin,Software Engineer,6.0,4.0,Lead,Java,"Python, Kotlin, AWS, Docker",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+483,27,Female,Berlin,Data Analyst ,1.0,1.0,Middle,"Python, SQL","Python, SQL",63000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+484,31,Male,Frankfurt,Data Scientist,6.0,6.0,Senior,python,"Python, AWS, Docker",60000.0,30.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,python
+485,31,Male,Paris,Mobile Developer,8.0,0.0,Senior,Swift,Swift,60000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Swift
+486,28,Male,Cologne,Backend Developer,4.0,4.0,Middle,Java,Pl/sql,44000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,Java
+487,27,Male,Berlin,Software Engineer,2.0,1.0,Lead,DWH,SQL,90000.0,31.0,full-time,Unlimited contract,English,1000+,Product,No,DWH
+488,29,Male,Berlin,Frontend Developer,8.0,5.0,Head,JavaScript,"Kubernetes, Docker",82500.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+489,32,Female,Munich,Data Engineer,10.0,2.0,Middle,Python,"Python, SQL, AWS, Docker, Spark, Airflow",75000.0,27.0,full-time,Unlimited contract,English,11-50,Startup,Yes,Python
+490,28,Male,Berlin,QA Engineer,5.0,1.0,Middle,QA,Python,60000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,QA
+491,38,Male,Dublin ,Mobile Developer,16.0,0.0,Senior,Swift,"Swift, Java / Scala",85000.0,24.0,full-time,Unlimited contract,English,101-1000,Product,No,Swift
+492,29,Male,Berlin,Data Engineer,3.0,3.0,Middle,Azure,"Python, SQL, Azure",54000.0,30.0,full-time,Unlimited contract,German,1000+,Utilities,No,Azure
+493,30,Male,Stockholm,Backend Developer,7.0,2.5,Senior,C++,"Python, C/C++, Java / Scala, AWS, Kubernetes, Docker",65000.0,33.0,full-time,Unlimited contract,English,1000+,Product,No,C
+494,30,Male,Paderborn,Data Scientist,6.0,2.0,Junior,Python,"Python, SQL, Docker",51000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,Python
+495,37,Male,Berlin,Mobile Developer,16.0,2.0,Senior,iOS,"Kotlin, C/C++, Swift, Ruby",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,iOS
+496,32,Male,Amsterdam,Mobile Developer,13.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,Kotlin,Kotlin,85000.0,27.0,full-time,Unlimited contract,English,1000+,Bank,No,Kotlin
+497,30,Male,Berlin,Software Engineer,7.0,1.0,Senior,Java,"Go, AWS, Kubernetes",86000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+498,32,Male,Berlin,QA Engineer,10.0,3.0,Senior,js,"Java / Scala, Google Cloud, Docker",81000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,js
+499,32,Male,Cologne,DevOps,7.0,2.0,Middle,k8s,"Python, Google Cloud, Kubernetes, Docker",60000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,Yes,k
+500,34,Male,Munich,Software Engineer,12.0,8.0,Senior,Java,"Java / Scala, SQL, Go, Google Cloud, Kubernetes, Docker",74000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+501,43,Male,Cologne,Backend Developer,10.0,7.0,Senior,Php,PHP,57600.0,26.0,full-time,Unlimited contract,German,101-1000,Product,No,Php
+502,33,Male,Munich,Software Engineer,13.0,4.0,Senior,Java,"Python, Kotlin, Javascript / Typescript, AWS, Kubernetes, Docker",70000.0,24.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+503,28,Female,Munich,QA Engineer,8.0,4.0,Senior,Kotlin,"Kotlin, Java / Scala, AWS, Kubernetes, Docker",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Kotlin
+504,33,Male,Hamburg,Software Engineer,11.0,5.0,Senior,Java,"Python, SQL",65000.0,28.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+505,33,Male,Munich,Software Engineer,11.0,4.0,Lead,"Frontend: react, node.js","Javascript / Typescript, AWS, Kubernetes, Docker",90000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Frontend
+506,51,Male,Berlin,Software Engineer,30.0,30.0,Senior,"VB, RPA, Python","Python, PHP, Javascript / Typescript, .NET, SQL, SAP / ABAP",60000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,VB
+507,35,Male,Berlin,Software Engineer,8.0,5.0,Senior,Go,"Java / Scala, Go, AWS, Google Cloud, Azure, Kubernetes, Docker",90000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Go
+508,35,Male,Berlin,Software Engineer,1.0,1.0,Junior,FBD,"PHP, Javascript / Typescript, SQL",30000.0,26.0,full-time,Unlimited contract,German,up to 10,Product,No,FBD
+509,28,Male,Munich,Software Engineer,6.0,3.0,Middle,"C, C++","C/C++, Linux Kernel",64000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+510,25,Male,Berlin,Mobile Developer,2.0,2.0,Middle,"Swift, Objective-C, iOS",Swift,44000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+511,25,Female,Hamburg,working student (QA),1.0,1.0,student,Ruby,"Java / Scala, SQL",12000.0,12.0,part-time,Temporary contract,English,1000+,Product,No,Ruby
+512,32,Male,Berlin,Backend Developer,10.0,3.0,Lead,Ruby,"Python, Javascript / Typescript, Ruby, SQL, AWS, Docker",80000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,Ruby
+513,32,Male,Berlin,Software Engineer,9.0,3.0,Lead,Embedded,"Python, C/C++, Go",73000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Embedded
+514,26,Male,Berlin,Architect ,9.0,4.0,Head,Go,"Kotlin, Ruby, Go, Rust, AWS, Kubernetes, Docker",120000.0,24.0,full-time,Unlimited contract,English,1000+,Product,Yes,Go
+515,25,Male,Berlin,Software Engineer,6.0,3.0,Senior,JavaScript / TypeScript,"AWS, Docker",71750.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+516,27,Female,Berlin,Backend Developer,5.0,2.5,Middle,Kotlin,"Python, Kotlin, Java / Scala, Google Cloud, Kubernetes",65000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,Kotlin
+517,28,Male,Frankfurt,Frontend Developer,7.0,5.0,Senior,Javascript,"Javascript / Typescript, AWS, Azure, Docker",80000.0,29.0,full-time,Unlimited contract,English,11-50,Startup,No,Javascript
+518,32,Female,Munich,QA Engineer,8.0,1.0,Senior,Java,"Javascript / Typescript, C#",60000.0,26.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Java
+519,28,Male,Karlsruhe,Backend Developer,7.0,3.0,Senior,Java,"Kotlin, Javascript / Typescript, AWS, Kubernetes, Docker",66000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+520,34,Male,Berlin,Frontend Developer,13.0,1.0,Lead,JavaScript,"Javascript / Typescript, SQL, AWS",85000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+521,35,Male,Konstanz,Data Scientist,10.0,10.0,Middle,python,"Python, Azure, Kubernetes",65000.0,25.0,full-time,Unlimited contract,English,51-100,Product,No,python
+522,38,Male,Berlin,Head of Engineering,20.0,9.0,Head,Java,"Python, Kotlin, Java / Scala, SQL, AWS, Kubernetes, Docker",130000.0,30.0,full-time,Unlimited contract,English,1000+,Corporation,Yes,Java
+523,31,Female,Ulm,QA Engineer,8.0,3.0,Middle,Java,Java / Scala,45000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+524,43,Male,Stuttgart,SAP Consultant,20.0,15.0,Senior,SAP / ABAP,"SQL, SAP / ABAP",82000.0,32.0,full-time,Unlimited contract,German,1000+,Product,No,SAP
+525,38,Male,Berlin,Data Scientist,15.0,2.0,Head,Python,"Python, SQL, SAP / ABAP, AWS",100000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+526,35,Male,Munich,DevOps,17.0,5.0,Lead,Kubrrnetes,"R, AWS, Google Cloud, Kubernetes, Docker",72000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Kubrrnetes
+527,32,Male,Berlin,DevOps,10.0,1.0,Middle,python,"Python, SQL, Go, AWS, Google Cloud, Azure, Kubernetes, Docker",62000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,python
+528,37,Male,Berlin,Mobile Developer,17.0,1.0,Senior,Swift,Javascript / Typescript,77000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+529,29,Male,Berlin,Mobile Developer,5.0,4.0,Senior,iOS,Swift,65000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,iOS
+530,38,Male,Stuttgart ,Backend Developer,4.0,2.0,Middle,PHP,"Javascript / Typescript, SQL, Docker",43000.0,30.0,full-time,Unlimited contract,English,up to 10,Consulting / Agency,No,PHP
+531,29,Male,Düsseldorf,Frontend Developer,6.0,6.0,Middle,TypeScript,"Javascript / Typescript, Azure",55000.0,30.0,full-time,Unlimited contract,German,11-50,Product,No,TypeScript
+532,35,Male,Berlin,QA Engineer,12.0,3.0,Senior,JS,"Javascript / Typescript, SQL",63000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,Yes,JS
+533,41,Male,Munich,Software Engineer,19.0,5.0,Senior,Java,"PHP, Java / Scala, SQL, AWS, Docker",75000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+534,29,Male,Barcelona,Data Scientist,0.0,0.0,Junior,Python,"R, SQL",22000.0,22.0,full-time,Unlimited contract,English,51-100,Product,No,Python
+535,26,Female,Dusseldorf,BI Consultant SAP/ Data Engineer,5.0,5.0,Middle,ABAP,"Python, SQL",65000.0,30.0,full-time,Unlimited contract,German,up to 10,Startup,No,ABAP
+536,30,Male,Berlin,Data Engineer,6.0,1.0,Middle,Python,AWS,65000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+537,26,Male,London,DevOps,3.0,0.0,Middle,"networking, linux, automation, cloud","Python, AWS",37000.0,25.0,full-time,Unlimited contract,English,51-100,Product,No,networking
+538,35,Female,Munich,Backend Developer,4.0,4.0,Middle,PHP,"PHP, Javascript / Typescript, Java / Scala",51000.0,30.0,full-time,Unlimited contract,German,101-1000,Insurance,No,PHP
+539,47,Male,Bölingen,Software Engineer,25.0,15.0,Senior,java,"Java / Scala, SQL",70000.0,30.0,full-time,Unlimited contract,German,11-50,Consulting / Agency,No,java
+540,32,Male,Berlin,Frontend Developer,13.0,2.0,Senior,JavaScript,"PHP, Javascript / Typescript",70000.0,25.0,full-time,Unlimited contract,English,11-50,Product,No,JavaScript
+541,33,Male,Dusseldorf,Data Scientist,2.0,2.0,Lead,Spark,"Python, Docker",70000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,Spark
+542,32,Male,Munich,Frontend Developer,8.0,2.0,Senior,"Js, reactJS ","Javascript / Typescript, AWS",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Js
+543,26,Male,Berlin,Data Engineer,4.0,3.0,Middle,Scala,"Python, Java / Scala, SQL, AWS, Google Cloud, Azure",51000.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Scala
+544,22,Diverse,Cologne,QA Engineer,1.0,1.0,Head,Cobol,Perl,159000.0,45.0,full-time,Unlimited contract,German,1000+,Product,No,Cobol
+545,43,Male,Berlin,Engineering Manager,20.0,20.0,Lead,Java,"C/C++, .NET, Java / Scala, AWS, Kubernetes, Docker",105000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+546,33,Male,Munich,Software Engineer,11.0,6.0,Senior,JavaScript ,".NET, SQL",80000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+547,35,Female,Frankfurt,Software Engineer,1.0,1.0,Junior,ABAP,"SQL, SAP / ABAP",50000.0,30.0,full-time,Unlimited contract,German,51-100,Consulting / Agency,No,ABAP
+548,28,Male,Munich,Frontend Developer,5.0,5.0,Middle,JavaScript,"Python, Javascript / Typescript, SQL, Rust, AWS, Kubernetes, Docker",72000.0,28.0,full-time,Unlimited contract,German,11-50,Product,No,JavaScript
+549,36,Male,Munich,DevOps,16.0,0.0,Senior,SRE,"Python, C/C++, Go",105000.0,30.0,full-time,Unlimited contract,English,1000+,Product,Yes,SRE
+550,27,Male,Munich,Data Engineer,2.0,0.0,Junior,Python ,"Python, SQL, AWS, Azure, Docker",49000.0,30.0,full-time,Unlimited contract,German,11-50,Consulting / Agency,No,Python
+551,36,Male,Berlin,Backend Developer,4.0,1.0,Middle,Java,"Python, SQL, Kubernetes, Docker",55000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+552,38,Male,Berlin,Backend Developer,5.0,1.0,Middle,Java,"Kotlin, Java / Scala, Google Cloud, Kubernetes, Docker",66000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+553,28,Male,Berlin,Mobile Developer,6.0,1.0,Middle,Android,"Kotlin, Java / Scala",85000.0,32.0,full-time,Unlimited contract,English,1000+,Product,No,Android
+554,25,Male,Berlin,Mobile Developer,8.0,0.0,Senior,Clojure,"Swift, Javascript / Typescript, Java / Scala, Clojure",85000.0,24.0,full-time,Unlimited contract,English,51-100,Startup,No,Clojure
+555,30,Male,Berlin,Frontend Developer,6.0,1.0,Senior,Javascript,"Python, Javascript / Typescript, SQL, SAP / ABAP",79000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Javascript
+556,30,Male,Berlin,Backend Developer,8.0,2.0,Middle,Python,"SQL, AWS, Kubernetes, Docker",74000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+557,28,Male,Berlin,Backend Developer,8.0,1.0,Lead,Ruby,"SQL, AWS",67000.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,Ruby
+558,32,Female,Berlin,DevOps,9.0,5.0,Middle,"Terraform, Kubernetes, AWS, GCP, Ansible, Puppet","Ruby, Java / Scala, SQL, Go, AWS, Google Cloud, Kubernetes, Docker",74000.0,40.0,full-time,Unlimited contract,English,101-1000,Product,No,Terraform
+559,29,Male,Berlin,Frontend Developer,3.0,0.0,Middle,JavaScript ,PHP,48000.0,26.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,JavaScript
+560,35,Male,Berlin,Software Engineer,13.0,5.0,Lead,TypeScript,"Python, Javascript / Typescript, SQL, AWS, Google Cloud, Kubernetes, Docker, Elixir",103000.0,29.0,full-time,Unlimited contract,English,101-1000,Startup,No,TypeScript
+561,33,Male,Berlin,Frontend Developer,10.0,4.0,Senior,JS,"Javascript / Typescript, Google Cloud, Kubernetes, Docker",74000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,JS
+562,34,Male,Berlin,Backend Developer,13.0,1.0,Senior,Elixir,SQL,70000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Elixir
+563,25,Male,Berlin,Backend Developer,6.0,2.0,Senior,Go,"Python, SQL, Go, AWS, Kubernetes, Docker",86000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Go
+564,25,Female,Tampere (Finland),computer vision researcher,3.0,0.0,Junior,Python,"Python, Tensorflow, Theano, Pytorch",23000.0,30.0,full-time,Temporary contract,English,51-100,Science Institute ,No,Python
+565,40,Male,Berlin,Backend Developer,14.0,8.0,Lead,Spring,"Java / Scala, AWS, Azure, Kubernetes, Docker",135000.0,30.0,freelancer,Temporary contract,English,101-1000,Product,No,Spring
+566,33,Male,Heidelberg,Software Engineer,11.0,5.0,Senior,Python,"Python, Javascript / Typescript, SQL, AWS, Kubernetes, Docker",80000.0,30.0,full-time,Temporary contract,English,101-1000,Research institute,No,Python
+567,39,Male,Cologne,Teamlead,12.0,12.0,Head,PHP ,"AWS, Docker",75000.0,30.0,full-time,Unlimited contract,German,up to 10,Startup,No,PHP
+568,24,Male,Berlin,Software Engineer,2.0,2.0,Junior,Javascript,"Javascript / Typescript, Java / Scala, SQL, AWS, Docker",50000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Javascript
+569,24,Female,Prague,Software Engineer,3.0,0.0,Middle,Java,"Java / Scala, AWS, Azure, Kubernetes, Docker",29000.0,20.0,full-time,Unlimited contract,English,11-50,Startup,No,Java
+570,39,Male,Berlin,Engineering Manager,15.0,10.0,Lead,Java,"Python, Kotlin, Javascript / Typescript, SQL, Docker",78000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,Java
+571,33,Male,Amsterdam,Backend Developer,8.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,C#,"Python, .NET, SQL",75000.0,27.0,full-time,Temporary contract,English,11-50,Product,No,C
+572,29,Male,Berlin,Software Engineer,6.0,0.5,Middle,Swift,Swift,70000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+573,29,Female,Berlin,Software Engineer,5.0,2.0,Middle,PHP,"Python, Javascript / Typescript, SQL, AWS, Google Cloud, Docker",55000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,PHP
+574,32,Male,Prague,Software Engineer,8.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,"C, C++",Python,36000.0,25.0,full-time,Unlimited contract,Czech,1000+,Product,No,C
+575,30,Male,Berlin,Backend Developer,9.0,3.0,Head,Java,"Javascript / Typescript, Java / Scala, Go, AWS, Docker",85000.0,25.0,full-time,Unlimited contract,English,51-100,Startup,No,Java
+576,31,Male,Berlin,ML Engineer,7.0,2.0,Middle,Python,"AWS, Kubernetes, Docker",80000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+577,33,Male,Berlin,Mobile Developer,8.0,2.0,Senior,swift,SQL,75000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,swift
+578,31,Female,Berlin,Software Engineer,1.0,1.0,Junior,React,"Python, AWS, Kubernetes, Docker, React",57000.0,30.0,full-time,Unlimited contract,English,1000+,Retail,No,React
+579,36,Male,Frankfurt,Software Engineer,16.0,5.0,Middle,.Net,".NET, SQL",65000.0,30.0,full-time,Unlimited contract,German,51-100,Consulting / Agency,No,nan
+580,30,Male,Berlin,Mobile Developer,8.0,5.0,Senior,Swift,"Python, Kotlin, Swift, Javascript / Typescript",60000.0,50.0,freelancer,Temporary contract,English,up to 10,Consulting / Agency,No,Swift
+581,39,Male,Berlin,Software Engineer,19.0,7.0,Senior,Golang,"Python, Ruby, Go, AWS, Google Cloud, Kubernetes, Docker",87000.0,100.0,full-time,Unlimited contract,English,11-50,Startup,No,Golang
+582,32,Male,Berlin,Software Engineer,11.0,1.0,Senior,C++,"Python, C/C++, Rust",100000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+583,35,Male,Berlin,Backend Developer,12.0,3.0,Senior,php,"SQL, Google Cloud, Docker",54000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,php
+584,34,Male,Berlin,Data Scientist,6.0,4.5,Senior,python,"Python, Javascript / Typescript, SQL, Google Cloud, Docker",80000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,python
+585,26,Male,Berlin,Data Scientist,4.0,2.0,Middle,Python,"Python, SQL, Google Cloud, Docker",60000.0,27.0,full-time,Unlimited contract,English,1000+,Ecommerce,No,Python
+586,29,Male,Helsinki,Mobile Developer,7.0,0.0,Senior,Kotlin,"Javascript / Typescript, Java / Scala, Flutter",64000.0,30.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,Kotlin
+587,42,Male,Berlin,Frontend Developer,18.0,5.0,Senior,React JS,Javascript / Typescript,850000.0,35.0,full-time,Unlimited contract,English,101-1000,Product,Yes,React
+588,31,Male,Berlin,Software Engineer,12.0,2.0,Senior,Java,"SQL, Go, AWS, Kubernetes, Docker",60000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+589,33,Male,Berlin,Software Engineer,10.0,5.0,Senior,Python,"PHP, Javascript / Typescript, SQL, Go, Google Cloud, Kubernetes, Docker",80000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+590,28,Male,Berlin,Data Engineer,6.0,1.5,Middle,Python,"Java / Scala, SQL, Kubernetes, Docker",83000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+591,35,Male,Düsseldorf,Data Scientist,3.0,3.0,Middle,Python,"SQL, AWS",68000.0,26.0,full-time,Unlimited contract,English,51-100,E-Commerce,No,Python
+592,35,Male,Berlin,Consultant,16.0,6.0,Senior,Python,"Python, Java / Scala, SQL, Google Cloud",100000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+593,31,Male,Berlin,Software Engineer,8.0,3.0,Senior,Typescript ,"Javascript / Typescript, Java / Scala, Go, Rust, AWS, Kubernetes, Docker",80000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Typescript
+594,32,Male,Siegen,Software Engineer,13.0,1.0,Junior,C,C/C++,48000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,C
+595,38,Male,Berlin,Software Engineer,15.0,3.0,Senior,Go,"Google Cloud, Docker",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+596,29,Male,Berlin,Engineering Manager,9.0,0.1,Lead,Go,"SQL, AWS, Docker",85000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+597,33,Male,Berlin,Backend Developer,13.0,1.0,Senior,Java,"Kotlin, Java / Scala, SQL, AWS, Google Cloud, Docker",110000.0,24.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+598,28,Male,Berlin,Fullstack Developer,6.0,6.0,Senior,JavaScript,"Javascript / Typescript, SQL, AWS, Docker",75000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,JavaScript
+599,32,Male,Berlin,Senior Data Engineer,9.0,4.0,Senior,Python,"Java / Scala, SQL, AWS",90000.0,30.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+600,39,Male,Berlin,Frontend Developer,10.0,3.0,Senior,Javascript,"Javascript / Typescript, Ruby, AWS, Docker",85000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Javascript
+601,31,Male,Minsk,Frontend Developer,6.0,0.0,Senior,TypeScript/Angular,"Python, Javascript / Typescript",110000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,TypeScript
+602,33,Male,Berlin,Software Engineer,10.0,5.0,Senior,golang,"Go, Google Cloud, Kubernetes, Docker",110000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,golang
+603,30,Male,Berlin,QA Engineer,8.0,3.0,Senior,Python,"Python, C/C++, Docker",68000.0,30.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+604,30,Female,Düsseldorf ,Analyst,2.0,2.0,Junior,R,"Python, SQL",45000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,R
+605,37,Male,Munich,Software Engineer,15.0,6.0,Senior,C#,"Python, PHP, Javascript / Typescript, .NET, Java / Scala, AWS, Azure",80000.0,30.0,full-time,Unlimited contract,German,51-100,Consulting / Agency,Yes,C
+606,42,Male,Berlin,Software Engineer,20.0,2.0,Senior,PHP,"PHP, Javascript / Typescript, AWS, Docker",65000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,PHP
+607,31,Male,Nuremberg,QA Engineer,9.0,5.0,Middle,Java,"Javascript / Typescript, Java / Scala",60000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+608,20,Male,Berlin,Mobile Developer,5.0,2.0,Lead,C#,.NET,240000.0,27.0,full-time,Unlimited contract,English,1000+,Product,Yes,C
+609,34,Female,Berlin,QA Engineer,11.0,11.0,Senior,Python,"AWS, Kubernetes, Docker",60000.0,28.0,full-time,Unlimited contract,German,1000+,Product,No,Python
+610,35,Male,Berlin,Engineering Manager,20.0,6.0,Lead,Go,"PHP, Java / Scala, Go, AWS, Docker",85000.0,26.0,full-time,Unlimited contract,English,11-50,Product,No,Go
+611,31,Male,Munich,Software Engineer,14.0,1.5,Senior,C++,"Javascript / Typescript, Java / Scala",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,C
+612,37,Male,Berlin,Software Engineer,11.0,5.0,Senior,Python,"C/C++, SQL, Docker",73000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+613,37,Male,Berlin,Backend Developer,12.0,2.6,Lead,Kotlin/PHP,"Kotlin, PHP, SQL",90000.0,28.0,full-time,Unlimited contract,English,11-50,Product,No,Kotlin
+614,34,Male,Berlin,Mobile Developer,9.0,2.0,Senior,iOS,Swift,80000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,iOS
+615,25,Male,Marseille,Data Scientist,1.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Junior,Python,"Python, Javascript / Typescript, SQL, Docker",42000.0,30.0,full-time,Unlimited contract,English,up to 10,Startup,No,Python
+616,42,Male,Friedrichshafen,Software Engineer,20.0,1.0,Senior,C++,"Python, C/C++, .NET",70000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+617,33,Female,Berlin,Data Scientist,8.0,4.0,Senior,Python ,"SQL, Google Cloud, Docker",77000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+618,46,Male,Stuttgart,Software Engineer,13.0,6.0,Middle,C++,Python,70000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+619,34,Male,Berlin,Lead Software Developer,13.0,2.0,Lead,C#,".NET, Kubernetes, Docker",65000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,C
+620,35,Male,Berlin,Software Engineer,15.0,4.0,Senior,Java,"Python, SQL, AWS, Docker",85000.0,25.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+621,27,Male,Berlin,Backend Developer,4.0,4.0,Senior,Go,"Python, C/C++, Go, AWS, Docker",70000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,Go
+622,31,Male,Berlin,Software Engineer,7.0,5.0,Lead,python,"Python, Javascript / Typescript, SQL, Go, AWS, Google Cloud, Kubernetes, Docker",80000.0,28.0,full-time,Unlimited contract,English,1000+,Product,Yes,python
+623,24,Male,Berlin,Software Engineer,2.0,2.0,Junior,Java,"Python, Java / Scala, SQL, AWS, Google Cloud, Kubernetes, Docker",60000.0,28.0,full-time,Unlimited contract,German,up to 10,Consulting / Agency,No,Java
+624,28,Male,Berlin,Data Engineer,7.0,3.0,Senior,Python,"Python, SQL, AWS, Google Cloud, Kubernetes, Docker",90000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+625,27,Male,Berlin,Data Scientist,5.0,1.0,Middle,Python,SQL,55000.0,24.0,full-time,Unlimited contract,English,51-100,Product,No,Python
+626,30,Male,Hannover,Software Engineer,5.0,3.0,Middle,Python,"Javascript / Typescript, Java / Scala, SQL",45000.0,30.0,full-time,Unlimited contract,English,up to 10,Startup,No,Python
+627,33,Male,Berlin,data engineer,11.0,1.0,Middle,python,"Python, SQL, AWS, Google Cloud",68000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,python
+628,26,Male,Berlin,Software Engineer,2.0,1.5,Middle,TypeScript,"Python, Kotlin, Javascript / Typescript, SQL, AWS, Docker",58000.0,28.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,TypeScript
+629,37,Male,Walldorf,ML Engineer,15.0,15.0,Lead,Python,"AWS, Google Cloud, Kubernetes, Docker",80000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+630,39,Male,Munich,Software Engineer,8.0,7.0,Senior,Python,C/C++,130000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+631,26,Female,Berlin,Tech recruiting,2.5,2.5,Middle,JS,Python,40000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,JS
+632,30,Male,Hamburg,Data Scientist,5.0,4.0,Head,Python,"R, SQL, AWS",80000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+633,44,Male,Frankfurt,Software Engineer,10.0,10.0,Senior,SAP ABAP,SAP / ABAP,75000.0,30.0,full-time,Unlimited contract,Russian,101-1000,Product,No,SAP
+634,26,Male,Munich,ML Engineer,5.0,4.0,Senior,Spark,"Python, Java / Scala, R, SQL",180000.0,40.0,freelancer,Temporary contract,German,up to 10,Consulting / Agency,No,Spark
+635,30,Male,Munich,Software Engineer,10.0,6.0,Senior,Go,"Python, C/C++, Javascript / Typescript, Go",151872.0,30.0,full-time,Unlimited contract,English,1000+,Startup,No,Go
+636,26,Male,Eindhoven,ML Engineer,3.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Middle,Python,"Python, C/C++, Docker, Tensorflow, PyTorch",48000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+637,25,Female,Munich,ML Engineer,1.0,1.0,Junior,AI,"Python, SQL",57000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,AI
+638,34,Male,France,Data Scientist,11.0,0.0,Senior,Python,"Javascript / Typescript, R, SQL, Google Cloud",80000.0,25.0,full-time,Unlimited contract,French,1000+,Consulting / Agency,No,Python
+639,38,Female,Regensburg,ML Engineer,3.0,3.0,Middle,Python,"R, SQL",65000.0,30.0,full-time,Temporary contract,German,1000+,Product,Yes,Python
+640,28,Male,Frankfurt,Mobile Developer,5.0,1.0,Senior,Swift,Swift,50000.0,24.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Swift
+641,29,Female,Berlin,Data Scientist,2.0,2.0,Junior,R,Python,52000.0,30.0,full-time,Unlimited contract,German,up to 10,Consulting / Agency,No,R
+642,30,Female,Berlin,ML Engineer,5.0,1.5,Middle,pythin,"Python, SQL, Docker",51000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,pythin
+643,28,Male,"Warsaw, Poland",Software Engineer,6.0,0.0,Middle,C#,"Javascript / Typescript, .NET, SQL",52800.0,26.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,C
+644,28,Female,Berlin,Data Scientist,1.0,8.0,Junior,Python,"Python, R, SQL, Azure",55000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+645,42,Male,Berlin,Software Engineer,12.0,12.0,Lead,Java,"Kotlin, SQL, Kubernetes, Docker",95000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+646,29,Male,Munich,Data Scientist,4.0,4.0,Middle,Python,"Java / Scala, SQL, AWS, Azure",61500.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Python
+647,29,Male,Munich,Software Engineer,4.0,4.0,Middle,R,"Python, SQL",78000.0,30.0,full-time,Unlimited contract,English,1000+,Semiconductor,No,R
+648,36,Male,Berlin,CTO,15.0,13.0,C-Level,Java & PHP,"Python, PHP, Javascript / Typescript, Java / Scala, SQL, AWS, Google Cloud, Kubernetes, Docker",150000.0,30.0,full-time,Unlimited contract,German,101-1000,Media,No,Java
+649,37,Male,Munich,Software Engineer,14.0,6.0,Head,Typescript,"Python, Javascript / Typescript, Java / Scala, SQL, AWS, Google Cloud, Docker",84000.0,30.0,full-time,Unlimited contract,English,up to 10,Product,No,Typescript
+650,31,Male,Amsterdam,Data Scientist,10.0,0.0,Lead,Python,"Javascript / Typescript, R, SQL, AWS, Azure, Docker",100000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Python
+651,35,Male,Berlin,Data Analyst,5.0,5.0,Middle,R,"R, SQL, Google Cloud",49000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,R
+652,27,Male,Berlin,Data Scientist,4.0,2.0,Junior,Python,"C/C++, Javascript / Typescript",60000.0,15.0,full-time,Temporary contract,English,51-100,Consulting / Agency,No,Python
+653,29,Male,Munich,Data Analyst ,6.0,4.0,Middle,Python,"Javascript / Typescript, SQL, AWS, Kubernetes, Docker",68000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+654,36,Male,Berlin,Backend Developer,5.0,2.0,Senior,Java,"Java / Scala, Kubernetes, Docker",70000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+655,33,Male,Munich,Backend Developer,10.0,10.0,Senior,Java,"Python, Kotlin, Go, Kubernetes",70000.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Java
+656,42,Male,Berlin,Software Engineer,12.0,12.0,Lead,Java,"Kotlin, SQL, Kubernetes, Docker",95000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+657,32,Female,Berlin,BI Analyst ,1.0,1.0,Junior,Sql ,Python,48000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Sql
+658,30,Male,Berlin,Software Engineer,10.0,7.0,Lead,Frontend,"C/C++, Javascript / Typescript, Go, AWS, Docker",115000.0,28.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Frontend
+659,29,Female,Berlin,Software Engineer,4.0,4.0,Middle,Java/Kotlin,"Javascript / Typescript, SQL, AWS, Google Cloud, Kubernetes, Docker",60000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Java
+660,35,Female,Berlin,Frontend Developer,2.0,2.0,Junior,React,Javascript / Typescript,40000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,React
+661,36,Male,Frankfurt,Software Engineer,14.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Senior,C++/c,"Python, Docker",81500.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+662,34,Male,Berlin,BI Developer / Data Engineer,10.0,5.0,Senior,SQL,Python,75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,SQL
+663,34,Male,Berlin,DevOps,12.0,2.0,Lead,Kubernetes,"Python, Go, AWS, Kubernetes, Docker",94000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Kubernetes
+664,31,Male,Munich,ML Engineer,4.0,4.0,Senior,Python,Python,100000.0,20.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+665,34,Female,Berlin,QA Engineer,7.0,0.0,Senior,Java,"Java / Scala, SQL, Docker",55000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+666,31,Male,Munich,Data Scientist,7.41764705882353,2.0,Middle,Python,"Python, C/C++, Azure, Docker",60000.0,27.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Python
+667,33,Male,Munich,Frontend Developer,14.0,8.0,Senior,"Angular, Typescript","PHP, Javascript / Typescript",80000.0,28.0,full-time,Unlimited contract,German,11-50,Product,No,Angular
+668,33,Male,Frankfurt,Software Engineer,8.0,5.0,Senior,C#,"Javascript / Typescript, .NET, SQL",67000.0,28.0,full-time,Unlimited contract,English,11-50,Product,No,C
+669,33,Male,Munich,Backend Developer,12.0,0.5,Middle,PHP,"PHP, Javascript / Typescript, SQL, Docker",56000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+670,31,Male,Berlin,Backend Developer,5.0,2.0,Senior,Python,"Python, SQL, AWS, Kubernetes, Docker",77000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+671,42,Male,Berlin,Software Engineer,12.0,12.0,Lead,Java,"Kotlin, SQL, Kubernetes, Docker",95000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+672,33,Male,Heilbronn,Senior Scrum Master (RTE),7.0,7.0,Lead,C++,C/C++,90000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,C
+673,31,Male,Berlin,Backend Developer,9.0,9.0,Senior,"Grails, Groovy","Java / Scala, SQL, AWS",67473.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Grails
+674,42,Male,Berlin,Software Engineer,12.0,12.0,Lead,Java,"Kotlin, SQL, Kubernetes, Docker",95000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+675,30,Male,Berlin,Head of BI,7.0,7.0,Head,Python,"Python, SQL, AWS, Kubernetes, Docker",100000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+676,32,Female,Berlin,QA Engineer,10.0,4.0,Lead,Java,"Python, Kotlin, .NET, SQL, Go, Docker",65000.0,33.0,full-time,Unlimited contract,German,1000+,Product,No,Java
+677,34,Male,Berlin,Software Engineer,16.0,5.0,Lead,Ruby,"Kotlin, Javascript / Typescript, Java / Scala",91000.0,26.0,full-time,Unlimited contract,English,101-1000,Startup,No,Ruby
+678,35,Male,Berlin,Data Scientist,15.0,10.0,Middle,C++,Python,60000.0,30.0,full-time,Temporary contract,English,101-1000,Product,No,C
+679,33,Male,Munich,SRE,10.0,4.0,Senior,PHP,"Python, Javascript / Typescript, Ruby, Java / Scala, AWS, Kubernetes, Docker",79000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,PHP
+680,39,Male,Düsseldorf ,Technical project manager,12.0,4.0,Senior,PHP,SQL,65000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,PHP
+681,25,Female,Berlin,support engineer,2.0,2.0,Middle,python ,"Python, Javascript / Typescript, Ruby, SQL",45000.0,26.0,full-time,Unlimited contract,English,1000+,Startup,Yes,python
+682,34,Male,Munich,Frontend Developer,4.0,3.0,Middle,JavaScript,"Javascript / Typescript, Go",66000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+683,28,Male,London,Software Engineer,8.0,0.0,Senior,.NET,"Javascript / Typescript, .NET, SQL, AWS",75000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,nan
+684,35,Male,Berlin,Frontend Developer,6.0,1.0,Middle,React / JavaScript,Javascript / Typescript,66500.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,React
+685,38,Male,Berlin,Backend Developer,8.0,8.0,Senior,Perl,"SQL, Go, AWS, Docker",64000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Perl
+686,34,Male,Munich,Backend Developer,13.0,2.0,Lead,Java,"Kotlin, Javascript / Typescript, Java / Scala, AWS, Azure, Kubernetes, Docker",105000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Java
+687,36,Male,Dortmund,Software Engineer,8.0,8.0,Senior,kotlin,"Python, Kotlin, Javascript / Typescript, Java / Scala, SQL, AWS, Kubernetes, Docker",83000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,kotlin
+688,30,Female,Munich,Software Engineer,8.0,2.0,Senior,Java,"AWS, Docker",52000.0,28.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,Java
+689,27,Male,Berlin,Data Engineer,6.0,3.0,Middle,Python,"Python, AWS",74000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+690,27,Male,Berlin,QA Engineer,5.0,1.5,Middle,Java,"Python, Javascript / Typescript, Google Cloud, Kubernetes, Docker",56700.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+691,33,Male,Berlin,Software Engineer,7.0,1.0,Middle,Ruby,"Javascript / Typescript, Ruby, AWS, Docker",54000.0,28.0,full-time,Temporary contract,English,51-100,Startup,No,Ruby
+692,30,Female,Cologne,Data Scientist,8.0,7.0,Senior,"Python, cloud computing ","Python, SQL, AWS, Azure",85000.0,30.0,full-time,Unlimited contract,English,1000+,Utilities,No,Python
+693,25,Male,Frankfurt,DevOps,2.0,2.0,Junior,Python,"Python, AWS, Kubernetes, Docker",65000.0,28.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Python
+694,38,Male,Berlin,Software Engineer,12.0,6.0,Senior,Java,Kotlin,92000.0,100.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+695,34,Male,City in Russia,Software Architect,14.0,0.0,Lead,Haskell,"Python, C/C++, .NET, SQL",100000.0,30.0,full-time,Temporary contract,English,51-100,Product,No,Haskell
+696,29,Male,Berlin,Frontend Developer,8.0,7.0,Senior,JavScript,"Javascript / Typescript, AWS, Docker",77250.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,JavScript
+697,36,Male,Berlin,Software Engineer,5.0,1.0,Middle,JavaScript,Javascript / Typescript,60000.0,26.0,full-time,Unlimited contract,English,101-1000,Startup,No,JavaScript
+698,43,Male,Berlin,Software Engineer,20.0,3.0,Middle,Ruby,"Kotlin, PHP, Ruby, Java / Scala, SQL, AWS, Kubernetes, Docker",70000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,Ruby
+699,32,Male,Munich,Frontend Developer,10.0,4.0,Lead,js,Javascript / Typescript,80000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,js
+700,28,Male,Berlin,ML Engineer,0.0,1.0,Junior,python,"Python, Docker",48000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,Yes,python
+701,36,Male,Nuremberg,Software Engineer,20.0,20.0,Lead,Java,"Java / Scala, SQL, Kubernetes, Docker",74000.0,28.0,full-time,Unlimited contract,German,1000+,Finance,No,Java
+702,38,Female,Düsseldorf,Data Scientist,14.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Middle,R,"Python, R, SQL",70000.0,32.0,full-time,Unlimited contract,German,1000+,Product,No,R
+703,26,Male,Berlin,Backend Developer,2.0,2.0,Junior,Php,"PHP, Javascript / Typescript, SQL, Docker",25000.0,24.0,full-time,Unlimited contract,German,11-50,Product,No,Php
+704,26,Male,Amsterdam,Data Scientist,2.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Junior,Python,"Python, SQL, Azure",48000.0,25.0,full-time,Temporary contract,English,51-100,Fintech,No,Python
+705,34,Male,Stuttgart ,Software Engineer,6.0,6.0,Head,C++,"Python, Javascript / Typescript, Java / Scala, R, SQL, AWS, Google Cloud, Azure, Kubernetes, Docker",90000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,C
+706,25,Male,Stuttgart,Data Scientist,0.0,0.0,Junior,Python ,"R, SQL, Hadoop Hive",58000.0,30.0,full-time,Unlimited contract,German,1000+,Handel ,No,Python
+707,30,Male,Frankfurt,Big Data Engineer,3.0,3.0,Middle,Python,"SQL, Docker, Apache Spark, Apache Hadoop, Oracle, PostgreSQL, Bash, Apache Impala, Apache Hive",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting and Product,No,Python
+708,30,Male,Cracow,Business Analyst,7.0,0.0,Senior,SQL,"Python, AWS, Google Cloud, Azure, Alteryx, SAS",68500.0,26.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,SQL
+709,26,Male,Berlin,Software Engineer,5.0,1.0,Middle,Python (Django),"Python, Javascript / Typescript, SQL, Google Cloud, Kubernetes, Docker",69000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+710,30,Female,Stockholm,QA Engineer,7.0,1.0,Senior,Python,"Ruby, SQL",48000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,Python
+711,33,Female,Brunswick,Software Engineer,6.0,4.0,Middle,C++,Python,58000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,C
+712,26,Male,Berlin,Backend Developer,6.0,3.0,Senior,Go,"PHP, Go",70000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Go
+713,29,Male,Berlin,Data Scientist,6.0,1.5,Middle,Python ,"SQL, AWS, Google Cloud, Docker",57000.0,28.0,full-time,Unlimited contract,English,up to 10,Startup,Yes,Python
+714,36,Male,Zurich,Data Scientist,5.0,0.5,Senior,Python,"Javascript / Typescript, SQL",106000.0,25.0,full-time,Unlimited contract,English,11-50,Product,No,Python
+715,23,Male,Dublin,Data Analyst,3.0,0.0,Senior,Python,"Python, R, SQL",49200.0,21.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+716,45,Male,Madrid,Data Scientist,2.0,0.0,Senior,Python,"SQL, Azure",42000.0,24.0,full-time,Unlimited contract,Spanish,101-1000,Consulting / Agency,No,Python
+717,41,Male,Rome,CTO,22.0,0.0,Head,Python,"C/C++, SQL, Go, Rust, AWS, Google Cloud, Kubernetes, Docker",50000.0,31.0,full-time,Unlimited contract,Italian,51-100,Product,No,Python
+718,28,Male,Berlin,ML Engineer,1.0,1.0,Junior,Python,"C/C++, AWS, Google Cloud, Docker",43000.0,14.0,full-time,Unlimited contract,English,up to 10,Startup,Yes,Python
+719,35,Male,Berlin,Data Scientist,12.0,3.5,Senior,Python,"R, SQL, AWS, Docker",77000.0,27.0,full-time,Unlimited contract,English,1000+,Startup,Yes,Python
+720,37,Female,Berlin,Data Scientist,8.0,0.5,Middle,Python ,"SQL, AWS",67000.0,28.0,full-time,Unlimited contract,English,1000+,Startup,No,Python
+721,26,Male,Lisbon,Software Engineer,4.0,0.0,Middle,JavaScript,"Javascript / Typescript, Ruby, SQL",21000.0,22.0,full-time,Unlimited contract,English,51-100,Product,No,JavaScript
+722,30,Male,Barcelona,Data Scientist,5.0,0.0,Senior,R,"Python, SQL",40000.0,25.0,full-time,Unlimited contract,Spanish,1000+,Consulting / Agency,No,R
+723,24,Male,Sofia,ML Engineer,5.0,0.0,Senior,Python,"Python, C/C++, SQL, Google Cloud, Kubernetes, Docker",64000.0,20.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+724,35,Male,Frankfurt,Manager ,6.0,5.0,Head,C,"Python, C/C++, Docker",90000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+725,27,Male,Rome,Data Scientist,2.0,0.0,Junior,SQL,"Python, SQL, Google Cloud",25300.0,24.0,full-time,Temporary contract,Italian,1000+,Consulting / Agency,No,SQL
+726,27,Female,Munich,Backend Developer,6.0,4.0,Senior,Java,Python,85600.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+727,29,Male,Bonn,Data Scientist,2.0,2.0,Middle,Python,SQL,55200.0,30.0,full-time,Temporary contract,English,1000+,Product,No,Python
+728,29,Male,Berlin,AI Management,6.0,6.0,Head,Python,"Python, Azure, Docker",92000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Python
+729,34,Male,Berlin,Backend Developer,14.0,6.0,Lead,Kotlin,"Python, Kotlin, Java / Scala, SQL, AWS, Kubernetes, Docker",96000.0,29.0,full-time,Unlimited contract,English,1000+,Startup,No,Kotlin
+730,35,Male,Luttich,Data Scientist,12.0,0.0,Lead,Python,"Python, R, Spark",85000.0,37.5,full-time,Unlimited contract,English,1000+,Product,No,Python
+731,54,Male,Milano,Sales ,31.0,6.0,Head,Network Automation,Python,110000.0,29.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Network
+732,31,Male,Berlin,Software Engineer,6.0,4.0,Senior,Kotlin,"Kotlin, PHP, Java / Scala, SQL, Go, AWS, Kubernetes",90000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+733,30,Male,Bielefeld,Software Engineer,5.0,3.0,Junior,C++,"Python, Qt",55000.0,30.0,full-time,Unlimited contract,German,11-50,Product,No,C
+734,36,Male,Zurich,Backend Developer,15.0,2.0,Senior,C++,"C/C++, Java / Scala",172000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,C
+735,24,Male,Berlin,Backend Developer,1.0,1.0,Working Student,Python,"Python, Javascript / Typescript, R",14400.0,24.0,part-time,Temporary contract,German,up to 10,Startup,No,Python
+736,28,Male,Frankfurt,XR Developer,8.0,1.0,Lead,C#,"Python, Javascript / Typescript",25000.0,1.0,full-time,Temporary contract,English,11-50,Startup,No,C
+737,28,Male,Berlin,Data Scientist,4.0,4.0,Head,python,"R, SQL, AWS, Docker",105000.0,100.0,full-time,Unlimited contract,German,11-50,Consulting / Agency,No,python
+738,36,Male,Hamburg,Data Scientist,2.0,10.0,Middle,Python,"Java / Scala, SQL",63000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,Python
+739,26,Male,Berlin,DevOps,5.0,2.0,Middle,"Kubernetes, Terraform, GCP","Ruby, AWS, Google Cloud, Docker, Helm, Kustomize, Ansible",72000.0,23.0,full-time,Unlimited contract,English,11-50,Startup,No,Kubernetes
+740,36,Male,Munich,DevOps,14.0,6.0,Middle,PowerShell,SQL,65000.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,PowerShell
+741,33,Male,Berlin,Backend Developer,13.0,1.5,Senior,Python,"Python, Go, Docker",83000.0,30.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+742,35,Male,Berlin,Data Engineer,6.0,6.0,Senior,Java,"Python, Java / Scala, SQL, Go, AWS, Kubernetes, Docker",200000.0,14.0,freelancer,Temporary contract,English,11-50,Startup,No,Java
+743,29,Male,Basel,Data Scientist,5.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Lead,Python,"R, SQL",115000.0,25.0,full-time,Unlimited contract,English,1000+,Pharma,No,Python
+744,36,Male,Berlin,Frontend Developer,6.0,4.0,Middle,JavaScript,"Javascript / Typescript, Kubernetes, Docker",58000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,Yes,JavaScript
+745,35,Male,Berlin,Software Engineer,2.0,2.0,Middle,"python, scala","Python, Java / Scala, SQL, AWS, Docker",50000.0,45.0,full-time,Unlimited contract,English,1000+,Product,No,python
+746,29,Male,Berlin,Backend Developer,9.0,6.0,Senior,Java,"Kotlin, Java / Scala, SQL, AWS",75000.0,25.0,full-time,Unlimited contract,English,51-100,Startup,Yes,Java
+747,29,Male,Berlin,DevOps,11.0,7.0,Lead,TypeScript,"Python, Javascript / Typescript, SQL, Google Cloud, Kubernetes, Docker",140000.0,5.0,freelancer,Unlimited contract,English,up to 10,Startup,No,TypeScript
+748,32,Male,Hamburg,Backend Developer,14.0,6.0,Lead,Java,"Javascript / Typescript, .NET, SQL",80000.0,28.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+749,30,Male,Berlin,Software Engineer,7.0,1.0,Senior,python,"Python, C/C++, AWS",49000.0,12.0,full-time,Temporary contract,English,11-50,Startup,No,python
+750,30,Male,Munich,Data Scientist,2.0,2.0,Middle,Python,"Python, C/C++, Java / Scala, AWS, Azure, spark",50000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+751,30,Male,Berlin,ML Engineer,6.0,2.0,Middle,Python,"SQL, AWS, Docker",59000.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+752,30,Male,Frankfurt,Data Scientist,5.0,4.0,Middle,Python,"Javascript / Typescript, Java / Scala, R, Google Cloud, Azure, Kubernetes, Docker",52500.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+753,48,Male,Madrid,DevOps,15.0,0.0,Senior,Python,"Python, Javascript / Typescript, Perl, AWS, Google Cloud, Kubernetes, Docker",30000.0,30.0,full-time,Unlimited contract,English,up to 10,Startup,Yes,Python
+754,31,Male,Berlin,Data Analyst,7.0,6.0,Senior,Sql,"Python, R, SQL",83000.0,26.0,full-time,Unlimited contract,English,101-1000,Startup,No,Sql
+755,38,Male,Cologne,Software Engineer,15.0,5.0,Senior,C#,"SQL, Azure",59000.0,30.0,full-time,Unlimited contract,English,up to 10,Product,No,C
+756,22,Male,Istanbul,Backend Developer,3.0,0.0,Middle,PHP,"Python, Javascript / Typescript, SQL, AWS, Docker",10001.0,0.0,freelancer,Unlimited contract,English,up to 10,Startup,Yes,PHP
+757,28,Male,warsaw,Data Scientist,3.0,0.0,Middle,Python,"Java / Scala, SQL, AWS, Google Cloud",50000.0,21.0,freelancer,Unlimited contract,English,101-1000,Product,No,Python
+758,29,Male,Berlin,Data Scientist,5.0,2.0,Senior,Python,"Python, R, SQL, Google Cloud",75000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,Yes,Python
+759,27,Male,Berlin,Frontend Developer,5.0,1.0,Middle,"Javascript, Angular",Javascript / Typescript,58000.0,25.0,full-time,Unlimited contract,English,101-1000,Startup,No,Javascript
+760,34,Male,Berlin,ML Engineer,3.0,3.0,Senior,Python,AWS,70000.0,30.0,full-time,Temporary contract,English,101-1000,Product,No,Python
+761,28,Male,Wolfsburg,Software Engineer,2.0,1.0,Junior,C,"Python, C/C++, Docker",48000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,C
+762,40,Male,Mannheim,Software Engineer,9.0,9.0,Middle,C,"Python, C/C++, Javascript / Typescript, Java / Scala, Perl, MATLAB",88000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+763,35,Female,Munich,Data Scientist,5.0,2.0,Senior,"SAS,SQL,Python","Python, SQL, SAS",75000.0,30.0,full-time,Unlimited contract,English,1000+,Bank,No,SAS
+764,29,Male,London,Software Engineer,9.0,0.0,Senior,Typescript,"Javascript / Typescript, Java / Scala",113000.0,25.0,full-time,Unlimited contract,English,1000+,Corporation ,No,Typescript
+765,38,Male,Munich,Product Manager,12.0,12.0,Senior,Node,"Python, PHP, SQL",74000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Node
+766,32,Male,Berlin,Data Engineer,7.0,5.0,Senior,Python/SQL,"AWS, Kubernetes, Docker",82000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+767,37,Male,Berlin,Data Scientist,10.0,10.0,Senior,Python,"Python, SQL, AWS, Azure, Kubernetes, Docker",82000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+768,29,Male,Karlsruhe,DevOps,6.0,5.0,Senior,"php, js, python, docker","SQL, AWS, Azure",64800.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,php
+769,39,Male,Berlin,Software Engineer,12.0,6.0,Lead,Javascript,"Python, Javascript / Typescript, SQL, AWS, Docker",82000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Javascript
+770,32,Male,Vienna,DataOps Team Lead,10.0,10.0,Lead,Java,"Javascript / Typescript, SQL, Go, Google Cloud, Kubernetes, Docker",80000.0,25.0,full-time,Unlimited contract,German,1000+,Transport & Logistics,No,Java
+771,26,Female,Berlin,Backend Developer,5.0,0.0,Middle,Java,Python,65000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+772,30,Male,Berlin,Software Engineer,9.0,1.0,Middle,"TypeScript, Kotlin","Kotlin, Javascript / Typescript, Rust",77000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,TypeScript
+773,32,Female,Munich,Data Scientist,5.0,5.0,Senior,Python ,"Python, Go",80000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Python
+774,32,Male,Munich,Software Engineer,8.0,1.0,Senior,C++,"Python, C/C++",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,C
+775,31,Male,Helsinki,Software Engineer,5.0,0.0,Middle,Java,"Javascript / Typescript, Java / Scala, SQL, AWS, Kubernetes, Docker",59064.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,Java
+776,30,Male,Berlin,Software Engineer,10.0,6.0,Senior,Ruby,"Python, Javascript / Typescript, Ruby, .NET, Java / Scala, Azure, Kubernetes",90000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Ruby
+777,30,Female,Berlin,QA Engineer,8.0,6.0,Senior,Javascript,"Javascript / Typescript, AWS, Docker",70000.0,31.0,full-time,Unlimited contract,English,101-1000,Product,No,Javascript
+778,25,Male,Hamburg,Backend Developer,5.0,1.0,Middle,Java,"Kotlin, SQL",53500.0,29.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+779,26,Male,Munich,Software Engineer,4.0,0.0,Middle,JavaScript / TypeScript,Javascript / Typescript,75000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,JavaScript
+780,39,Male,Siegen,Software Engineer,16.0,6.0,Senior,Embedded,C/C++,62400.0,30.0,full-time,Unlimited contract,Russian,1000+,Product,No,Embedded
+781,38,Male,Munich,Software Engineer,16.0,5.0,Senior,.net,.NET,90000.0,36.0,full-time,Unlimited contract,English,101-1000,Product,No,nan
+782,32,Male,Innsbruck,Data Scientist,3.0,0.0,Senior,Python,"R, SQL, AWS, Google Cloud",62000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+783,30,Female,Munich,Frontend Developer,9.0,3.0,Senior,"JavaScript, TypeScript",PHP,60000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+784,34,Male,Berlin,Backend Developer,10.0,4.0,Middle,Java,Docker,65600.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+785,36,Male,Stockholm,Mobile Developer,14.0,7.0,Senior,Java,Kotlin,80000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+786,26,Female,Hannover,QA Engineer,2.0,0.0,Middle,Tricentis Tosca,"Java / Scala, SQL",32000.0,30.0,full-time,Unlimited contract,German,1000+,Non-tech retail,No,Tricentis
+787,28,Female,Berlin,Data Analyst,3.0,2.5,Middle,SQL,"Python, Javascript / Typescript, Ruby, AWS",53000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,SQL
+788,25,Male,Berlin,Software Engineer,6.0,0.0,Middle,Scala,"Python, Javascript / Typescript, Java / Scala, AWS, Kubernetes",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+789,28,Male,Berlin,Data Scientist,6.0,6.0,Lead,"Python, SQL","Python, Javascript / Typescript, SQL, AWS, Google Cloud",78000.0,26.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,Python
+790,35,Male,Berlin,Software Engineer,20.0,5.0,Senior,JavaScript,"Javascript / Typescript, AWS, Kubernetes, Docker",100000.0,32.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+791,25,Male,Brussels ,Data Scientist,1.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Junior,Python ,"Python, SQL, AWS",38000.0,20.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Python
+792,23,Female,Berlin,Data analyst ,1.0,1.0,Junior,Sql ,"Python, R, SQL, Google Cloud",36000.0,28.0,full-time,Unlimited contract,English,1000+,Startup,No,Sql
+793,28,Male,Munich,Software Engineer,3.0,3.0,Junior,.NET,"Python, C/C++, .NET",65000.0,30.0,full-time,Unlimited contract,English,1000+,Finance,No,nan
+794,36,Male,Berlin,Software Engineer,10.0,10.0,Principal,Java & Distributed Systems Stuff,"Python, Javascript / Typescript, Java / Scala, SQL, Google Cloud, Kubernetes, Docker",100000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+795,30,Male,Heidelberg,Software Engineer,9.0,4.0,Senior,.NET,"Javascript / Typescript, .NET, Docker",60000.0,30.0,full-time,Temporary contract,English,1000+,Research,No,nan
+796,30,Male,Heidelberg,Software Engineer,9.0,4.0,Senior,.NET,"Javascript / Typescript, .NET, Docker",60000.0,30.0,full-time,Temporary contract,English,1000+,Research,No,nan
+797,28,Male,Zurich,Software Engineer,6.0,0.0,Middle,C++,"Python, C/C++, Java / Scala",100000.0,25.0,full-time,Unlimited contract,German,11-50,Product,No,C
+798,29,Male,Berlin,Frontend Developer,5.0,5.0,Middle,javascript,"Javascript / Typescript, Kubernetes, Docker",66000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,javascript
+799,37,Male,Berlin,Backend Developer,15.0,6.0,Middle,Elixir,"Python, Ruby, Kubernetes, Docker",73000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Elixir
+800,26,Female,Prague,Software Engineer,4.0,1.0,Middle,C#,.NET,64000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,C
+801,26,Male,Berlin,Product Analyst,4.0,3.0,Middle,Python,"Python, Javascript / Typescript, SQL, Google Cloud",55000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+802,31,Male,Munich,Software Engineer,5.0,2.0,Middle,Java,"Javascript / Typescript, Java / Scala, SQL, Docker",74000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+803,34,Female,Hildesheim ,QA Engineer,11.0,2.0,Senior,QA,"Python, SQL",60000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,QA
+804,34,Male,Hamburg,DevOps,8.0,1.0,Senior,Embedded,C/C++,67500.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Embedded
+805,36,Male,Munich,Software Engineer,13.0,5.0,Head,Java,"Javascript / Typescript, Java / Scala, AWS, Azure, Kubernetes, Docker",90000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+806,36,Male,Berlin,DevOps,17.0,4.0,Head,Python,"Go, AWS, Kubernetes, Docker",124000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+807,31,Male,Berlin,Software Engineer,7.0,2.0,Senior,Java,"SQL, AWS, Kubernetes, Docker",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+808,28,Male,Munich,Software Engineer,8.0,1.0,Senior,PHP,"PHP, Javascript / Typescript, SQL, Go, AWS",57000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,PHP
+809,28,Male,Munich,Software Engineer,8.0,1.0,Senior,PHP,"PHP, Javascript / Typescript, SQL, Go, AWS",57000.0,28.0,full-time,Unlimited contract,English,51-100,Product,No,PHP
+810,36,Male,Berlin,Backend Developer,16.0,8.0,Lead,Scala,"Python, Kotlin, Java / Scala, SQL, AWS, Kubernetes, Docker",120000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Scala
+811,22,Female,Eindhoven,Frontend Developer,2.0,0.0,Junior,JS,"Javascript / Typescript, SQL, Docker",24000.0,24.0,full-time,Unlimited contract,English,11-50,Product,No,JS
+812,30,Male,Berlin,Backend Developer,4.0,2.0,Middle,python,Python,58000.0,24.0,full-time,Unlimited contract,English,101-1000,Product,No,python
+813,35,Male,Berlin,Software Engineer,12.0,6.0,Middle,Kotlin,"Python, Ruby, Java / Scala, AWS",75000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+814,36,Male,Bonn,DevOps,15.0,1.0,Junior,jenkins bash,"Kotlin, Swift, Javascript / Typescript, Docker",52500.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,jenkins
+815,28,Male,Cologne,Software Engineer,5.0,1.0,Middle,Java,"Python, Kotlin, Javascript / Typescript, SQL, Docker",50000.0,25.0,full-time,Unlimited contract,Russian,101-1000,Product,No,Java
+816,42,Male,Berlin,Backend Developer,19.0,3.0,Senior,PHP,"Kotlin, SQL, Kubernetes, Docker",66000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+817,34,Male,Berlin,Backend Developer,14.0,4.0,Senior,Kotlin,"Java / Scala, SQL, AWS, Kubernetes, Docker",95000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+818,27,Male,Hamburg,Backend Developer,0.0,0.0,Junior,Python,Javascript / Typescript,50000.0,30.0,full-time,Unlimited contract,English,up to 10,Startup,No,Python
+819,29,Male,Munich,Frontend Developer,5.0,3.0,Lead,javascript,Javascript / Typescript,70000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,javascript
+820,36,Female,Berlin,Data Scientist,5.0,5.0,Senior,Python,"Python, R",87000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+821,31,Male,Berlin,Software Engineer,4.0,4.0,Senior,Python,"Python, Javascript / Typescript, AWS, Docker",68000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+822,32,Male,Berlin,Software Engineer,13.0,5.0,Lead,JavaScript,"Javascript / Typescript, SQL, AWS, Docker",83000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,JavaScript
+823,36,Male,Prefer not to say,ML Engineer,6.0,6.0,Senior,Python,"Python, R, Docker",110000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Python
+824,26,Male,Munich,Software Engineer,6.0,2.0,Senior,TypeScript,"AWS, Docker",93000.0,30.0,full-time,Unlimited contract,English,11-50,Startup,No,TypeScript
+825,28,Female,Berlin,Data Scientist,4.0,2.0,Middle,Python,Python,73700.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+826,34,Male,Munich,Data Scientist,10.0,10.0,Senior,Python,"R, SQL, AWS, Docker",85000.0,28.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Python
+827,38,Male,Berlin,Data Scientist,10.0,9.0,Senior,Python,Python,87550.0,30.0,full-time,Unlimited contract,German,101-1000,Product,No,Python
+828,37,Male,Berlin,Software Engineer,16.0,8.0,Senior,Java,"Google Cloud, Kubernetes, Docker",80000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+829,31,Male,Berlin,Backend Developer,9.0,1.0,Senior,NodeJS/TS,Javascript / Typescript,65000.0,27.0,full-time,Unlimited contract,English,51-100,Startup,No,NodeJS
+830,38,Male,Berlin,Backend Developer,15.0,1.0,Middle,PHP/MySQL,"PHP, SQL, Docker, VMs",40700.0,25.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,PHP
+831,25,Male,Hamburg,ML Engineer,2.0,2.0,Middle,Python,.NET,60000.0,28.0,full-time,Unlimited contract,German,11-50,Product,No,Python
+832,33,Female,Berlin,Frontend Developer,13.0,4.0,Middle,"Angular, TypeScript",Javascript / Typescript,47745.0,30.0,part-time,Unlimited contract,English,1000+,Product,No,Angular
+833,39,Female,Berlin,Data Scientist,2.5,2.0,Junior,python,"C/C++, R, SQL",60000.0,30.0,full-time,Unlimited contract,English,up to 10,corporate incubator,Yes,python
+834,25,Male,Hamburg,Software Engineer,1.0,1.0,Junior,C#,"Javascript / Typescript, .NET, SQL, Kubernetes",43500.0,28.0,full-time,Unlimited contract,German,51-100,Startup,No,C
+835,30,Female,Berlin,Software Engineer,7.0,3.0,Senior,Java,"Python, Javascript / Typescript",60000.0,27.0,full-time,Unlimited contract,English,51-100,Product,No,Java
+836,35,Male,Munich,Software Engineer,14.0,1.0,Senior,C++,"Python, C/C++",98000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+837,25,Male,Cologne,ML Engineer,2.0,2.0,Middle,"NLP, Python","Python, C/C++, Google Cloud, Docker",51000.0,24.0,full-time,Temporary contract,English,up to 10,Startup,No,NLP
+838,31,Male,Berlin,Software Engineer,4.0,1.0,Senior,Java,"Python, Javascript / Typescript, SQL, AWS, Kubernetes",69000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+839,25,Female,Amsterdam,Data Scientist,1.5,0.0,Middle,Python,"AWS, Docker",49850.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+840,27,Male,Dusseldurf,Backend Developer,2.0,0.0,Middle,PHP,Kotlin,50000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+841,37,Male,Berlin,Software Engineer,12.0,6.0,Middle,php,"PHP, SQL, Docker",65000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,php
+842,32,Male,Hamburg,ML Engineer,4.0,1.5,Middle,"Python, Whole Apache Data Science Stack, AWS","Javascript / Typescript, SQL, AWS, Docker",37500.0,24.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,Python
+843,28,Female,Berlin,Backend Developer,3.0,2.0,Middle,Python,"AWS, Docker",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+844,35,Male,Fr,Backend Developer,4.0,2.5,Middle,Java,"Javascript / Typescript, Java / Scala, SQL",42000.0,28.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,Java
+845,36,Male,Berlin,Staff Engineer,15.0,4.0,Lead,Go,"PHP, AWS, Kubernetes, Docker",85000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Go
+846,32,Male,Berlin,Designer (UI/UX),5.0,10.0,Senior,Java,"Python, PHP, Javascript / Typescript, SQL",70000.0,24.0,freelancer,Unlimited contract,German,up to 10,Startup,No,Java
+847,33,Male,Berlin,Head of IT,3.0,3.0,Head,Python,"Python, Javascript / Typescript, Docker",100000.0,32.0,full-time,Unlimited contract,German,51-100,Product,Yes,Python
+848,35,Male,Berlin,Backend Developer,13.0,5.0,Senior,Php,"PHP, SQL, Go, AWS, Docker",68000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,Php
+849,32,Female,Berlin,Computational linguist,5.0,5.0,Middle,Java,"Python, Docker",50400.0,29.0,full-time,Unlimited contract,English,11-50,Product,No,Java
+850,28,Male,Berlin,Product Analyst,4.0,0.0,Junior,SQL,"Python, Clojure, SQL",55000.0,22.0,full-time,Unlimited contract,English,1000+,Product,No,SQL
+851,30,Male,Hamburg,Data Scientist,5.0,5.0,Middle,Python,"Python, C/C++, SQL, AWS",55000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+852,32,Male,Berlin,Backend Developer,10.0,5.0,Senior,Node.js,"Javascript / Typescript, SQL, Google Cloud, Kubernetes, Docker",80000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,Node
+853,33,Male,Munich,Software Engineer,5.0,5.0,Senior,Embedded C++,"Python, C/C++",61000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Embedded
+854,31,Male,Berlin,Data Engineer,4.0,2.0,Middle,Python,"Python, SQL, AWS, Docker",50000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+855,32,Male,Munich,Software Engineer,10.0,3.0,Lead,Swift,Java / Scala,75000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Swift
+856,25,Male,Munich,Frontend Developer,7.0,1.0,Senior,JS,"C/C++, Javascript / Typescript, AWS, Google Cloud, Kubernetes",70000.0,28.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,JS
+857,34,Male,Munich,Software Engineer,10.0,4.0,Senior,C++,"Python, C/C++",74000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+858,29,Male,Darmstadt,Data Scientist,5.0,2.0,Middle,Python,"SQL, Kubernetes, Docker",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+859,29,Male,Darmstadt,Data Scientist,5.0,2.0,Middle,Python,"SQL, Kubernetes, Docker",65000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Python
+860,24,Male,Munich,DevOps,3.0,1.0,Junior,Go,"Python, SQL, Go",77000.0,30.0,full-time,Unlimited contract,English,1000+,FAANG,No,Go
+861,35,Male,Frankfurt,Software Engineer,10.0,1.0,Senior,Java,"Python, .NET, Java / Scala, SQL, Kubernetes, Docker",60000.0,30.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Java
+862,31,Male,Munich,DevOps,6.0,2.0,Middle,NodsJs,"Javascript / Typescript, AWS, Kubernetes, Docker",60000.0,30.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,NodsJs
+863,27,Male,Munich,Software Engineer,2.0,5.0,Junior,Java,Javascript / Typescript,68000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+864,38,Male,Berlin,Full-Stack Developer,1.0,1.0,Junior,Javascript/Typescript,AWS,45500.0,28.0,full-time,Unlimited contract,English,51-100,Startup,No,Javascript
+865,34,Male,Munich,DevOps,12.0,2.0,Middle,Java,"Python, SQL, Perl",72000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+866,35,Male,Darmstadt,Data Scientist,4.0,4.0,Senior,python,"Javascript / Typescript, Java / Scala, Docker",67000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,python
+867,35,Male,Duesseldorf,DevOps,17.0,5.0,Senior,Linux,"SQL, AWS, Google Cloud, Azure, Kubernetes, Docker",85000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Linux
+868,36,Male,Berlin,Backend Developer,10.0,3.0,Senior,Java,"Javascript / Typescript, Java / Scala, SQL, AWS, Docker, nomad, QlikSense",75000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+869,29,Male,Berlin,DevOps,7.0,3.0,Senior,"Kuberenetes, Openstack","Python, Go, Kubernetes, Docker, Openstack",82000.0,28.0,full-time,Unlimited contract,English,101-1000,Consulting / Agency,No,Kuberenetes
+870,35,Male,Berlin,Software Engineer,15.0,4.0,Senior,Java,Kotlin,85000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+871,25,Female,Cambridge,Frontend Developer,4.0,0.0,Middle,JavaScript/Typescript,Javascript / Typescript,45000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+872,24,Male,Berlin,ML Engineer,0.8,0.0,Junior,Python,Python,11500.0,24.0,part-time,Temporary contract,English,11-50,Consulting / Agency,No,Python
+873,34,Male,Cologne,CTO,14.0,2.0,Lead,C#,"Javascript / Typescript, .NET, SQL, Azure, Kubernetes, Docker",84000.0,21.0,full-time,Unlimited contract,English,11-50,Product,No,C
+874,42,Male,Hamburg,Data Scientist,2.0,2.0,Senior,Python ,"Python, SQL, Google Cloud",80000.0,30.0,full-time,Unlimited contract,German,1000+,Old industry,No,Python
+875,32,Male,Berlin,Mobile Developer,8.0,2.0,Senior,Swift,"Kotlin, Swift, Ruby",75000.0,26.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+876,26,Female,Berlin,Mobile Developer,8.0,3.0,Middle,c++,"C/C++, SAP / ABAP",40000.0,36.0,freelancer,Temporary contract,German,101-1000,Product,No,c
+877,35,Male,Munich,Software Engineer,15.0,5.0,Head,SQL,"Python, AWS, Kubernetes, Docker",100000.0,30.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,SQL
+878,43,Male,Munich,Product Manager,18.0,9.0,Lead,.NET,Kotlin,115000.0,25.0,full-time,Unlimited contract,English,1000+,Product,No,nan
+879,41,Male,Munich,Software Engineer,15.0,15.0,Senior,Kotlin,"Python, Java / Scala, SQL, AWS",99000.0,39.0,full-time,Unlimited contract,German,1000+,Product,No,Kotlin
+880,33,Male,Berlin,Backend Developer,8.0,6.0,Lead,NodeJS,"Python, Javascript / Typescript, SQL, AWS, Azure, Kubernetes, Docker",90000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,NodeJS
+881,44,Male,Berlin,QA Lead,15.0,5.0,Lead,"JS, Java",Docker,72000.0,30.0,full-time,Unlimited contract,English,11-50,Product,No,JS
+882,28,Male,Berlin,ML Engineer,5.0,3.0,Middle,"Python, Pytorch","Python, AWS, Google Cloud, Docker",54000.0,27.0,full-time,Unlimited contract,English,up to 10,Startup,No,Python
+883,34,Female,Berlin,Designer (UI/UX),10.0,6.0,Senior,"PS, Sketch, React, CSS3",Javascript / Typescript,45000.0,30.0,full-time,Unlimited contract,German,up to 10,Product,No,PS
+884,28,Male,Brussels,Robotics Engineer,3.0,0.0,Middle,C++,"Python, C/C++, Javascript / Typescript, Docker",45000.0,25.0,full-time,Unlimited contract,English,up to 10,Startup,No,C
+885,26,Male,Stockholm,ML Engineer,2.5,0.0,Middle,Python/NLP,"Python, AWS, Google Cloud, Kubernetes, Docker",60000.0,30.0,full-time,Unlimited contract,English,1000+,Product,Yes,Python
+886,39,Male,Berlin,Software Engineer,15.0,4.0,Lead,Java,"Java / Scala, Google Cloud, Kubernetes",75000.0,24.0,full-time,Unlimited contract,English,51-100,Startup,No,Java
+887,32,Male,Copenhagen,Data Scientist,6.0,6.0,Senior,Python,"Python, Azure",92000.0,25.0,full-time,Unlimited contract,English,up to 10,Startup,No,Python
+888,27,Female,Lisbon,Backend Developer,3.0,0.0,Middle,Java,"Java / Scala, SQL",17500.0,22.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Java
+889,32,Female,Berlin,Software Engineer,2.0,2.0,Middle,Javascript,"Python, Javascript / Typescript, Go",63000.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,Javascript
+890,25,Female,Berlin,Software Engineer,4.0,1.0,Middle,"Scala, Apache Spark","Java / Scala, SQL, AWS, Google Cloud, Kubernetes, Docker",65000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Scala
+891,37,Female,Berlin,Data Scientist,7.0,2.0,Head,Python,"SQL, AWS, Docker, Matlab",75000.0,28.0,full-time,Unlimited contract,English,11-50,Startup,No,Python
+892,56,Male,Munich,Software Engineer,30.0,19.0,Lead,c++,"Python, C/C++, Javascript / Typescript, Java / Scala, AWS, Kubernetes, Docker",110000.0,25.0,full-time,Unlimited contract,English,51-100,Product,No,c
+893,30,Male,Berlin,Data Scientist,4.5,2.5,Middle,Python,"Python, SQL, AWS, Docker",60000.0,24.0,full-time,Unlimited contract,English,51-100,Startup,No,Python
+894,27,Male,Munich,QA Engineer,6.0,4.0,Middle,Python,"Python, C/C++, Docker",70000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+895,29,Male,Berlin,Software Engineer,6.0,1.0,Senior,Python,"Javascript / Typescript, Google Cloud, Docker",70000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+896,24,Male,Berlin,Mobile Developer,3.5,0.25,Middle,"Swift, Objective-C",Ruby,70000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Swift
+897,27,Male,Berlin,Data Engineer,0.0,0.0,Junior,Python,"Python, SQL, Azure, Docker",40000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,Python
+898,40,Male,Berlin,Data Engineer,14.0,0.0,Middle,"BI, DWH, ETL/ELT","Python, SQL, MS SQL Stack, Oracle, Informatica PowerCenter",57000.0,24.0,full-time,Unlimited contract,English,101-1000,Product,No,BI
+899,32,Male,Berlin,Backend Developer,9.0,5.0,Senior,Scala,"Go, Google Cloud",90000.0,34.0,full-time,Unlimited contract,English,101-1000,Product,No,Scala
+900,32,Male,Berlin,Software Engineer,11.0,1.0,Senior,Scala,"Ruby, Java / Scala, AWS, Kubernetes, Docker",72500.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+901,30,Male,Berlin,Backend Developer,9.0,1.0,Senior,Scala,"Python, Java / Scala",75000.0,27.0,full-time,Unlimited contract,English,1000+,Startup,No,Scala
+902,30,Male,Berlin,Backend Developer,9.0,5.0,Senior,Scala,"Java / Scala, AWS, Kubernetes",85000.0,24.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+903,36,Male,Stuttgart,Mobile Developer,16.0,4.0,Lead,Java,"Kotlin, Java / Scala, SQL, AWS, Docker",62500.0,32.0,full-time,Unlimited contract,English,51-100,Product,No,Java
+904,33,Male,Berlin,Software Engineer,7.0,7.0,Senior,C++,Javascript / Typescript,65900.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+905,33,Male,Berlin,Engineering Manager,15.0,4.0,Lead,Java,"Kotlin, Java / Scala, AWS, Kubernetes, Docker",85000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+906,32,Male,Munich,Software Engineer,13.0,7.0,Middle,Java,"Javascript / Typescript, SQL, AWS, Docker",95000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+907,34,Male,Berlin,Backend Developer,12.0,4.0,Senior,Kotlin,"Go, Rust, Kubernetes",75000.0,27.0,full-time,Unlimited contract,English,1000+,Product,No,Kotlin
+908,54,Male,Munich,Software Engineer,25.0,15.0,Middle,Python,"Python, C/C++, Javascript / Typescript, Java / Scala, SQL, Kubernetes, Docker",75000.0,29.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,Python
+909,28,Male,Sevilla,DatabEngineer,4.0,0.0,Middle,GCP,"Python, Java / Scala, R, SQL, Google Cloud",30000.0,24.0,full-time,Unlimited contract,Spanish,51-100,Consulting / Agency,No,GCP
+910,28,Female,Berlin,Frontend Developer,5.0,2.0,Senior,javascript,"Google Cloud, Docker",64000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,javascript
+911,38,Male,Berlin,Data Scientist,6.0,3.0,Lead,Python,"R, AWS",110000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,Python
+912,33,Male,Berlin,Software Engineer,11.0,5.0,Senior,Scala,"Java / Scala, SQL",107000.0,24.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+913,36,Male,Berlin,Backend Developer,12.0,0.5,Senior,Python,"SQL, Docker",100000.0,30.0,full-time,Unlimited contract,English,1000+,Startup,No,Python
+914,36,Male,Berlin,Software Engineer,15.0,6.0,Senior,PHP,"Kotlin, AWS, Kubernetes, Docker",70000.0,26.0,full-time,Unlimited contract,English,101-1000,Product,No,PHP
+915,36,Male,Munich,Software Engineer,15.0,1.0,Senior,PL/SQL,SQL,68000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,PL
+916,35,Female,Munich,Application Consultant,1.5,1.5,Junior,SAP,SAP / ABAP,46000.0,28.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,SAP
+917,33,Male,Munich,Frontend Developer,10.0,6.0,Senior,Javascript,"Python, Javascript / Typescript",100000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Javascript
+918,33,Male,Stuttgart,Team Lead,12.0,5.0,Lead,PHP,"Javascript / Typescript, SQL, AWS, Docker",70200.0,30.0,full-time,Unlimited contract,German,101-1000,Consulting / Agency,No,PHP
+919,31,Male,Berlin,Backend Developer,7.0,2.0,Senior,Go,Go,75000.0,28.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+920,36,Male,Amsterdam,Mobile Developer,14.0,8.0,Senior,Swift,"Kotlin, Javascript / Typescript, AWS",75000.0,20.0,full-time,Unlimited contract,English,11-50,Consulting / Agency,No,Swift
+921,31,Male,Berlin,Software Engineer,9.0,5.0,Senior,scala,Java / Scala,85000.0,28.0,full-time,Unlimited contract,English,11-50,Startup,No,scala
+922,36,Male,Regensburg,Software Engineer,10.0,10.0,Middle,C#,"Javascript / Typescript, .NET, SQL",66000.0,30.0,full-time,Unlimited contract,German,51-100,Consulting / Agency,No,C
+923,37,Male,Munich,DevOps,17.0,1.0,Senior,AWS,"AWS, Azure",90000.0,30.0,full-time,Unlimited contract,English,1000+,Consulting / Agency,No,AWS
+924,30,Male,Berlin,Consultant,3.0,3.0,Middle,Java,"Python, R, SQL, Kubernetes, Docker",58000.0,30.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+925,30,Male,Berlin,Software Engineer,11.0,1.0,Senior,Java / Scala,"Kotlin, Java / Scala, Clojure, Rust, AWS, Kubernetes, Docker",90000.0,29.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+926,27,Male,Krakow,QA Engineer,5.0,1.0,Senior,java,Python,35000.0,28.0,full-time,Temporary contract,English,101-1000,Product,No,java
+927,33,Female,Munich,Software Engineer,10.0,3.0,Senior,Java,SQL,47500.0,25.0,full-time,Unlimited contract,English,11-50,Outsourse,No,Java
+928,35,Male,Ingolstadt,Backend Developer,10.0,4.0,Lead,Magento,PHP,65000.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,Magento
+929,26,Male,Berlin,Backend Developer,5.0,4.0,Middle,Java,AWS,72000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+930,29,Male,Berlin,Software Engineer,9.0,5.0,Senior,C++,"Python, C/C++, Rust, AWS, Kubernetes, Docker",73000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+931,31,Male,Berlin,Backend Developer,4.0,2.0,Middle,Ruby on Rails,Javascript / Typescript,50000.0,25.0,full-time,Unlimited contract,English,11-50,Product,No,Ruby
+932,24,Female,Munich,Software Engineer,0.0,0.0,student,"Python, database technologies","Python, Java / Scala, SQL, AWS",16320.0,10.0,part-time,Unlimited contract,English,11-50,Startup,No,Python
+933,36,Male,Berlin,Mobile Developer,10.0,10.0,Middle,Android,Kotlin,68000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Android
+934,29,Male,Munich,Data Scientist,6.0,5.0,Middle,SQL,Python,70000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,SQL
+935,30,Female,Berlin,Frontend Developer,3.0,3.0,Lead,JavaScript ,"AWS, Docker",57600.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+936,30,Male,Munich,Software Engineer,8.0,1.0,Senior,PHP,"Javascript / Typescript, SQL, Docker",68000.0,26.0,full-time,Unlimited contract,English,51-100,Product,No,PHP
+937,29,Male,Berlin,Backend Developer,5.0,5.0,Senior,Go,"Go, Google Cloud, Kubernetes, Docker",75000.0,25.0,full-time,Unlimited contract,English,101-1000,Product,No,Go
+938,34,Male,Berlin,Software Engineer,14.0,4.0,Lead,Java,"Kotlin, Javascript / Typescript, AWS, Kubernetes, Docker",95000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Java
+939,30,Male,Berlin,Backend Developer,10.0,4.0,Lead,Java,"Python, AWS, Kubernetes, Docker",82000.0,29.0,full-time,Unlimited contract,English,101-1000,Startup,No,Java
+940,34,Male,Prague,Backend Developer,14.0,0.0,Lead,C#,"Javascript / Typescript, .NET, Azure, Kubernetes, Docker",90000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,C
+941,27,Male,Munich,Software Engineer,8.0,4.0,Senior,"C++, C#","C/C++, .NET",52000.0,28.0,full-time,Unlimited contract,English,11-50,Product,No,C
+942,26,Male,Munich,Mobile Developer,5.0,1.0,Middle,Kotlin,"Kotlin, Java / Scala",65000.0,24.0,full-time,Unlimited contract,Russian,51-100,Startup,No,Kotlin
+943,35,Male,Munich,Software Engineer,12.0,5.0,Lead,python,"Javascript / Typescript, SQL, AWS, Docker",100000.0,30.0,full-time,Unlimited contract,English,51-100,Product,No,python
+944,44,Male,Munich,Software Architekt,20.0,20.0,Head,Java Backend,"Java / Scala, SQL, Docker",95000.0,30.0,full-time,Unlimited contract,German,101-1000,Product,Yes,Java
+945,34,Male,Ingolstadt ,Software Engineer,3.5,3.5,Junior,C++,"Python, C/C++, Docker",55000.0,30.0,full-time,Unlimited contract,German,1000+,Consulting / Agency,No,C
+946,31,Male,Munich,Backend Developer,10.0,7.0,Senior,Ruby on Rails,"Python, Kotlin, Ruby, AWS, Docker",85000.0,27.0,full-time,Unlimited contract,English,101-1000,Startup,No,Ruby
+947,24,Male,Berlin,Frontend Developer,5.0,2.0,Senior,TypeScript,Javascript / Typescript,68250.0,27.0,full-time,Unlimited contract,English,101-1000,Product,No,TypeScript
+948,27,Male,Munich,Software Engineer,7.0,4.0,Middle,.NET,"Javascript / Typescript, .NET, Azure, Kubernetes, Docker",63000.0,30.0,full-time,Unlimited contract,English,51-100,Consulting / Agency,No,nan
+949,28,Male,Munich,Software Engineer,7.0,3.0,Middle,Java,"Kotlin, Java / Scala, Go, AWS, Kubernetes, Docker",63000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,Java
+950,25,Male,Berlin,ML Engineer,5.0,0.5,Middle,Scala,"Python, Javascript / Typescript, Java / Scala, AWS",65000.0,30.0,full-time,Unlimited contract,English,1000+,Product,No,Scala
+951,35,Male,Karlsruhe,Software Engineer,12.0,7.0,Senior,".Net, Angular","Javascript / Typescript, .NET, SQL, Azure, Docker",75000.0,28.0,full-time,Unlimited contract,English,1000+,Product,No,nan
+952,33,Female,Munich,Testmanager,10.0,2.0,Junior,Java,SQL,60000.0,30.0,full-time,Unlimited contract,German,1000+,Product,No,Java
+953,26,Male,Saint-Petersburg,Project Manager,5.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Middle,Python,"Python, .NET, Azure",20000.0,24.0,full-time,Unlimited contract,Russian,1000+,Product,Yes,Python
+954,26,Male,Saint-Petersburg,Project Manager,5.0,"<bound method NDFrame._add_numeric_operations.<locals>.median of 0       3.0
+1       4.0
+2       6.0
+3       1.0
+4       6.0
+       ... 
+1248    5.0
+1249    1.5
+1250    2.0
+1251    7.0
+1252    2.0
+Name: germany_experience, Length: 1236, dtype: object>",Middle,Python,"Python, .NET, Azure",20000.0,24.0,full-time,Unlimited contract,Russian,1000+,Product,Yes,Python
+955,39,Male,Berlin,QA Engineer,7.0,5.0,Senior,Java,"Kotlin, Google Cloud",76000.0,30.0,full-time,Unlimited contract,English,1000+,Product,Yes,Java
+956,37,Male,Berlin,Mobile Developer,15.0,5.0,Senior,Android,Kotlin,84700.0,29.0,full-time,Unlimited contract,English,101-1000,Product,No,Android
+957,27,Male,Frankfurt,Software Engineer,3.0,1.0,Middle,Qlik,SQL,52000.0,27.0,full-time,Unlimited contract,German,11-50,Product,No,Qlik
+958,32,Male,Munich,Software Engineer,10.0,5.0,Head,Scala,"Javascript / Typescript, Java / Scala, SQL, Go, AWS, Docker",95000.0,24.0,full-time,Unlimited contract,English,11-50,Startup,No,Scala
+959,28,Male,Berlin,Frontend Developer,5.0,5.0,Middle,JavaScript,Javascript / Typescript,55000.0,30.0,full-time,Unlimited contract,English,101-1000,Product,No,JavaScript
+960,34,Male,Zurich,Software Engineer,7.0,2.0,Senior,PHP,PHP,108500.0,25.0,full-time,Unlimited contract,English,11-50,Startup,No,PHP
+961,31,Male,Berlin,Backend Developer,9.0,5.0,Senior,Java,"Python, Javascript / Typescript, Java / Scala, SQL, AWS, Docker",70000.0,26.0,full-time,Unlimited contract,English,51-100,Product,Yes,Java
+962,39,Male,Munich,IT Operations Manager,15.0,2.0,Lead,PHP,"Python, C/C++, Javascript / Typescript, Java / Scala, Perl, AWS, Docker, Networking, Data Center",110000.0,28.0,full-time,Unlimited contract,English,101-1000,eCommerce,No,PHP
+963,26,Male,Saarbrücken,Frontend Developer,7.0,7.0,Middle,JavaScript,"Javascript / Typescript, Docker, HTML, CSS; Adobe XD",38350.0,27.0,full-time,Unlimited contract,German,101-1000,Product,No,JavaScript
+964,26,Male,Berlin,DevOps,2.0,2.0,Middle,yaml,"Python, AWS, Kubernetes, Docker, terraform, ansible",65000.0,30.0,full-time,Unlimited contract,English,51-100,Startup,No,yaml
