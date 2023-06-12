@@ -71,8 +71,7 @@ dropdown = st.selectbox('Position:', top10_positions)
 # Call the create_plot function with the selected position
 create_plot(dropdown)
 ################################### second plot #########################################
-# Filter the data for men and women
-# Filter the data for men and women
+## Filter the data for men and women
 df_men = df[df['gender'] == 'Male']
 df_women = df[df['gender'] == 'Female']
 
@@ -139,8 +138,10 @@ update_plot()
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
-############################ third plot #########################################
 
+
+
+############################ fourth plot #########################################
 # Filter to only include data from Europe in 2020
 df_europe_2020 = df[(df['city'].isin(['Berlin', 'London', 'Paris']))]
 
@@ -177,6 +178,7 @@ fig.update_layout(
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
+
 ############################ fifth plot #########################################
 data_scientist_df = df[df['position'] == 'Data Scientist'].copy()
 top_tech = pd.Series(', '.join(df['main_tech']).split(', ')).value_counts().nlargest(10).index.tolist()
@@ -206,3 +208,47 @@ fig.update_layout(coloraxis_colorbar=dict(title='Frequency', tickformat='%'))
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
+############################ third plot #########################################
+
+avg_experience = df.groupby('work_level')['experience'].mean().reset_index()
+
+# Define the job levels and corresponding required experience
+job_levels = avg_experience["work_level"]
+required_experience = avg_experience["experience"].astype(int)
+
+# Sort the job levels in ascending order
+sorted_indices = required_experience.argsort()
+job_levels_sorted = job_levels.iloc[sorted_indices]
+required_experience_sorted = required_experience.iloc[sorted_indices]
+
+# Create the bar plot using Plotly
+fig = go.Figure(data=go.Bar(
+    x=job_levels_sorted,
+    y=required_experience_sorted,
+    marker_color='steelblue'
+))
+
+# Configure the layout
+fig.update_layout(
+    title='Job Level Based on Required Experience',
+    xaxis_title='Job Level',
+    yaxis_title='Required Experience',
+    showlegend=False
+)
+
+
+# Create the interactive function to update the relevant job levels
+def update_job_levels(work_experience):
+    relevant_job_levels = job_levels_sorted[required_experience_sorted <= work_experience]
+    fig.data[0].x = relevant_job_levels
+
+
+# Create the interactive widget using Streamlit
+work_experience_slider = st.slider('Work Experience:', min_value=0, max_value=max(required_experience), value=0)
+
+# Register the interactive function to handle widget changes
+update_job_levels(work_experience_slider)
+
+# Display the plot using Streamlit's plotly_chart function
+st.plotly_chart(fig)
+
