@@ -72,6 +72,7 @@ dropdown = st.selectbox('Position:', top10_positions)
 create_plot(dropdown)
 ################################### second plot #########################################
 # Filter the data for men and women
+# Filter the data for men and women
 df_men = df[df['gender'] == 'Male']
 df_women = df[df['gender'] == 'Female']
 
@@ -86,7 +87,7 @@ women_line = go.Scatter(x=mean_values_women.index, y=mean_values_women, name='Wo
 # Create the layout
 layout = go.Layout(
     title='Trend of Yearly Salary over Age (Men vs Women)',
-    xaxis=dict(title='Age', range=[22, df['age'].max()]),
+    xaxis=dict(title='Age', range=[22, int(df['age'].max())]),
     yaxis=dict(title='Yearly Salary'),
     showlegend=True
 )
@@ -96,8 +97,7 @@ fig = go.Figure(data=[men_line, women_line], layout=layout)
 
 # Create the interactive widgets using Streamlit
 gender_dropdown = st.selectbox('Gender:', ['Men', 'Women'])
-age_slider = st.slider('Age:', min_value=21, max_value=df['age'].max(), value=21)
-
+age_slider = st.slider('Age:', min_value=21, max_value=int(df['age'].max()), value=21)
 
 # Define the function to update the plot
 def update_plot():
@@ -134,13 +134,11 @@ def update_plot():
         )
     ])
 
-
 # Call the update_plot function initially to populate the plot
 update_plot()
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
-
 ############################ third plot #########################################
 
 avg_experience = df.groupby('work_level')['experience'].mean().reset_index()
