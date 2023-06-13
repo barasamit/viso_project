@@ -176,22 +176,25 @@ df_europe_2020 = df[(df['city'].isin(['Berlin', 'London', 'Paris']))]
 # Count the occurrences of each job title
 job_title_counts = df_europe_2020['position'].value_counts().reset_index()
 
+# Rename the columns to 'position' and 'count'
+job_title_counts.columns = ['position', 'count']
+
 # Create a list of columns to exclude
 columns_to_exclude = ['Position 1', 'Position 2']  # Add the columns you want to exclude
 
 # Remove the excluded columns
-job_title_counts = job_title_counts[~job_title_counts['index'].isin(columns_to_exclude)]
+job_title_counts = job_title_counts[~job_title_counts['position'].isin(columns_to_exclude)]
 
 # Calculate percentage
-total_jobs = job_title_counts['position'].sum()
-job_title_counts['percentage'] = job_title_counts['position'] / total_jobs * 100
+total_jobs = job_title_counts['count'].sum()
+job_title_counts['percentage'] = job_title_counts['count'] / total_jobs * 100
 
 # Create a custom color scale
 color_scale = px.colors.qualitative.Pastel
 
 # Create bar plot using Plotly Express
-fig = px.bar(job_title_counts, y='index', x='percentage', color='index', orientation='h',
-             labels={'index': 'Job Title', 'percentage': 'Percentage'},
+fig = px.bar(job_title_counts, y='position', x='percentage', color='position', orientation='h',
+             labels={'position': 'Job Title', 'percentage': 'Percentage'},
              title='Job Titles in Europe in 2020',
              color_discrete_sequence=color_scale)
 
