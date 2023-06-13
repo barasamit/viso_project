@@ -169,5 +169,42 @@ fig.update_layout(coloraxis_colorbar=dict(title='Frequency', tickformat='%'))
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
 
+############################ fourth plot #########################################
+# Filter to only include data from Europe in 2020
+df_europe_2020 = df[(df['city'].isin(['Berlin', 'London', 'Paris']))]
+
+# Count the occurrences of each job title
+job_title_counts = df_europe_2020['position'].value_counts().reset_index()
+
+# Create a list of columns to exclude
+columns_to_exclude = ['Position 1', 'Position 2']  # Add the columns you want to exclude
+
+# Remove the excluded columns
+job_title_counts = job_title_counts[~job_title_counts['index'].isin(columns_to_exclude)]
+
+# Calculate percentage
+total_jobs = job_title_counts['position'].sum()
+job_title_counts['percentage'] = job_title_counts['position'] / total_jobs * 100
+
+# Create a custom color scale
+color_scale = px.colors.qualitative.Pastel
+
+# Create bar plot using Plotly Express
+fig = px.bar(job_title_counts, y='index', x='percentage', color='index', orientation='h',
+             labels={'index': 'Job Title', 'percentage': 'Percentage'},
+             title='Job Titles in Europe in 2020',
+             color_discrete_sequence=color_scale)
+
+# Update layout to add interactivity
+fig.update_layout(
+    height=600,
+    hovermode='y',
+    xaxis=dict(title='Percentage'),
+    yaxis=dict(title='Job Title'),
+    showlegend=False
+)
+
+# Display the plot using Streamlit's plotly_chart function
+st.plotly_chart(fig)
 
 
