@@ -180,7 +180,7 @@ job_title_counts = df_europe_2020['position'].value_counts().reset_index()
 columns_to_exclude = ['Position 1', 'Position 2']  # Add the columns you want to exclude
 
 # Remove the excluded columns
-job_title_counts = job_title_counts[~job_title_counts['index'].isin(columns_to_exclude)]
+job_title_counts = job_title_counts[~job_title_counts.index.isin(columns_to_exclude)]
 
 # Calculate percentage
 total_jobs = job_title_counts['position'].sum()
