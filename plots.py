@@ -193,8 +193,8 @@ job_title_counts['percentage'] = job_title_counts['position'] / total_jobs * 100
 color_scale = px.colors.qualitative.Pastel
 
 # Create bar plot using Plotly Express
-fig = px.bar(job_title_counts, y='index', x='percentage', color='index', orientation='h',
-             labels={'index': 'Job Title', 'percentage': 'Percentage'},
+fig = px.bar(job_title_counts, y=job_title_counts.index, x='percentage', color=job_title_counts.index, orientation='h',
+             labels={'y': 'Job Title', 'x': 'Percentage'},
              title='Job Titles in Europe in 2020',
              color_discrete_sequence=color_scale)
 
