@@ -139,5 +139,35 @@ update_plot()
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
 
+############################ fifth plot #########################################
+data_scientist_df = df[df['position'] == 'Data Scientist'].copy()
+top_tech = pd.Series(', '.join(df['main_tech']).split(', ')).value_counts().nlargest(10).index.tolist()
+
+skills = top_tech
+qualifications = data_scientist_df["work_level"]
+
+skills = ['Python', 'R', 'SQL', 'Java', 'C++']
+qualifications = data_scientist_df["work_level"]
+
+# Calculate the frequency of each skill-qualification combination
+freq_df = df[df['main_tech'].isin(skills)].groupby(['main_tech', 'emp_state']).size().reset_index(name='frequency')
+freq_df = freq_df.pivot(index='emp_state', columns='main_tech', values='frequency').fillna(0)
+freq_df = freq_df.apply(lambda x: x/x.sum(), axis=1)
+freq_df = freq_df.loc[:, freq_df.sum(axis=0).nlargest(5).index]
+
+# Create the heatmap
+fig = px.imshow(freq_df.values,
+                x=freq_df.columns,
+                y=freq_df.index,
+                color_continuous_scale='Blues',
+                labels=dict(x='Skills', y='Qualifications', color='Frequency'),
+                title='Skill-Qualification Heatmap')
+
+# Set the colorbar format to percentage
+fig.update_layout(coloraxis_colorbar=dict(title='Frequency', tickformat='%'))
+
+# Display the plot using Streamlit's plotly_chart function
+st.plotly_chart(fig)
+
 
 
