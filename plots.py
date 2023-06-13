@@ -176,8 +176,8 @@ df_europe_2020 = df[(df['city'].isin(['Berlin', 'London', 'Paris']))]
 # Count the occurrences of each job title
 job_title_counts = df_europe_2020['position'].value_counts().reset_index()
 
-# Convert 'position' column to numeric values
-job_title_counts['position'] = pd.to_numeric(job_title_counts['position'])
+# Convert 'position' column to numeric values, excluding non-numeric values
+job_title_counts = job_title_counts[pd.to_numeric(job_title_counts['position'], errors='coerce').notnull()]
 
 # Create a list of columns to exclude
 columns_to_exclude = ['Position 1', 'Position 2']  # Add the columns you want to exclude
@@ -209,4 +209,3 @@ fig.update_layout(
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
-
