@@ -5,23 +5,30 @@ import random
 import numpy as np
 import plotly.express as px
 
+
+st.title("Help for the beginnin high tech worker")
+st.header("Choose your future job")
+st.write( "You can see the most popular programming languages for the job you want to do")
+
+
 df = pd.read_csv("clean_new.csv")
 
-# Assuming df is your DataFrame
 df['first_word'] = df['first_word'].str.lower()  # Convert to lower case
 df['first_word'] = df['first_word'].replace(np.nan, 'unknown')  # Replace NaN values with 'unknown'
 
-# Same data manipulation steps as in your initial code
 top10_positions = df['position'].value_counts().nlargest(10).index
 df_top10 = df[df['position'].isin(top10_positions)]
 tech_names = [name for i, name in enumerate(df_top10['first_word'].unique()) if
               all(name != other and not pd.isna(other) for other in df_top10['first_word'].unique()[:i])]
-tech_pivot = pd.pivot_table(data=df_top10, index='position', columns='first_word', values='yearly_salary',
-                            aggfunc='count')
+
+# Include 'work_level' and 'emp_state' in the pivot_table
+tech_pivot = pd.pivot_table(data=df_top10, index=['position', 'work_level', 'emp_state'], columns='first_word',
+                            values='yearly_salary', aggfunc='count')
 tech_pivot = tech_pivot[tech_names]
 
+random.seed(42)
 
-# Function to create a random color
+
 def random_color():
     r = random.randint(0, 255)
     g = random.randint(0, 255)
@@ -29,48 +36,50 @@ def random_color():
     return f'rgb({r},{g},{b})'
 
 
-# Create a dictionary with a random color for each technology
 color_dict = {tech: random_color() for tech in df['first_word'].unique()}
 
 
-# Function to create the plot
-def create_plot(position):
-    # Filter based on position and get the top 10 technologies
-    filtered_df = tech_pivot.loc[position].nlargest(10)
+def create_plot(position, work_level, emp_state):
+    try:
+        # Filter based on position, work_level, and emp_state and get the top 10 technologies
+        filtered_df = tech_pivot.loc[position, work_level, emp_state].nlargest(10)
 
-    # Get the colors for the technologies in the filtered data
-    colors = [color_dict[tech] for tech in filtered_df.index]
+        # Get the colors for the technologies in the filtered data
+        colors = [color_dict[tech] for tech in filtered_df.index]
 
-    # Create an empty Figure
-    fig = go.Figure()
+        fig = go.Figure()
+        fig.add_trace(go.Bar(
+            x=filtered_df.index,
+            y=filtered_df.values,
+            hoverinfo='y',
+            marker_color=colors
+        ))
 
-    # Add the bar to the figure
-    fig.add_trace(go.Bar(
-        x=filtered_df.index,
-        y=filtered_df.values,
-        hoverinfo='y',
-        marker_color=colors  # use colors from the dictionary
-    ))
+        fig.update_layout(
+            title='Top Technologies for Role',
+            xaxis=dict(title='Technology'),
+            yaxis=dict(title='Number of workers'),
+            plot_bgcolor='rgba(0, 0, 0, 0)',
+            paper_bgcolor='rgba(0, 0, 0, 0)'
+        )
 
-    # Update layout for the bar chart and add title/labels
-    fig.update_layout(
-        title='Top Technologies for Role',
-        xaxis=dict(title='Technology'),
-        yaxis=dict(title='Count'),
-        plot_bgcolor='rgba(0, 0, 0, 0)',  # you can set the background color here
-        paper_bgcolor='rgba(0, 0, 0, 0)'  # and here
-    )
-
-    # Show the plot using Plotly's Streamlit support
-    st.plotly_chart(fig)
+        st.plotly_chart(fig)
+    except KeyError:
+        st.error('No data available for the selected combination of Position, Work Level and Employee State -> try different combination')
 
 
-# Create a dropdown widget with the positions
+# Create dropdown widgets with positions, work levels, and employee states
 dropdown = st.selectbox('Position:', top10_positions)
+work_levels = df['work_level'].unique()
+work_level_dropdown = st.selectbox('Work Level:', work_levels)
+emp_states = df['emp_state'].unique()
+emp_state_dropdown = st.selectbox('Employee State:', emp_states)
 
-# Call the create_plot function with the selected position
-create_plot(dropdown)
+# Call the create_plot function with the selected position, work level, and employee state
+create_plot(dropdown, work_level_dropdown, emp_state_dropdown)
 ################################### second plot #########################################
+st.header("Choose your gender and age")
+st.write("You can see the average salary according to your details")
 ## Filter the data for men and women
 df_men = df[df['gender'] == 'Male']
 df_women = df[df['gender'] == 'Female']
@@ -140,7 +149,8 @@ update_plot()
 st.plotly_chart(fig)
 
 ############################ third plot #########################################
-
+st.header("Choose your work experience")
+st.write("In here You can see what job level you can apply for")
 avg_experience = df.groupby('work_level')['experience'].mean().reset_index()
 
 # Define the job levels and corresponding required experience
@@ -188,6 +198,9 @@ update_job_levels(work_experience_slider)
 st.plotly_chart(fig)
 
 ############################ fourth plot #########################################
+st.header("Most pupular job titles in Europe")
+st.write("As the job more popular their is more open positions")
+
 # Filter to only include data from Europe in 2020
 df_europe_2020 = df[(df['city'].isin(['Berlin', 'London', 'Paris']))]
 
@@ -227,35 +240,4 @@ fig.update_layout(
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
-
-############################ fifth plot #########################################
-data_scientist_df = df[df['position'] == 'Data Scientist'].copy()
-top_tech = pd.Series(', '.join(df['main_tech']).split(', ')).value_counts().nlargest(10).index.tolist()
-
-skills = top_tech
-qualifications = data_scientist_df["work_level"]
-
-skills = ['Python', 'R', 'SQL', 'Java', 'C++']
-qualifications = data_scientist_df["work_level"]
-
-# Calculate the frequency of each skill-qualification combination
-freq_df = df[df['main_tech'].isin(skills)].groupby(['main_tech', 'emp_state']).size().reset_index(name='frequency')
-freq_df = freq_df.pivot(index='emp_state', columns='main_tech', values='frequency').fillna(0)
-freq_df = freq_df.apply(lambda x: x/x.sum(), axis=1)
-freq_df = freq_df.loc[:, freq_df.sum(axis=0).nlargest(5).index]
-
-# Create the heatmap
-fig = px.imshow(freq_df.values,
-                x=freq_df.columns,
-                y=freq_df.index,
-                color_continuous_scale='Blues',
-                labels=dict(x='Skills', y='Qualifications', color='Frequency'),
-                title='Skill-Qualification Heatmap')
-
-# Set the colorbar format to percentage
-fig.update_layout(coloraxis_colorbar=dict(title='Frequency', tickformat='%'))
-
-# Display the plot using Streamlit's plotly_chart function
-st.plotly_chart(fig)
-
 
