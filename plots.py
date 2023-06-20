@@ -116,7 +116,7 @@ fig = go.Figure(data=[men_line, women_line], layout=layout)
 
 # Create the interactive widgets using Streamlit
 gender_dropdown = st.selectbox('Gender:', ['Men', 'Women'])
-age_slider = st.slider('Age:', min_value=21, max_value=int(df['age'].max()), value=21)
+age_slider = st.slider('Age:', min_value=22, max_value=int(df['age'].max()), value=22, step=1)
 
 # Define the function to update the plot
 def update_plot():
