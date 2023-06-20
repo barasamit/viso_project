@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 import random
 import numpy as np
 import plotly.express as px
+import plotly.io as pio
 
 # Add the map to the sidebar
 st.title("Help for the beginning high tech worker")
@@ -96,10 +97,15 @@ create_plot(dropdown, work_level_dropdown, emp_state_dropdown, sort_by_radio)
 st.write("---------------------------------------")
 
 ################################### second plot #########################################
+
+# Set the color palette that is friendly to colorblind individuals
+colors = pio.templates["plotly"].layout.colorway
+
 st.header("Choose your gender and age")
 st.write("You can see the average salary according to your details. "
          "Select your gender from the dropdown menu and adjust your age using the slider below.")
-## Filter the data for men and women
+
+# Filter the data for men and women
 df_men = df[df['gender'] == 'Male']
 df_women = df[df['gender'] == 'Female']
 
@@ -107,9 +113,9 @@ df_women = df[df['gender'] == 'Female']
 mean_values_men = df_men.groupby('age')['yearly_salary'].mean()
 mean_values_women = df_women.groupby('age')['yearly_salary'].mean()
 
-# Create the line traces
-men_line = go.Scatter(x=mean_values_men.index, y=mean_values_men, name='Men', mode='lines')
-women_line = go.Scatter(x=mean_values_women.index, y=mean_values_women, name='Women', mode='lines')
+# Create the scatter traces
+men_scatter = go.Scatter(x=mean_values_men.index, y=mean_values_men, name='Men', mode='markers+lines', marker=dict(color=colors[0]))
+women_scatter = go.Scatter(x=mean_values_women.index, y=mean_values_women, name='Women', mode='markers+lines', marker=dict(color=colors[1]))
 
 # Create the layout
 layout = go.Layout(
@@ -120,7 +126,7 @@ layout = go.Layout(
 )
 
 # Create the figure
-fig = go.Figure(data=[men_line, women_line], layout=layout)
+fig = go.Figure(data=[men_scatter, women_scatter], layout=layout)
 
 # Create the interactive widgets using Streamlit
 gender_dropdown = st.selectbox('Gender:', ['Men', 'Women'])
@@ -132,15 +138,15 @@ def update_plot():
     age = age_slider
 
     if gender == 'Men':
-        line = men_line
+        scatter = men_scatter
         mean_values = mean_values_men
     else:
-        line = women_line
+        scatter = women_scatter
         mean_values = mean_values_women
 
-    # Update line trace
-    line.x = mean_values.index
-    line.y = mean_values.values
+    # Update scatter trace
+    scatter.x = mean_values.index
+    scatter.y = mean_values.values
 
     # Update annotation
     salary = mean_values.get(age, '')
@@ -157,7 +163,8 @@ def update_plot():
             bordercolor='black',
             borderwidth=1,
             borderpad=4,
-            font=dict(size=12)
+            font=dict(size=12),
+            opacity=0.8
         )
     ])
 
@@ -167,7 +174,6 @@ update_plot()
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
 st.write("---------------------------------------")
-
 ############################ third plot #########################################
 st.header("Choose your work experience")
 
