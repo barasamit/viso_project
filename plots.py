@@ -150,7 +150,12 @@ st.plotly_chart(fig)
 
 ############################ third plot #########################################
 st.header("Choose your work experience")
-st.write("In here You can see what job level you can apply for")
+st.write("In here, you can see what job level you can apply for")
+
+# Remove the "Working Student" level from the DataFrame
+df = df[df['work_level'] != 'Working Student']
+
+# Compute average experience by work level
 avg_experience = df.groupby('work_level')['experience'].mean().reset_index()
 
 # Define the job levels and corresponding required experience
@@ -198,8 +203,10 @@ update_job_levels(work_experience_slider)
 st.plotly_chart(fig)
 
 ############################ fourth plot #########################################
-st.header("Most pupular job titles in Europe")
-st.write("As the job more popular their is more open positions")
+import streamlit as st
+
+st.header("Most popular job titles in Europe")
+st.write("As the job becomes more popular, there are more open positions")
 
 # Filter to only include data from Europe in 2020
 df_europe_2020 = df[(df['city'].isin(['Berlin', 'London', 'Paris']))]
@@ -231,13 +238,31 @@ fig = px.bar(job_title_counts, y='position', x='percentage', color='position', o
 
 # Update layout to add interactivity
 fig.update_layout(
+    width=800,
     height=600,
     hovermode='y',
     xaxis=dict(title='Percentage'),
-    yaxis=dict(title='Job Title'),
+    yaxis=dict(title='Job Title', automargin=True, side='right'),  # Align y-axis labels to the right
     showlegend=False
 )
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
+
+# Get the selected job title on interaction
+selected_job_title = st.empty()
+
+# Define a function to handle bar click event
+def handle_click(trace, points, state):
+    if points.point_inds:
+        index = points.point_inds[0]
+        job_title = job_title_counts.iloc[index]['position']
+        selected_job_title.markdown(f"**Selected Job Title:** {job_title}")
+
+# Add event handler for bar click
+fig.data[0].on_click(handle_click)
+
+# Inform user about bar click functionality
+st.write("Click on a bar to see the percentage of that job title in Europe in 2020")
+
 
