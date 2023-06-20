@@ -203,7 +203,7 @@ work_experience_slider = st.slider(
     label='Work Experience',
     min_value=0,
     max_value=max(required_experience),
-    value=0,
+    value=6,
     step=1
 )
 
