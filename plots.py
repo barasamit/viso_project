@@ -5,12 +5,13 @@ import random
 import numpy as np
 import plotly.express as px
 
-
+# Add the map to the sidebar
 st.title("Help for the beginning high tech worker")
 st.header("Choose your future job")
-st.write("You can see the most popular programming languages for the job you want to do")
+st.write("You can see the most popular programming languages for the job you want to do. Select your desired position, work level, and employee state from the dropdown menus below.")
 
 df = pd.read_csv("clean_new.csv")
+
 
 df['first_word'] = df['first_word'].str.lower()  # Convert to lower case
 df['first_word'] = df['first_word'].replace(np.nan, 'unknown')  # Replace NaN values with 'unknown'
@@ -38,19 +39,23 @@ def random_color():
 color_dict = {tech: random_color() for tech in df['first_word'].unique()}
 
 
-def create_plot(position, work_level, emp_state):
+def create_plot(position, work_level, emp_state, sort_by):
     try:
         # Filter based on position, work_level, and emp_state and get the top 10 technologies
         filtered_df = tech_pivot.loc[position, work_level, emp_state].nlargest(10)
 
+        if sort_by == 'Name':
+            filtered_df = filtered_df.sort_index(ascending=False)
+
+        elif sort_by == 'Percentage':
+            total_workers = filtered_df.sum()  # Calculate the total number of workers
+            filtered_df = (filtered_df / total_workers) * 100  # Calculate the percentage
+
         fig = go.Figure()
 
-        total_workers = filtered_df.sum()  # Calculate the total number of workers
-
         for tech, count in zip(filtered_df.index, filtered_df.values):
-            percentage = (count / total_workers) * 100  # Calculate the percentage
             fig.add_trace(go.Scatter(
-                x=[percentage],
+                x=[count],
                 y=[tech],
                 mode='markers',
                 marker=dict(color=color_dict[tech], size=10),
@@ -58,7 +63,7 @@ def create_plot(position, work_level, emp_state):
             ))
 
             fig.add_trace(go.Scatter(
-                x=[0, percentage],
+                x=[0, count],
                 y=[tech, tech],
                 mode='lines',
                 line=dict(color='black', width=1)
@@ -66,7 +71,7 @@ def create_plot(position, work_level, emp_state):
 
         fig.update_layout(
             title='Top Technologies for Role',
-            xaxis=dict(title='Percentage of workers'),
+            xaxis=dict(title='Count' if sort_by == 'Count' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
             yaxis=dict(title='Technology'),
             showlegend=False,
             plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -78,19 +83,22 @@ def create_plot(position, work_level, emp_state):
         st.error('No data available for the selected combination of Position, Work Level, and Employee State. Try a different combination.')
 
 
-
 # Create dropdown widgets with positions, work levels, and employee states
 dropdown = st.selectbox('Position:', top10_positions)
 work_levels = df['work_level'].unique()
 work_level_dropdown = st.selectbox('Work Level:', work_levels)
 emp_states = df['emp_state'].unique()
 emp_state_dropdown = st.selectbox('Employee State:', emp_states)
+sort_by_radio = st.radio('Sort By:', ['Name', 'Percentage'])
 
-# Call the create_plot function with the selected position, work level, and employee state
-create_plot(dropdown, work_level_dropdown, emp_state_dropdown)
+# Call the create_plot function with the selected position, work level, employee state, and sort by option
+create_plot(dropdown, work_level_dropdown, emp_state_dropdown, sort_by_radio)
+st.write("---------------------------------------")
+
 ################################### second plot #########################################
 st.header("Choose your gender and age")
-st.write("You can see the average salary according to your details")
+st.write("You can see the average salary according to your details. "
+         "Select your gender from the dropdown menu and adjust your age using the slider below.")
 ## Filter the data for men and women
 df_men = df[df['gender'] == 'Male']
 df_women = df[df['gender'] == 'Female']
@@ -158,66 +166,74 @@ update_plot()
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
+st.write("---------------------------------------")
 
 ############################ third plot #########################################
 st.header("Choose your work experience")
-st.write("In here, you can see what job level you can apply for")
 
-# Remove the "Working Student" level from the DataFrame
 df = df[df['work_level'] != 'Working Student']
 
-# Compute average experience by work level
 avg_experience = df.groupby('work_level')['experience'].mean().reset_index()
 
-# Define the job levels and corresponding required experience
 job_levels = avg_experience["work_level"]
 required_experience = avg_experience["experience"].astype(int)
 
-# Sort the job levels in ascending order
 sorted_indices = required_experience.argsort()
 job_levels_sorted = job_levels.iloc[sorted_indices]
 required_experience_sorted = required_experience.iloc[sorted_indices]
+
+# Creating a color gradient
+color_gradient = ['rgb(150,0,90)', 'rgb(0,0,200)']
+color_scale = np.interp(required_experience_sorted, (required_experience_sorted.min(), required_experience_sorted.max()), [0,1])
 
 # Create the bar plot using Plotly
 fig = go.Figure(data=go.Bar(
     x=job_levels_sorted,
     y=required_experience_sorted,
-    marker_color='steelblue'
+    marker=dict(
+        color=color_scale,  # Adding color gradient
+        colorscale=color_gradient,
+        line=dict(color='rgb(8,48,107)', width=1.5),
+    ),
+    opacity=0.6
 ))
 
 # Configure the layout
 fig.update_layout(
-    title='Job Level Based on Required Experience',
+    title={
+        'text': 'Job Level Based on Required Experience',
+        'y':0.9,
+        'x':0.5,
+        'xanchor': 'center',
+        'yanchor': 'top'
+    },
     xaxis_title='Job Level',
     yaxis_title='Required Experience',
     showlegend=False
 )
 
-# Create the interactive function to update the relevant job levels
-def update_job_levels(work_experience):
-    relevant_job_levels = job_levels_sorted[required_experience_sorted <= work_experience]
-    fig.data[0].x = relevant_job_levels
+# Add a two-way slider
+experience_range = st.slider("Select your experience range",
+                             int(required_experience_sorted.min()),
+                             int(required_experience_sorted.max()),
+                             (int(required_experience_sorted.min()), int(required_experience_sorted.median())))
 
-# Create the interactive widget using Streamlit
-work_experience_slider = st.slider(
-    label='Work Experience',
-    min_value=0,
-    max_value=max(required_experience),
-    value=6,
-    step=1
-)
+# Filter the data based on the selected range
+filtered_job_levels_sorted = job_levels_sorted[(required_experience_sorted >= experience_range[0]) & (required_experience_sorted <= experience_range[1])]
+filtered_required_experience_sorted = required_experience_sorted[(required_experience_sorted >= experience_range[0]) & (required_experience_sorted <= experience_range[1])]
 
-# Register the interactive function to handle widget changes
-update_job_levels(work_experience_slider)
+# Update the plot based on the filtered data
+fig.data[0].x = filtered_job_levels_sorted
+fig.data[0].y = filtered_required_experience_sorted
 
-# Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
 
+st.write("---------------------------------------")
+
 ############################ fourth plot #########################################
-import streamlit as st
 
 st.header("Most popular job titles in Europe")
-st.write("As the job becomes more popular, there are more open positions")
+st.write("As the job becomes more popular, there are more open positions. The bar chart below shows the percentage of each job title in Europe in 2020. Click on a bar to see the percentage of that job title.")
 
 # Filter to only include data from Europe in 2020
 df_europe_2020 = df[(df['city'].isin(['Berlin', 'London', 'Paris']))]
@@ -237,6 +253,9 @@ job_title_counts = job_title_counts[~job_title_counts['position'].isin(columns_t
 # Calculate percentage
 total_jobs = job_title_counts['count'].sum()
 job_title_counts['percentage'] = job_title_counts['count'] / total_jobs * 100
+
+# Filter to only include job titles with a percentage of at least 1.5%
+job_title_counts = job_title_counts[job_title_counts['percentage'] >= 1.5]
 
 # Create a custom color scale
 color_scale = px.colors.qualitative.Pastel
@@ -259,21 +278,3 @@ fig.update_layout(
 
 # Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
-
-# Get the selected job title on interaction
-selected_job_title = st.empty()
-
-# Define a function to handle bar click event
-def handle_click(trace, points, state):
-    if points.point_inds:
-        index = points.point_inds[0]
-        job_title = job_title_counts.iloc[index]['position']
-        selected_job_title.markdown(f"**Selected Job Title:** {job_title}")
-
-# Add event handler for bar click
-fig.data[0].on_click(handle_click)
-
-# Inform user about bar click functionality
-st.write("Click on a bar to see the percentage of that job title in Europe in 2020")
-
-
