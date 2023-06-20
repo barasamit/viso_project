@@ -6,10 +6,9 @@ import numpy as np
 import plotly.express as px
 
 
-st.title("Help for the beginnin high tech worker")
+st.title("Help for the beginning high tech worker")
 st.header("Choose your future job")
-st.write( "You can see the most popular programming languages for the job you want to do")
-
+st.write("You can see the most popular programming languages for the job you want to do")
 
 df = pd.read_csv("clean_new.csv")
 
@@ -44,28 +43,40 @@ def create_plot(position, work_level, emp_state):
         # Filter based on position, work_level, and emp_state and get the top 10 technologies
         filtered_df = tech_pivot.loc[position, work_level, emp_state].nlargest(10)
 
-        # Get the colors for the technologies in the filtered data
-        colors = [color_dict[tech] for tech in filtered_df.index]
-
         fig = go.Figure()
-        fig.add_trace(go.Bar(
-            x=filtered_df.index,
-            y=filtered_df.values,
-            hoverinfo='y',
-            marker_color=colors
-        ))
+
+        total_workers = filtered_df.sum()  # Calculate the total number of workers
+
+        for tech, count in zip(filtered_df.index, filtered_df.values):
+            percentage = (count / total_workers) * 100  # Calculate the percentage
+            fig.add_trace(go.Scatter(
+                x=[percentage],
+                y=[tech],
+                mode='markers',
+                marker=dict(color=color_dict[tech], size=10),
+                line=dict(color='gray', width=1)
+            ))
+
+            fig.add_trace(go.Scatter(
+                x=[0, percentage],
+                y=[tech, tech],
+                mode='lines',
+                line=dict(color='black', width=1)
+            ))
 
         fig.update_layout(
             title='Top Technologies for Role',
-            xaxis=dict(title='Technology'),
-            yaxis=dict(title='Number of workers'),
+            xaxis=dict(title='Percentage of workers'),
+            yaxis=dict(title='Technology'),
+            showlegend=False,
             plot_bgcolor='rgba(0, 0, 0, 0)',
             paper_bgcolor='rgba(0, 0, 0, 0)'
         )
 
         st.plotly_chart(fig)
     except KeyError:
-        st.error('No data available for the selected combination of Position, Work Level and Employee State -> try different combination')
+        st.error('No data available for the selected combination of Position, Work Level, and Employee State. Try a different combination.')
+
 
 
 # Create dropdown widgets with positions, work levels, and employee states
