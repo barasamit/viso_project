@@ -5,7 +5,6 @@ import random
 import numpy as np
 import plotly.express as px
 import plotly.io as pio
-import matplotlib.cm as cm
 
 # Add the map to the sidebar
 st.title("Help for the beginning high tech worker")
