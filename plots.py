@@ -81,13 +81,9 @@ st.header('Top Technologies(Programming Languages)')
 
 # Provide details on how to use the plot
 st.markdown("""The visualization displays the prevalence of each technology for every job, represented as percentages indicating the proportion of employees in each job who deal with each technology.
-
 Upon selecting the desired features, the corresponding graph will be presented.
-
 There are two options available for sorting the data:
-
 Sort by technology name (alphabetically): This allows the user to observe the relevance of their known technologies in comparison to others. For instance, if the user is interested in a junior Backend developer job with a full-time employment status, this sorting option helps in understanding the prominence of various technologies.
-
 Sort by technology frequency (percentages): This option enables the user to identify the most common technologies associated with the job they are seeking.
 """)
 
