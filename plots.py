@@ -7,7 +7,7 @@ import plotly.express as px
 import plotly.io as pio
 
 # Add the map to the sidebar
-st.set_page_config(page_title="Help for the beginning high tech worker", layout="wide")
+st.set_page_config(page_title="Help for the  high tech worker", layout="wide")
 st.markdown(
     """
     <style>
@@ -22,11 +22,8 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-st.title("Help for the beginning high tech worker")
+st.title("Help for the high tech worker")
 
-# Add the select box for Position in the sidebar
-
-# Rest of the code remains the same...
 
 df = pd.read_csv("clean_new.csv")
 
@@ -80,24 +77,18 @@ def random_color():
 
 color_dict = {tech: random_color() for tech in df['first_word'].unique()}
 ################################ first plot ################################
-st.header('Top Technologies Plot')
+st.header('Top Technologies(Programming Languages)')
 
 # Provide details on how to use the plot
-st.markdown("""
-The plot below shows the top technologies for a specific work level and employee state.
+st.markdown("""The visualization displays the prevalence of each technology for every job, represented as percentages indicating the proportion of employees in each job who deal with each technology.
 
-Explanation of the plot:
-- X-Axis: The X-axis represents the count of workers for each technology (if sorted by count) or the percentage of workers (if sorted by percentage).
-- Y-Axis: The Y-axis represents the technology.
+Upon selecting the desired features, the corresponding graph will be presented.
 
-Each data point on the plot consists of a marker and a line:
-- Marker: Represents the count of workers or the percentage of workers for a specific technology.
-- Line: Connects the marker to the origin of the plot.
+There are two options available for sorting the data:
 
-The plot is titled "Top Technologies for Role" and includes an appropriate title for the X-axis based on the chosen sorting option.
+Sort by technology name (alphabetically): This allows the user to observe the relevance of their known technologies in comparison to others. For instance, if the user is interested in a junior Backend developer job with a full-time employment status, this sorting option helps in understanding the prominence of various technologies.
 
-Please note that if there is no data available for the selected combination of work level, employee state, and position, an error message will be displayed.
-
+Sort by technology frequency (percentages): This option enables the user to identify the most common technologies associated with the job they are seeking.
 """)
 
 
@@ -178,19 +169,12 @@ st.write("---------------------------------------")
 
 ################################### second plot #########################################
 
-st.header("Choose your gender and age")
-st.write("You can see the average salary according to your details. "
-         "Select your gender from the dropdown menu and adjust your age using the slider below.")
-st.write("""
-The plot below shows the trend of yearly salary over age for both men and women.
+st.header("Average Yearly Salary")
 
-Explanation of the plot:
-- X-Axis: The X-axis represents the age of individuals.
-- Y-Axis: The Y-axis represents the yearly salary. It shows the average salary for each age group.
-- Blue Markers and Lines: Represent the trend of yearly salary for men. Each marker represents the average salary at a specific age for men. The lines connect the markers to visualize the trend more smoothly.
-- Orange Markers and Lines: Represent the trend of yearly salary for women. Each marker represents the average salary at a specific age for women, and the lines connect the markers.
-- Annotation: The plot includes an annotation that dynamically updates based on the selected gender and age. It displays the specific age and salary for the selected point on the plot.
-- Legend: The plot has a legend indicating which color corresponds to men and women.
+st.write("""
+The visualization displays the average annual salary for each job based on the employee's age, gender, and company size.
+
+You can choose whether to view the salary specifically for women, men, or both genders combined.
 """)
 
 gender_dropdown = st.selectbox('Gender:', ['Men', 'Women'])
@@ -272,16 +256,11 @@ st.write("---------------------------------------")
 
 ################################### third plot #########################################
 
-st.header("Choose your work experience")
-st.write("""
-The plot below shows the job levels based on required work experience.
-
-Explanation of the plot:
-- X-Axis: Represents the job levels.
-- Y-Axis: Represents the required work experience for each job level.
-- Color Gradient: The color of each bar represents the required work experience, ranging from low (lighter color) to high (darker color).
-
-The plot is titled "Job Level Based on Required Experience.""")
+st.header("Years of Experience vs. Job Level ")
+st.write("""The visualization depicts the number of years of experience required for each position 
+level within a company. You have the option to select your own years of experience and receive 
+corresponding recommendations 
+on why you should consider competing for specific positions""")
 
 # Calculate average experience for all possible job levels
 
@@ -345,20 +324,11 @@ st.plotly_chart(fig)
 st.write("---------------------------------------")
 ############################ fourth plot #########################################
 
-st.header("Most popular job titles in Europe")
-st.write(
-    "As the job becomes more popular, there are more open positions. The bar chart below shows the percentage of each job title in Europe in 2020. Click on a bar to see the percentage of that job title.")
-st.write("""The plot below shows the percentage of each job title in Europe in 2020.
-
-Explanation of the plot:
-- X-Axis: Represents the percentage of job titles.
-- Y-Axis: Represents the job titles.
-- Color: Each bar represents a job title, with a unique color for each title.
-- Interactivity: Clicking on a bar displays the percentage of that job title.
-
-The plot is titled "Most Popular Job Titles in Europe" and includes only job titles with a percentage of at least 1.5%.
-
-Please note that the data used for both plots is based on the provided dataframe.
+st.header("Top High-Tech Jobs in 2020")
+st.write("""The purpose of this visualization is to display the user of the 
+application the percentages of the most common jobs in the high-tech field for the year 2020. 
+This information will assist high-tech employees in making informed decisions regarding 
+their field of focus based on their preferences and considerations.
 
 """)
 # Filter to only include data from Europe in 2020
