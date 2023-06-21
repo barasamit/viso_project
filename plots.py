@@ -8,20 +8,6 @@ import plotly.io as pio
 
 # Add the map to the sidebar
 st.set_page_config(page_title="Help for the  high tech worker", layout="wide")
-st.markdown(
-    """
-    <style>
-    [data-testid="stSidebar"][aria-expanded="true"] > div:first-child{
-        width: 400px;
-    }
-    [data-testid="stSidebar"][aria-expanded="false"] > div:first-child{
-        width: 400px;
-        margin-left: -400px;
-    }
-
-    """,
-    unsafe_allow_html=True,
-)
 st.title("Help for the high tech worker")
 
 
@@ -81,13 +67,9 @@ st.header('Top Technologies(Programming Languages)')
 
 # Provide details on how to use the plot
 st.markdown("""The visualization displays the prevalence of each technology for every job, represented as percentages indicating the proportion of employees in each job who deal with each technology.
-
 Upon selecting the desired features, the corresponding graph will be presented.
-
 There are two options available for sorting the data:
-
 Sort by technology name (alphabetically): This allows the user to observe the relevance of their known technologies in comparison to others. For instance, if the user is interested in a junior Backend developer job with a full-time employment status, this sorting option helps in understanding the prominence of various technologies.
-
 Sort by technology frequency (percentages): This option enables the user to identify the most common technologies associated with the job they are seeking.
 """)
 
@@ -316,21 +298,16 @@ color_map = {
 }
 colors = [color_map[job] if job in color_map else '#1F77B4' for job in job_levels_sorted]
 
-# # Creating a color gradient
-# color_gradient = 'Viridis'  # use inbuilt Viridis colorscale
-# color_scale = 1 - np.interp(required_experience_sorted,
-#                             (required_experience_sorted.min(), required_experience_sorted.max()), [0, 1])
-
+# Create the figure and bar chart
 fig = go.Figure(data=go.Bar(
-
     x=job_levels_sorted,
     y=required_experience_sorted,
     marker_color=colors,
     showlegend=False
-
-
 ))
-legend_dict = {light_purp: "low level", light_g :"medium level", light_o:"high level"}
+
+# Create the color legend
+legend_dict = {light_purp: "low level", light_g: "medium level", light_o: "high level"}
 for color, label in legend_dict.items():
     fig.add_trace(go.Scatter(
         x=[None],
@@ -340,6 +317,8 @@ for color, label in legend_dict.items():
         name=label,
         hoverinfo='none'
     ))
+
+# Update the layout
 fig.update_layout(
     width=1000,
     title={
@@ -350,7 +329,7 @@ fig.update_layout(
         'yanchor': 'top'
     },
     xaxis_title='Job Level',
-    yaxis_title='Required Experience(years)',
+    yaxis_title='Required Experience (years)',
 )
 
 st.plotly_chart(fig)
