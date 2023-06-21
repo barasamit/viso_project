@@ -87,7 +87,6 @@ Please note that if there is no data available for the selected combination of w
 
 
 def create_plot(work_level, emp_state, sort_by):
-
     try:
 
         if position_sidebar == 'All':
@@ -109,7 +108,7 @@ def create_plot(work_level, emp_state, sort_by):
 
         if sort_by == 'Name':
             total_workers = filtered_df.sum()  # Calculate the total number of workers
-            filtered_df = (filtered_df / total_workers) * 100  # Calculate the percentag
+            filtered_df = (filtered_df / total_workers) * 100  # Calculate the percentage
             filtered_df = filtered_df.sort_index(ascending=False)
 
         elif sort_by == 'Percentage':
@@ -150,20 +149,15 @@ def create_plot(work_level, emp_state, sort_by):
             'No data available for the selected combination of Position, Work Level, and Employee State. Try a different combination.')
 
 
-# st.header("Choose your future job")
-
-# Create dropdown widgets with positions, work levels, and employee states
-# dropdown = st.selectbox('Position:', top10_positions, key='position')
 work_levels = df['work_level'].unique()
 work_level_dropdown = st.selectbox('Work Level:', work_levels, key='work_level')
 emp_states = df['emp_state'].unique()
 emp_state_dropdown = st.selectbox('Employee State:', emp_states, key='emp_state')
-sort_by_radio = st.radio('Sort By:', ['Percentage','Name' ], key='sort_by')
+sort_by_radio = st.radio('Sort By:', ['Percentage', 'Name'], key='sort_by')
 
 # Call the create_plot function with the selected work level, employee state, and sort by option
 create_plot(work_level_dropdown, emp_state_dropdown, sort_by_radio)
 st.write("---------------------------------------")
-# Create the sidebar box for position selection
 
 
 ################################### second plot #########################################
@@ -183,7 +177,6 @@ Explanation of the plot:
 - Legend: The plot has a legend indicating which color corresponds to men and women.
 """)
 
-# Create the interactive widgets using Streamlit
 gender_dropdown = st.selectbox('Gender:', ['Men', 'Women'])
 company_size_dropdown = st.selectbox('Company Size:', ['All'] + df['company_size'].unique().tolist())
 age_slider = st.slider('Age:', min_value=22, max_value=int(df['age'].max()), value=22, step=1)
@@ -191,8 +184,7 @@ colors = pio.templates["plotly"].layout.colorway
 
 
 # Define the function to update the plot
-def update_plot(position, age, gender, company_size,df):
-
+def update_plot(position, age, gender, company_size, df):
     # Filter the data according to company size
     if company_size != 'All':
         df = df[df['company_size'] == company_size]
@@ -209,8 +201,10 @@ def update_plot(position, age, gender, company_size,df):
     mean_values_women = df_women.groupby('age')['yearly_salary'].mean()
 
     # Create the scatter traces
-    men_scatter = go.Scatter(x=mean_values_men.index, y=mean_values_men, name='Men', mode='markers+lines',marker=dict(color=colors[0]))
-    women_scatter = go.Scatter(x=mean_values_women.index, y=mean_values_women, name='Women', mode='markers+lines',marker=dict(color=colors[1]))
+    men_scatter = go.Scatter(x=mean_values_men.index, y=mean_values_men, name='Men', mode='markers+lines',
+                             marker=dict(color=colors[0]))
+    women_scatter = go.Scatter(x=mean_values_women.index, y=mean_values_women, name='Women', mode='markers+lines',
+                               marker=dict(color=colors[1]))
 
     # Create the layout
     layout = go.Layout(
@@ -253,14 +247,13 @@ def update_plot(position, age, gender, company_size,df):
     return men_scatter, women_scatter, layout
 
 
-# Display the plot using Streamlit's plotly_chart function
-men_scatter, women_scatter, layout = update_plot(position_sidebar, age_slider, gender_dropdown, company_size_dropdown,df)
+men_scatter, women_scatter, layout = update_plot(position_sidebar, age_slider, gender_dropdown, company_size_dropdown,
+                                                 df)
 fig = go.Figure(data=[men_scatter, women_scatter], layout=layout)
 st.plotly_chart(fig)
 st.write("---------------------------------------")
 
 ################################### third plot #########################################
-# Assuming you have already loaded the dataframe 'df'
 
 st.header("Choose your work experience")
 st.write("""
@@ -278,7 +271,7 @@ The plot is titled "Job Level Based on Required Experience.""")
 
 # Add a 2-way slide bar to select the range of work experience
 min_experience, max_experience = st.slider("Select the range of work experience", int(df['experience'].min()),
-                                           int(df['experience'].max()), (0, int(df['experience'].max())))
+                                           15, (0, 15))
 
 # Filter the data based on the selected range of work experience
 df_filtered = df[(df['experience'] >= min_experience) & (df['experience'] <= max_experience)]
@@ -312,11 +305,7 @@ color_scale = 1 - np.interp(required_experience_sorted,
 fig = go.Figure(data=go.Bar(
     x=job_levels_sorted,
     y=required_experience_sorted,
-    marker=dict(
-        color=color_scale,  # Adding color gradient
-        colorscale=color_gradient,
-        line=dict(color='rgb(8,48,107)', width=1.5),
-    )
+    
 ))
 
 # Configure the layout
@@ -329,7 +318,7 @@ fig.update_layout(
         'yanchor': 'top'
     },
     xaxis_title='Job Level',
-    yaxis_title='Required Experience',
+    yaxis_title='Required Experience(years)',
     showlegend=False
 )
 
@@ -362,8 +351,7 @@ job_title_counts = df_europe_2020['position'].value_counts().reset_index()
 # Rename the columns to 'position' and 'count'
 job_title_counts.columns = ['position', 'count']
 
-# Create a list of columns to exclude
-columns_to_exclude = ['Position 1', 'Position 2']  # Add the columns you want to exclude
+columns_to_exclude = ['temp']
 
 # Remove the excluded columns
 job_title_counts = job_title_counts[~job_title_counts['position'].isin(columns_to_exclude)]
@@ -394,7 +382,6 @@ fig.update_layout(
     showlegend=False
 )
 
-# Display the plot using Streamlit's plotly_chart function
 st.plotly_chart(fig)
 
 st.sidebar.image('pic.jpeg', use_column_width=True, )
