@@ -320,7 +320,7 @@ for color, label in legend_dict.items():
 
 # Update the layout
 fig.update_layout(
-    width=1400,
+    width=1250,
     title={
         'text': 'Job Level Based on Required Experience',
         'y': 0.9,
