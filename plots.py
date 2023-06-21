@@ -108,6 +108,8 @@ def create_plot(work_level, emp_state, sort_by):
         # Filter based on position from the sidebar, work_level, and emp_state and get the top 10 technologies
 
         if sort_by == 'Name':
+            total_workers = filtered_df.sum()  # Calculate the total number of workers
+            filtered_df = (filtered_df / total_workers) * 100  # Calculate the percentag
             filtered_df = filtered_df.sort_index(ascending=False)
 
         elif sort_by == 'Percentage':
@@ -135,7 +137,7 @@ def create_plot(work_level, emp_state, sort_by):
         fig.update_layout(
             title='Top Technologies for Role',
             xaxis=dict(
-                title='Name' if sort_by == 'Name' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
+                title='Percentage of workers' if sort_by == 'Name' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
             yaxis=dict(title='Technology'),
             showlegend=False,
             plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -221,25 +223,28 @@ def update_plot(position, age, gender):
         scatter = women_scatter
         mean_values = mean_values_women
 
-    # Update annotation
-    salary = mean_values.get(age, '')
-    layout.update(dict(annotations=[
-        go.layout.Annotation(
-            x=age,
-            y=salary,
-            text=f"Age: {age}<br>Salary: {salary}",
-            showarrow=True,
-            arrowhead=7,
-            ax=0,
-            ay=-40,
-            bgcolor='white',
-            bordercolor='black',
-            borderwidth=1,
-            borderpad=4,
-            font=dict(size=12),
-            opacity=0.8
+    # Update annotation if salary value is available
+    salary = mean_values.get(age)
+    annotations = []
+    if salary is not None:
+        annotations.append(
+            go.layout.Annotation(
+                x=age,
+                y=salary,
+                text=f"Age: {age}<br>Salary: {salary}",
+                showarrow=True,
+                arrowhead=7,
+                ax=0,
+                ay=-40,
+                bgcolor='white',
+                bordercolor='black',
+                borderwidth=1,
+                borderpad=4,
+                font=dict(size=12),
+                opacity=0.8
+            )
         )
-    ]))
+    layout.update(dict(annotations=annotations))
 
     return men_scatter, women_scatter, layout
 
