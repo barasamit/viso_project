@@ -5,6 +5,7 @@ import random
 import numpy as np
 import plotly.express as px
 import plotly.io as pio
+import matplotlib.cm as cm
 
 # Add the map to the sidebar
 st.title("Help for the beginning high tech worker")
@@ -28,9 +29,8 @@ tech_names = [name for i, name in enumerate(df_top10['first_word'].unique()) if
 top10_positions = list(top10_positions)
 top10_positions.insert(0, "All")  # Add "All" as the first option
 
-
-
-position_sidebar = st.sidebar.selectbox('Choose your dream job:', top10_positions, index=0)  # Set "All" as the default option
+position_sidebar = st.sidebar.selectbox('Choose your dream job:', top10_positions,
+                                        index=0)  # Set "All" as the default option
 position_explanations = {
     'Software Engineer': 'A software engineer is responsible for designing, developing, and maintaining software applications. They work with programming languages, frameworks, and tools to create functional and efficient software solutions.',
     'Backend Developer': 'A backend developer focuses on server-side development. They handle databases, APIs, and business logic to ensure smooth data flow and efficient server operations.',
@@ -47,9 +47,7 @@ position_explanations = {
 
 st.sidebar.markdown(
     position_explanations[position_sidebar]
-    )
-
-
+)
 
 # Include 'work_level' and 'emp_state' in the pivot_table
 tech_pivot = pd.pivot_table(data=df_top10, index=['position', 'work_level', 'emp_state'], columns='first_word',
@@ -134,7 +132,8 @@ def create_plot(work_level, emp_state, sort_by):
 
         fig.update_layout(
             title='Top Technologies for Role',
-            xaxis=dict(title='Count' if sort_by == 'Count' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
+            xaxis=dict(
+                title='Count' if sort_by == 'Count' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
             yaxis=dict(title='Technology'),
             showlegend=False,
             plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -143,7 +142,8 @@ def create_plot(work_level, emp_state, sort_by):
 
         st.plotly_chart(fig)
     except KeyError:
-        st.error('No data available for the selected combination of Position, Work Level, and Employee State. Try a different combination.')
+        st.error(
+            'No data available for the selected combination of Position, Work Level, and Employee State. Try a different combination.')
 
 
 # st.header("Choose your future job")
@@ -164,6 +164,7 @@ st.write("---------------------------------------")
 
 ################################### second plot #########################################
 colors = pio.templates["plotly"].layout.colorway
+
 st.header("Choose your gender and age")
 st.write("You can see the average salary according to your details. "
          "Select your gender from the dropdown menu and adjust your age using the slider below.")
@@ -179,21 +180,18 @@ Explanation of the plot:
 - Legend: The plot has a legend indicating which color corresponds to men and women.
 """)
 
-
-
-
 # Create the interactive widgets using Streamlit
 gender_dropdown = st.selectbox('Gender:', ['Men', 'Women'])
 age_slider = st.slider('Age:', min_value=22, max_value=int(df['age'].max()), value=22, step=1)
 
-# Define the function to update the plot
-def update_plot(position, age):
 
+# Define the function to update the plot
+def update_plot(position, age, gender):
     # Calculate the mean value per age and gender
     if position == 'All':
         df_filtered = df
     else:
-        df_filtered = df[df['position'] == position]    # Filter the data for men and women
+        df_filtered = df[df['position'] == position]  # Filter the data for men and women
     df_men = df_filtered[df_filtered['gender'] == 'Male']
     df_women = df_filtered[df_filtered['gender'] == 'Female']
 
@@ -209,16 +207,10 @@ def update_plot(position, age):
     # Create the layout
     layout = go.Layout(
         title='Trend of Yearly Salary over Age (Men vs Women)',
-        xaxis=dict(title='Age', range=[22, int(df['age'].max())]),
+        xaxis=dict(title='Age', range=[22, int(df_filtered['age'].max())]),
         yaxis=dict(title='Yearly Salary'),
         showlegend=True
     )
-
-    # Create the figure
-    fig = go.Figure(data=[men_scatter, women_scatter], layout=layout)
-
-    gender = gender_dropdown
-    age = age
 
     if gender == 'Men':
         scatter = men_scatter
@@ -227,13 +219,9 @@ def update_plot(position, age):
         scatter = women_scatter
         mean_values = mean_values_women
 
-    # Update scatter trace
-    scatter.x = mean_values.index
-    scatter.y = mean_values.values
-
     # Update annotation
     salary = mean_values.get(age, '')
-    fig.update_layout(annotations=[
+    layout.update(dict(annotations=[
         go.layout.Annotation(
             x=age,
             y=salary,
@@ -249,15 +237,17 @@ def update_plot(position, age):
             font=dict(size=12),
             opacity=0.8
         )
-    ])
-    return men_scatter,women_scatter,layout
+    ]))
 
-# Call the update_plot function initially to populate the plot
-men_scatter,women_scatter,layout = update_plot(position_sidebar, age_slider)
-fig = go.Figure(data=[men_scatter, women_scatter], layout=layout)
+    return men_scatter, women_scatter, layout
+
+
 # Display the plot using Streamlit's plotly_chart function
+men_scatter, women_scatter, layout = update_plot(position_sidebar, age_slider, gender_dropdown)
+fig = go.Figure(data=[men_scatter, women_scatter], layout=layout)
 st.plotly_chart(fig)
 st.write("---------------------------------------")
+
 ################################### third plot #########################################
 # Assuming you have already loaded the dataframe 'df'
 
@@ -273,11 +263,13 @@ Explanation of the plot:
 The plot is titled "Job Level Based on Required Experience.""")
 
 # Add a 2-way slide bar to select the range of work experience
-min_experience, max_experience = st.slider("Select the range of work experience", int(df['experience'].min()), int(df['experience'].max()), (0, int(df['experience'].max())))
+min_experience, max_experience = st.slider("Select the range of work experience", int(df['experience'].min()),
+                                           int(df['experience'].max()), (0, int(df['experience'].max())))
 
 df_filtered = df[(df['experience'] >= min_experience) & (df['experience'] <= max_experience)]
 
 df_filtered = df_filtered[df_filtered['work_level'] != 'Working Student']
+
 
 if position_sidebar == "All":
     avg_experience = df_filtered.groupby('work_level')['experience'].mean().reset_index()
@@ -295,10 +287,10 @@ job_levels_sorted = job_levels.iloc[sorted_indices]
 required_experience_sorted = required_experience.iloc[sorted_indices]
 
 # Creating a color gradient
-color_gradient = ['rgb(150,0,90)', 'rgb(0,0,200)']
-color_scale = np.interp(required_experience_sorted, (required_experience_sorted.min(), required_experience_sorted.max()), [0,1])
 
-# Create the bar plot using Plotly
+color_gradient = 'Viridis'  # use inbuilt Viridis colorscale
+color_scale = 1 - np.interp(required_experience_sorted, (required_experience_sorted.min(), required_experience_sorted.max()), [0,1])
+
 fig = go.Figure(data=go.Bar(
     x=job_levels_sorted,
     y=required_experience_sorted,
@@ -306,16 +298,15 @@ fig = go.Figure(data=go.Bar(
         color=color_scale,  # Adding color gradient
         colorscale=color_gradient,
         line=dict(color='rgb(8,48,107)', width=1.5),
-    ),
-    opacity=0.6
+    )
 ))
 
 # Configure the layout
 fig.update_layout(
     title={
         'text': 'Job Level Based on Required Experience',
-        'y':0.9,
-        'x':0.5,
+        'y': 0.9,
+        'x': 0.5,
         'xanchor': 'center',
         'yanchor': 'top'
     },
@@ -325,12 +316,12 @@ fig.update_layout(
 )
 
 st.plotly_chart(fig)
-
 st.write("---------------------------------------")
 ############################ fourth plot #########################################
 
 st.header("Most popular job titles in Europe")
-st.write("As the job becomes more popular, there are more open positions. The bar chart below shows the percentage of each job title in Europe in 2020. Click on a bar to see the percentage of that job title.")
+st.write(
+    "As the job becomes more popular, there are more open positions. The bar chart below shows the percentage of each job title in Europe in 2020. Click on a bar to see the percentage of that job title.")
 st.write("""The plot below shows the percentage of each job title in Europe in 2020.
 
 Explanation of the plot:
