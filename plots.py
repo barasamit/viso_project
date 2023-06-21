@@ -269,6 +269,7 @@ on why you should consider competing for specific positions""")
 min_experience, max_experience = st.slider("Select the range of work experience", int(df['experience'].min()),
                                            15, (0, 15))
 
+df = df[df['work_level'] != 'Working Student']
 # Filter the data based on the selected range of work experience
 df_filtered = df[(df['experience'] >= min_experience) & (df['experience'] <= max_experience)]
 df_filtered = df_filtered[df_filtered['work_level'] != 'Working Student']
@@ -324,11 +325,21 @@ fig = go.Figure(data=go.Bar(
 
     x=job_levels_sorted,
     y=required_experience_sorted,
-    marker_color=colors
+    marker_color=colors,
+    showlegend=False
+
 
 ))
-
-# Configure the layout
+legend_dict = {light_purp: "low level", light_g :"medium level", light_o:"high level"}
+for color, label in legend_dict.items():
+    fig.add_trace(go.Scatter(
+        x=[None],
+        y=[None],
+        mode='markers',
+        marker=dict(size=10, color=color),
+        name=label,
+        hoverinfo='none'
+    ))
 fig.update_layout(
     width=1000,
     title={
@@ -340,7 +351,6 @@ fig.update_layout(
     },
     xaxis_title='Job Level',
     yaxis_title='Required Experience(years)',
-    showlegend=False
 )
 
 st.plotly_chart(fig)
