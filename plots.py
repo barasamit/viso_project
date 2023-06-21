@@ -308,7 +308,7 @@ color_map = {
     'Director': light_o,
     'VP': light_o,
     'Senior': light_g,
-    'Lead': light_o,
+    'Lead': light_g,
     'Principal': light_o,
     'Head': light_o,
     'C-Level': light_o
