@@ -81,9 +81,13 @@ st.header('Top Technologies(Programming Languages)')
 
 # Provide details on how to use the plot
 st.markdown("""The visualization displays the prevalence of each technology for every job, represented as percentages indicating the proportion of employees in each job who deal with each technology.
+
 Upon selecting the desired features, the corresponding graph will be presented.
+
 There are two options available for sorting the data:
+
 Sort by technology name (alphabetically): This allows the user to observe the relevance of their known technologies in comparison to others. For instance, if the user is interested in a junior Backend developer job with a full-time employment status, this sorting option helps in understanding the prominence of various technologies.
+
 Sort by technology frequency (percentages): This option enables the user to identify the most common technologies associated with the job they are seeking.
 """)
 
@@ -289,15 +293,38 @@ indices_to_remove = (required_experience_sorted > max_experience) | (required_ex
 job_levels_sorted = job_levels_sorted[~indices_to_remove]
 required_experience_sorted = required_experience_sorted[~indices_to_remove]
 
-# Creating a color gradient
-color_gradient = 'Viridis'  # use inbuilt Viridis colorscale
-color_scale = 1 - np.interp(required_experience_sorted,
-                            (required_experience_sorted.min(), required_experience_sorted.max()), [0, 1])
+light_purp = "#D8BFD8"
+light_o = "#FFD580"
+light_g = "#D3D3D3"
+# Define the colors for the bars
+color_map = {
+    'intern': light_purp,
+    'student': light_purp,
+    'Working Student': light_purp,
+    'Junior': light_purp,
+    "Middle": light_g,
+    'C-level executive manager': light_o,
+    'CTO': light_o,
+    'Director': light_o,
+    'VP': light_o,
+    'Senior': light_g,
+    'Lead': light_o,
+    'Principal': light_o,
+    'Head': light_o,
+    'C-Level': light_o
+}
+colors = [color_map[job] if job in color_map else '#1F77B4' for job in job_levels_sorted]
+
+# # Creating a color gradient
+# color_gradient = 'Viridis'  # use inbuilt Viridis colorscale
+# color_scale = 1 - np.interp(required_experience_sorted,
+#                             (required_experience_sorted.min(), required_experience_sorted.max()), [0, 1])
 
 fig = go.Figure(data=go.Bar(
 
     x=job_levels_sorted,
     y=required_experience_sorted,
+    marker_color=colors
 
 ))
 
