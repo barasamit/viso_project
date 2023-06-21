@@ -87,21 +87,24 @@ Please note that if there is no data available for the selected combination of w
 
 
 def create_plot(work_level, emp_state, sort_by):
-    if position_sidebar == 'All':
-        temp_df = df
-        # Include 'work_level' and 'emp_state' in the pivot_table
-        tech_pivot = pd.pivot_table(data=temp_df, index=['work_level', 'emp_state'], columns='first_word',
-                                    values='yearly_salary', aggfunc='count')
-        tech_pivot = tech_pivot[tech_names]
-        filtered_df = tech_pivot.loc[work_level, emp_state].nlargest(10)
-    else:
-        temp_df = df_top10
-        # Include 'work_level' and 'emp_state' in the pivot_table
-        tech_pivot = pd.pivot_table(data=temp_df, index=['position', 'work_level', 'emp_state'], columns='first_word',
-                                    values='yearly_salary', aggfunc='count')
-        tech_pivot = tech_pivot[tech_names]
-        filtered_df = tech_pivot.loc[position_sidebar, work_level, emp_state].nlargest(10)
+
     try:
+
+        if position_sidebar == 'All':
+            temp_df = df
+            # Include 'work_level' and 'emp_state' in the pivot_table
+            tech_pivot = pd.pivot_table(data=temp_df, index=['work_level', 'emp_state'], columns='first_word',
+                                        values='yearly_salary', aggfunc='count')
+            tech_pivot = tech_pivot[tech_names]
+            filtered_df = tech_pivot.loc[work_level, emp_state].nlargest(10)
+        else:
+            temp_df = df_top10
+            # Include 'work_level' and 'emp_state' in the pivot_table
+            tech_pivot = pd.pivot_table(data=temp_df, index=['position', 'work_level', 'emp_state'],
+                                        columns='first_word',
+                                        values='yearly_salary', aggfunc='count')
+            tech_pivot = tech_pivot[tech_names]
+            filtered_df = tech_pivot.loc[position_sidebar, work_level, emp_state].nlargest(10)
         # Filter based on position from the sidebar, work_level, and emp_state and get the top 10 technologies
 
         if sort_by == 'Name':
@@ -132,7 +135,7 @@ def create_plot(work_level, emp_state, sort_by):
         fig.update_layout(
             title='Top Technologies for Role',
             xaxis=dict(
-                title='Count' if sort_by == 'Count' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
+                title='Name' if sort_by == 'Name' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
             yaxis=dict(title='Technology'),
             showlegend=False,
             plot_bgcolor='rgba(0, 0, 0, 0)',
@@ -261,34 +264,41 @@ Explanation of the plot:
 
 The plot is titled "Job Level Based on Required Experience.""")
 
+# Calculate average experience for all possible job levels
+
+
 # Add a 2-way slide bar to select the range of work experience
 min_experience, max_experience = st.slider("Select the range of work experience", int(df['experience'].min()),
                                            int(df['experience'].max()), (0, int(df['experience'].max())))
 
+# Filter the data based on the selected range of work experience
 df_filtered = df[(df['experience'] >= min_experience) & (df['experience'] <= max_experience)]
-
 df_filtered = df_filtered[df_filtered['work_level'] != 'Working Student']
 
-
+# Assuming position_sidebar is defined elsewhere in your code
 if position_sidebar == "All":
-    avg_experience = df_filtered.groupby('work_level')['experience'].mean().reset_index()
-    filtered_avg_experience = avg_experience
+    avg_experience_all = df.groupby('work_level')['experience'].mean().reset_index()
+    avg_experience = avg_experience_all
 else:
-    avg_experience = df_filtered.groupby(['position', 'work_level'])['experience'].mean().reset_index()
+    temp_df = df[df['position'] == position_sidebar]
+    avg_experience_all = temp_df.groupby('work_level')['experience'].mean().reset_index()
+    avg_experience = avg_experience_all
 
-    filtered_avg_experience = avg_experience[avg_experience['position'] == position_sidebar]
+# Sort both fields together, keeping their alignment
+avg_experience_sorted = avg_experience.sort_values('experience')
 
-job_levels = filtered_avg_experience["work_level"]
-required_experience = filtered_avg_experience["experience"].astype(int)
+job_levels_sorted = avg_experience_sorted['work_level']
+required_experience_sorted = avg_experience_sorted['experience'].astype(int)
 
-sorted_indices = required_experience.argsort()
-job_levels_sorted = job_levels.iloc[sorted_indices]
-required_experience_sorted = required_experience.iloc[sorted_indices]
+# Remove bars above or below the specified line
+indices_to_remove = (required_experience_sorted > max_experience) | (required_experience_sorted < min_experience)
+job_levels_sorted = job_levels_sorted[~indices_to_remove]
+required_experience_sorted = required_experience_sorted[~indices_to_remove]
 
 # Creating a color gradient
-
 color_gradient = 'Viridis'  # use inbuilt Viridis colorscale
-color_scale = 1 - np.interp(required_experience_sorted, (required_experience_sorted.min(), required_experience_sorted.max()), [0,1])
+color_scale = 1 - np.interp(required_experience_sorted,
+                            (required_experience_sorted.min(), required_experience_sorted.max()), [0, 1])
 
 fig = go.Figure(data=go.Bar(
     x=job_levels_sorted,
