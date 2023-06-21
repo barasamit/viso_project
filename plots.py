@@ -158,7 +158,7 @@ work_levels = df['work_level'].unique()
 work_level_dropdown = st.selectbox('Work Level:', work_levels, key='work_level')
 emp_states = df['emp_state'].unique()
 emp_state_dropdown = st.selectbox('Employee State:', emp_states, key='emp_state')
-sort_by_radio = st.radio('Sort By:', ['Name', 'Percentage'], key='sort_by')
+sort_by_radio = st.radio('Sort By:', ['Percentage','Name' ], key='sort_by')
 
 # Call the create_plot function with the selected work level, employee state, and sort by option
 create_plot(work_level_dropdown, emp_state_dropdown, sort_by_radio)
