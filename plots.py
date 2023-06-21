@@ -167,7 +167,6 @@ st.write("---------------------------------------")
 
 
 ################################### second plot #########################################
-colors = pio.templates["plotly"].layout.colorway
 
 st.header("Choose your gender and age")
 st.write("You can see the average salary according to your details. "
@@ -186,11 +185,18 @@ Explanation of the plot:
 
 # Create the interactive widgets using Streamlit
 gender_dropdown = st.selectbox('Gender:', ['Men', 'Women'])
+company_size_dropdown = st.selectbox('Company Size:', ['All'] + df['company_size'].unique().tolist())
 age_slider = st.slider('Age:', min_value=22, max_value=int(df['age'].max()), value=22, step=1)
+colors = pio.templates["plotly"].layout.colorway
 
 
 # Define the function to update the plot
-def update_plot(position, age, gender):
+def update_plot(position, age, gender, company_size,df):
+
+    # Filter the data according to company size
+    if company_size != 'All':
+        df = df[df['company_size'] == company_size]
+
     # Calculate the mean value per age and gender
     if position == 'All':
         df_filtered = df
@@ -203,10 +209,8 @@ def update_plot(position, age, gender):
     mean_values_women = df_women.groupby('age')['yearly_salary'].mean()
 
     # Create the scatter traces
-    men_scatter = go.Scatter(x=mean_values_men.index, y=mean_values_men, name='Men', mode='markers+lines',
-                             marker=dict(color=colors[0]))
-    women_scatter = go.Scatter(x=mean_values_women.index, y=mean_values_women, name='Women', mode='markers+lines',
-                               marker=dict(color=colors[1]))
+    men_scatter = go.Scatter(x=mean_values_men.index, y=mean_values_men, name='Men', mode='markers+lines',marker=dict(color=colors[0]))
+    women_scatter = go.Scatter(x=mean_values_women.index, y=mean_values_women, name='Women', mode='markers+lines',marker=dict(color=colors[1]))
 
     # Create the layout
     layout = go.Layout(
@@ -250,7 +254,7 @@ def update_plot(position, age, gender):
 
 
 # Display the plot using Streamlit's plotly_chart function
-men_scatter, women_scatter, layout = update_plot(position_sidebar, age_slider, gender_dropdown)
+men_scatter, women_scatter, layout = update_plot(position_sidebar, age_slider, gender_dropdown, company_size_dropdown,df)
 fig = go.Figure(data=[men_scatter, women_scatter], layout=layout)
 st.plotly_chart(fig)
 st.write("---------------------------------------")
