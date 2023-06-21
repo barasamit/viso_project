@@ -7,6 +7,21 @@ import plotly.express as px
 import plotly.io as pio
 
 # Add the map to the sidebar
+st.set_page_config(page_title="Help for the beginning high tech worker", layout="wide")
+st.markdown(
+    """
+    <style>
+    [data-testid="stSidebar"][aria-expanded="true"] > div:first-child{
+        width: 400px;
+    }
+    [data-testid="stSidebar"][aria-expanded="false"] > div:first-child{
+        width: 400px;
+        margin-left: -400px;
+    }
+
+    """,
+    unsafe_allow_html=True,
+)
 st.title("Help for the beginning high tech worker")
 
 # Add the select box for Position in the sidebar
@@ -68,7 +83,7 @@ color_dict = {tech: random_color() for tech in df['first_word'].unique()}
 st.header('Top Technologies Plot')
 
 # Provide details on how to use the plot
-st.write("""
+st.markdown("""
 The plot below shows the top technologies for a specific work level and employee state.
 
 Explanation of the plot:
@@ -135,6 +150,7 @@ def create_plot(work_level, emp_state, sort_by):
 
         fig.update_layout(
             title='Top Technologies for Role',
+            width=1000,
             xaxis=dict(
                 title='Percentage of workers' if sort_by == 'Name' else 'Percentage of workers' if sort_by == 'Percentage' else ''),
             yaxis=dict(title='Technology'),
@@ -209,6 +225,7 @@ def update_plot(position, age, gender, company_size, df):
     # Create the layout
     layout = go.Layout(
         title='Trend of Yearly Salary over Age (Men vs Women)',
+        width=1000,
         xaxis=dict(title='Age', range=[22, int(df_filtered['age'].max())]),
         yaxis=dict(title='Yearly Salary'),
         showlegend=True
@@ -303,13 +320,15 @@ color_scale = 1 - np.interp(required_experience_sorted,
                             (required_experience_sorted.min(), required_experience_sorted.max()), [0, 1])
 
 fig = go.Figure(data=go.Bar(
+
     x=job_levels_sorted,
     y=required_experience_sorted,
-    
+
 ))
 
 # Configure the layout
 fig.update_layout(
+    width=1000,
     title={
         'text': 'Job Level Based on Required Experience',
         'y': 0.9,
@@ -374,7 +393,7 @@ fig = px.bar(job_title_counts, y='position', x='percentage', color='position', o
 
 # Update layout to add interactivity
 fig.update_layout(
-    width=800,
+    width=1100,
     height=600,
     hovermode='y',
     xaxis=dict(title='Percentage'),
